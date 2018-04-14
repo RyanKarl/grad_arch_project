@@ -1,7 +1,12 @@
 #!/bin/bash
 
 #move all the output files to a better spot
-cd $(mktemp -d)
+name="test-$RANDOM"
+while [ -f $name ]; do
+	name="test-$RANDOM"
+done
+mkdir $name
+cd $name
 
 lscpu > cpu_info.txt
 
