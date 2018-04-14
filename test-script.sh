@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #move all the output files to a better spot
-DIR_NAME=`$RANDOM`
+DIR_NAME=$RANDOM
 mkdir $DIR_NAME
 
 lscpu > $DIR_NAME/cpu_info.txt
