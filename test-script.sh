@@ -8,32 +8,33 @@ done
 mkdir $name
 cd $name
 
-lscpu > cpu_info.txt
-
-#primesieve
-echo "Running primesieve, ~20 minutes"
-echo -e "y\nprimesieve_res\nprimesieve_res\n\nn\nn" | phoronix-test-suite benchmark primesieve > primesieve_out.txt
+lscpu > cpuinfo-"$name".txt
 
 #aobench
 echo "Running aobench, ~5 minutes"
-echo -e "y\naobench_res\naobench_res\n\nn\nn\n" | phoronix-test-suite benchmark aobench > aobench_out.txt
+echo -e "y\naobench-$name\naobench-$name\n\nn\nn\n" | phoronix-test-suite benchmark aobench > aobench-"$name"-out.txt
+
+#primesieve
+echo "Running primesieve, ~20 minutes"
+echo -e "y\nprimesieve-$name\nprimesieve-$name\n\nn\nn" | phoronix-test-suite benchmark primesieve > primesieve-"$name"-out.txt
 
 #ramspeed
 echo "Running ramspeed, ~3 minutes"
-echo -e "5\n2\ny\nramspeed_res\nramspeed_res\n\nn\nn\n" | phoronix-test-suite benchmark ramspeed > ramspeed_out.txt
+echo -e "5\n2\ny\nramspeed-$name\nramspeed-$name\n\nn\nn\n" | phoronix-test-suite benchmark ramspeed > ramspeed-"$name"-out.txt
 
 #cyclictest
 echo "Running cyclictest, ~7 minutes"
-echo -e "2\ny\ncyclictest_res\ncyclictest_res\n\nn\nn\n" | phoronix-test-suite benchmark cyclictest > cyclictest_out.txt
-
-#bork
-echo "Running bork, ~6 minutes"
-echo -e "y\nbork_res\nbork_res\n\nn\nn\nn\nn\n" | phoronix-test-suite benchmark bork > bork_out.txt
+echo -e "2\ny\ncyclictest-$name\ncyclictest-$name\n\nn\nn\n" | phoronix-test-suite benchmark cyclictest > cyclictest-"$name"-out.txt
 
 #pybench
 echo "Running pybench, ~4 minutes"
-echo -e "y\pybench_res\npybench_res\n\nn\nn\n" | phoronix-test-suite benchmark pybench > pybench_out.txt
+echo -e "y\npybench-$name\npybench-$name\n\nn\nn\nn\nn\n" | phoronix-test-suite benchmark pybench > pybench-"$name"-out.txt
 
-mv ~/.phoronix-test-suite/test-results results
+#bork
+#echo "Running bork, ~6 minutes"
+#echo -e "y\nbork-$name\nbork-$name\n\nn\nn\nn\nn\n" | phoronix-test-suite benchmark bork > bork-"$name"-out.txt
 
+echo "Tests complete, moving results files"
+mv /var/lib/phoronix-test-suite/test-results/*"$name" .
+echo "Finished"
 
