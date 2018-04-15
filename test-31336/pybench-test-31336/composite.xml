@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>pybench-test-31336</Title>
+    <LastModified>2018-04-15 19:44:26</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>AMD C-50 testing with a Acer AO722 (V1.01 BIOS) and AMD Radeon HD 6250 3712MB on Debian 9.4 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>pybench-test-31336</Identifier>
+    <Hardware>Processor: AMD C-50 @ 1.00GHz (2 Cores), Motherboard: Acer AO722 (V1.01 BIOS), Chipset: AMD Family 14h Root Complex, Memory: 1 x 4096 MB DDR3-1066MHz, Disk: 320GB Hitachi HTS54323 + 31GB USB 2.0 FD, Graphics: LLVMpipe, Audio: AMD Wrestler HDMI Audio, Network: Qualcomm Atheros AR8152 v2.0 Fast + Broadcom Limited BCM4313 802.11bgn Wireless</Hardware>
+    <Software>OS: Debian 9.4, Kernel: 4.9.0-6-amd64 (x86_64), Desktop: Xfce 4.12, Display Server: X Server 1.19.2, Display Driver: modesetting 1.19.2, OpenGL: 3.3 Mesa 13.0.6 Gallium 0.4 (LLVM 3.9 128 bits), Compiler: GCC 6.3.0 20170516, File-System: ext4, Screen Resolution: 1024x768</Software>
+    <User>root</User>
+    <TimeStamp>2018-04-15 19:30:00</TimeStamp>
+    <TestClientVersion>7.8.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"acpi-cpufreq ondemand","python":"Python 2.7.13 + Python 3.5.3","security":"__user pointer sanitization + Full AMD retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/pybench-1.1.2</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>pybench-test-31336</Identifier>
+        <Value>12617</Value>
+        <RawString>12691:12630:12529</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

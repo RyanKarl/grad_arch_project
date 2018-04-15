@@ -1,0 +1,92 @@
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mInstalled:[0m     pts/cyclictest-1.0.0
+
+
+Cyclictest 0.84:
+    pts/cyclictest-1.0.0
+    System Test Configuration
+        [1m1: [0mclock_nanosleep TIME_ABSTIME, Interval 10000 ms, 10000 Loops
+        [1m2: [0mPOSIX Timer, Interval 10000 ms, 10000 Loops
+        [1m3: [0mclock_nanosleep TIME_ABSTIME, Interval 500 ms, 100000 Loops
+        [1m4: [0mPOSIX Timer, Interval 500 ms, 100000 Loops
+        [1m5: [0mTest All Options
+        [1mTest Case: [0m
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mAMD C-50 @ 1.00GHz[0m
+    [1mCore Count[0m:       2
+    [1mExtensions[0m:       SSE 4a
+    [1mCache Size[0m:       512 KB
+    [1mMicrocode[0m:        0x5000028
+    [1mScaling Driver[0m:   acpi-cpufreq ondemand
+
+  [1;30mGRAPHICS[0m:           [1;32mLLVMpipe[0m
+    [1mOpenGL[0m:           3.3 Mesa 13.0.6 Gallium 0.4 (LLVM 3.9 128 bits)
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1024x768
+
+  [1;30mMOTHERBOARD[0m:        [1;32mAcer AO722[0m
+    [1mBIOS Version[0m:     V1.01
+    [1mChipset[0m:          AMD Family 14h Root Complex
+    [1mAudio[0m:            AMD Wrestler HDMI Audio
+    [1mNetwork[0m:          Qualcomm Atheros AR8152 v2.0 Fast + Broadcom Limited BCM4313 802.11bgn Wireless
+
+  [1;30mMEMORY[0m:             [1;32m1 x 4096 MB DDR3-1066MHz[0m
+
+  [1;30mDISK[0m:               [1;32m320GB Hitachi HTS54323 + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-6-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+    [1mSecurity[0m:         __user pointer sanitization + Full AMD retpoline Protection
+
+    [1mWould you like to save these test results (Y/n): [0m
+[1mRecently Saved Test Results:[0m
+- ramspeed-test-31336     [Today]
+- primesieve-test-31336   [Today]
+- aobench-test-31336      [Today]
+
+    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mAMD C-50 testing with a Acer AO722 (V1.01 BIOS) and AMD Radeon HD 6250 3712MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mCyclictest 0.84:
+    pts/cyclictest-1.0.0 [Test Case: POSIX Timer, Interval 10000 ms, 10000 Loops][0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 7 Minutes [19:29 EDT]
+        Started Run 1 @ 19:23:09
+        Started Run 2 @ 19:24:50
+        Started Run 3 @ 19:26:31
+        Started Run 4 @ 19:28:12 *
+
+    Test Case: POSIX Timer, Interval 10000 ms, 10000 Loops:
+        [1;31m16[0m
+        [1;31m16[0m
+        [1;32m15[0m
+        [1;31m16[0m
+
+    Average: [1;34m16 ms Average[0m
+    Deviation: 3.17%
+
+[1m    OpenBenchmarking.org Dynamic Comparison: [0m
+    ms Average < Lower Is Better
+[1m    cyclictest-test-31336 ... 16 |==============================================[0m
+    AMD Threadripper 1950X .. 4  |============
+    Intel Core i9 7980XE .... 2  |======
+[1m    Result Perspective:[0m https://openbenchmarking.org/result/1802111-KH-1802101FO15
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m

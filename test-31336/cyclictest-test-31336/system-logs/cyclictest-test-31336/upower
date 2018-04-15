@@ -1,0 +1,56 @@
+Device: /org/freedesktop/UPower/devices/line_power_ACAD
+  native-path:          ACAD
+  power supply:         yes
+  updated:              Sun 15 Apr 2018 02:43:23 PM EDT (17195 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/battery_BAT1
+  native-path:          BAT1
+  vendor:               Sanyo
+  model:                AL10B31
+  power supply:         yes
+  updated:              Sun 15 Apr 2018 07:29:51 PM EDT (7 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              15.9618 Wh
+    energy-empty:        0 Wh
+    energy-full:         15.9618 Wh
+    energy-full-design:  48.84 Wh
+    energy-rate:         0 W
+    voltage:             12.769 V
+    percentage:          100%
+    capacity:            32.6818%
+    technology:          lithium-ion
+    icon-name:          'battery-full-charged-symbolic'
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Sun 15 Apr 2018 02:43:24 PM EDT (17194 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              15.9618 Wh
+    energy-full:         15.9618 Wh
+    energy-rate:         0 W
+    percentage:          100%
+    icon-name:          'battery-full-charged-symbolic'
+
+Daemon:
+  daemon-version:  0.99.4
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  yes
+  critical-action: PowerOff
