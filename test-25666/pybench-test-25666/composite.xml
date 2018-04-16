@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>pybench-test-25666</Title>
+    <LastModified>2018-04-16 18:45:44</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>Intel Core i5-8250U testing with a LENOVO LNVNB161216 (5NCN36WW BIOS) and Intel Kabylake GT1.5 3072MB on Debian 9.4 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>pybench-test-25666</Identifier>
+    <Hardware>Processor: Intel Core i5-8250U @ 3.40GHz (4 Cores / 8 Threads), Motherboard: LENOVO LNVNB161216 (5NCN36WW BIOS), Chipset: Intel Device 5914, Memory: 2 x 8192 MB DDR4-2400MHz Samsung M471A1K43CB1-CRC, Disk: 31GB USB 2.0 FD + 256GB SAMSUNG MZVLW256HEHP-000L2, Graphics: Intel Kabylake GT1.5 3072MB (1100MHz), Audio: Realtek ALC298, Network: Qualcomm Atheros QCA6174 802.11ac Wireless</Hardware>
+    <Software>OS: Debian 9.4, Kernel: 4.9.0-6-amd64 (x86_64), Desktop: Xfce 4.12, Display Server: X Server 1.19.2, Display Driver: modesetting 1.19.2, OpenGL: 4.5 Mesa 13.0.6, Compiler: GCC 6.3.0 20170516, File-System: ext4, Screen Resolution: 1920x1080</Software>
+    <User>root</User>
+    <TimeStamp>2018-04-16 18:42:44</TimeStamp>
+    <TestClientVersion>7.8.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_pstate powersave","python":"Python 2.7.13 + Python 3.5.3","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/pybench-1.1.2</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>pybench-test-25666</Identifier>
+        <Value>1586</Value>
+        <RawString>1582:1582:1593</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

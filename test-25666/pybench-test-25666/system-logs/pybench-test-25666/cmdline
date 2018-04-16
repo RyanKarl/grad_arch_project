@@ -1,0 +1,1 @@
+\boot\vmlinuz-4.9.0-6-amd64 ro root=UUID=07edf193-9c61-4cdd-827c-0d6d1dacce48 initrd=boot\initrd.img-4.9.0-6-amd64

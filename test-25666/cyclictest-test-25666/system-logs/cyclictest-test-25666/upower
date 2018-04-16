@@ -1,0 +1,60 @@
+Device: /org/freedesktop/UPower/devices/line_power_ADP1
+  native-path:          ADP1
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 05:55:20 PM EDT (2759 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/battery_BAT1
+  native-path:          BAT1
+  vendor:               Simplo
+  model:                BASE-BAT
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 06:39:29 PM EDT (110 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               charging
+    warning-level:       none
+    energy:              65.58 Wh
+    energy-empty:        0 Wh
+    energy-full:         69.89 Wh
+    energy-full-design:  70 Wh
+    energy-rate:         14.72 W
+    voltage:             8.704 V
+    time to full:        17.6 minutes
+    percentage:          93%
+    capacity:            99.8429%
+    technology:          lithium-polymer
+    icon-name:          'battery-full-charging-symbolic'
+  History (rate):
+    1523918369	14.720	charging
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 06:39:29 PM EDT (110 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               charging
+    warning-level:       none
+    energy:              65.58 Wh
+    energy-full:         69.89 Wh
+    energy-rate:         14.72 W
+    time to full:        17.6 minutes
+    percentage:          93%
+    icon-name:          'battery-full-charging-symbolic'
+
+Daemon:
+  daemon-version:  0.99.4
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  yes
+  critical-action: PowerOff

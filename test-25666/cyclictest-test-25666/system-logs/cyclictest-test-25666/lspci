@@ -1,0 +1,189 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Device [5914]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [380c]
+Rev:	08
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	Device [5917]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [3802]
+Rev:	07
+Driver:	i915
+Module:	i915
+
+Slot:	00:04.0
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Skylake Processor Thermal Subsystem [1903]
+SVendor:	Lenovo [17aa]
+SDevice:	Skylake Processor Thermal Subsystem [3808]
+Rev:	08
+Driver:	proc_thermal
+Module:	processor_thermal_device
+
+Slot:	00:08.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Skylake Gaussian Mixture Model [1911]
+SVendor:	Lenovo [17aa]
+SDevice:	Skylake Gaussian Mixture Model [3831]
+
+Slot:	00:14.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP USB 3.0 xHCI Controller [9d2f]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP USB 3.0 xHCI Controller [3847]
+Rev:	21
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Slot:	00:14.2
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP Thermal subsystem [9d31]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP Thermal subsystem [3839]
+Rev:	21
+Driver:	intel_pch_thermal
+Module:	intel_pch_thermal
+
+Slot:	00:15.0
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP Serial IO I2C Controller #0 [9d60]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP Serial IO I2C Controller [383e]
+Rev:	21
+Driver:	intel-lpss
+Module:	intel_lpss_pci
+
+Slot:	00:15.1
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP Serial IO I2C Controller #1 [9d61]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP Serial IO I2C Controller [383d]
+Rev:	21
+Driver:	intel-lpss
+Module:	intel_lpss_pci
+
+Slot:	00:15.3
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP Serial IO I2C Controller #3 [9d63]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP Serial IO I2C Controller [380b]
+Rev:	21
+Driver:	intel-lpss
+Module:	intel_lpss_pci
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP CSME HECI #1 [9d3a]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP CSME HECI [3846]
+Rev:	21
+Driver:	mei_me
+Module:	mei_me
+
+Slot:	00:19.0
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP Serial IO UART Controller #2 [9d66]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP Serial IO UART Controller [3810]
+Rev:	21
+Driver:	intel-lpss
+Module:	intel_lpss_pci
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Device [9d10]
+Rev:	f1
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.4
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP PCI Express Root Port #5 [9d14]
+Rev:	f1
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1d.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP PCI Express Root Port #9 [9d18]
+Rev:	f1
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	Device [9d4e]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [3838]
+Rev:	21
+
+Slot:	00:1f.2
+Class:	Memory controller [0580]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP PMC [9d21]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP PMC [3849]
+Rev:	21
+
+Slot:	00:1f.3
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	Device [9d71]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [381c]
+Rev:	21
+ProgIf:	80
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+Module:	snd_soc_skl
+
+Slot:	00:1f.4
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	Sunrise Point-LP SMBus [9d23]
+SVendor:	Lenovo [17aa]
+SDevice:	Sunrise Point-LP SMBus [3848]
+Rev:	21
+Driver:	i801_smbus
+Module:	i2c_i801
+
+Slot:	6b:00.0
+Class:	Network controller [0280]
+Vendor:	Qualcomm Atheros [168c]
+Device:	QCA6174 802.11ac Wireless Network Adapter [003e]
+SVendor:	Lenovo [17aa]
+SDevice:	QCA6174 802.11ac Wireless Network Adapter [0827]
+Rev:	32
+Driver:	ath10k_pci
+Module:	ath10k_pci
+
+Slot:	6c:00.0
+Class:	Non-Volatile memory controller [0108]
+Vendor:	Samsung Electronics Co Ltd [144d]
+Device:	Device [a804]
+SVendor:	Samsung Electronics Co Ltd [144d]
+SDevice:	Device [a801]
+ProgIf:	02
+Driver:	nvme
+Module:	nvme
+NUMANode:	0
+
