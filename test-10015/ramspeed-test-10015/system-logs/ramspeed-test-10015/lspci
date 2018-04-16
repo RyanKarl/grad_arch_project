@@ -1,0 +1,194 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 14h Processor Root Complex [1510]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	Family 14h Processor Root Complex [0598]
+
+Slot:	00:01.0
+Class:	VGA compatible controller [0300]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Wrestler [Radeon HD 6250] [9804]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	Wrestler [Radeon HD 6250] [0598]
+Module:	radeon
+
+Slot:	00:01.1
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	Wrestler HDMI Audio [1314]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	Wrestler HDMI Audio [0598]
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:11.0
+Class:	SATA controller [0106]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode] [4391]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode] [0598]
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:12.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [4397]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [0598]
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+
+Slot:	00:12.2
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [4396]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [0598]
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:13.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [4397]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [0598]
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+
+Slot:	00:13.2
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [4396]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [0598]
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:14.0
+Class:	SMBus [0c05]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SBx00 SMBus Controller [4385]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SBx00 SMBus Controller [0598]
+Rev:	42
+Driver:	piix4_smbus
+Module:	i2c_piix4
+Module:	sp5100_tco
+
+Slot:	00:14.2
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SBx00 Azalia (Intel HDA) [4383]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SBx00 Azalia (Intel HDA) [0598]
+Rev:	40
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:14.3
+Class:	ISA bridge [0601]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 LPC host controller [439d]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SB7x0/SB8x0/SB9x0 LPC host controller [0598]
+Rev:	40
+
+Slot:	00:14.4
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SBx00 PCI to PCI Bridge [4384]
+Rev:	40
+ProgIf:	01
+
+Slot:	00:15.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB700/SB800/SB900 PCI to PCI bridge (PCIE port 0) [43a0]
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:15.2
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB900 PCI to PCI bridge (PCIE port 2) [43a2]
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:15.3
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB900 PCI to PCI bridge (PCIE port 3) [43a3]
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:18.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 0 [1700]
+Rev:	43
+
+Slot:	00:18.1
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 1 [1701]
+
+Slot:	00:18.2
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 2 [1702]
+
+Slot:	00:18.3
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 3 [1703]
+Driver:	k10temp
+Module:	k10temp
+
+Slot:	00:18.4
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 4 [1704]
+
+Slot:	00:18.5
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 6 [1718]
+
+Slot:	00:18.6
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 5 [1716]
+
+Slot:	00:18.7
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 12h/14h Processor Function 7 [1719]
+
+Slot:	06:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Qualcomm Atheros [1969]
+Device:	AR8152 v2.0 Fast Ethernet [2062]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	AR8152 v2.0 Fast Ethernet [0598]
+Rev:	c1
+Driver:	atl1c
+Module:	atl1c
+
+Slot:	07:00.0
+Class:	Network controller [0280]
+Vendor:	Broadcom Limited [14e4]
+Device:	BCM4313 802.11bgn Wireless Network Adapter [4727]
+SVendor:	Broadcom Limited [14e4]
+SDevice:	BCM4313 802.11bgn Wireless Network Adapter [0510]
+Rev:	01
+Driver:	bcma-pci-bridge
+Module:	bcma
+

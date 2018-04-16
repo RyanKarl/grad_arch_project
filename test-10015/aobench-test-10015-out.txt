@@ -1,0 +1,91 @@
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mInstalled:[0m     pts/aobench-1.0.1
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mAMD C-50 @ 1.00GHz[0m
+    [1mCore Count[0m:       2
+    [1mExtensions[0m:       SSE 4a
+    [1mCache Size[0m:       512 KB
+    [1mMicrocode[0m:        0x5000028
+    [1mScaling Driver[0m:   acpi-cpufreq ondemand
+
+  [1;30mGRAPHICS[0m:           [1;32mLLVMpipe[0m
+    [1mOpenGL[0m:           3.3 Mesa 13.0.6 Gallium 0.4 (LLVM 3.9 128 bits)
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1024x768
+
+  [1;30mMOTHERBOARD[0m:        [1;32mAcer AO722[0m
+    [1mBIOS Version[0m:     V1.01
+    [1mChipset[0m:          AMD Family 14h Root Complex
+    [1mAudio[0m:            AMD Wrestler HDMI Audio
+    [1mNetwork[0m:          Qualcomm Atheros AR8152 v2.0 Fast + Broadcom Limited BCM4313 802.11bgn Wireless
+
+  [1;30mMEMORY[0m:             [1;32m1 x 4096 MB DDR3-1066MHz[0m
+
+  [1;30mDISK[0m:               [1;32m320GB Hitachi HTS54323 + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-4-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+
+    [1mWould you like to save these test results (Y/n): [0m    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mAMD C-50 testing with a Acer AO722 (V1.01 BIOS) and AMD Radeon HD 6250 3712MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mAOBench:
+    pts/aobench-1.0.1[0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 21 Minutes [20:37 EDT]
+        Started Run 1 @ 20:16:43
+        Started Run 2 @ 20:22:54
+        Started Run 3 @ 20:28:56
+
+    Size: 2048 x 2048 - Total Time:
+        [1;31m365.0452940464[0m
+        [1;32m361.38993310928[0m
+        361.43190217018
+
+    Average: [1;34m362.62 Seconds[0m
+    Deviation: 0.58%
+
+[1m    OpenBenchmarking.org Dynamic Comparison: [0m
+    Seconds < Lower Is Better
+[1m    aobench-test-10015 ................................ 362.62 |================[0m
+    tx1 ............................................... 168.71 |=======
+    AAAAAAAAABBBAAAAAAAAAAAAAAAAAAAAABBBBBBshield tv .. 134.18 |======
+    A10-7870K ......................................... 75.71  |===
+    FX-8350 ........................................... 71.15  |===
+    Xeon Silver 4108 .................................. 55.06  |==
+    EPYC 7601 ......................................... 52.78  |==
+    Ryzen 3 1200 ...................................... 48.92  |==
+    Core i7 5960X ..................................... 46.94  |==
+    Ryzen 7 1700 ...................................... 45.16  |==
+    2 x Xeon Gold 6138 ................................ 44.39  |==
+    Ryzen 3 1300X ..................................... 44.37  |==
+    Core i3 8100 ...................................... 44.25  |==
+    Threadripper 1950X ................................ 42.34  |==
+    Core i5 4670 ...................................... 42.25  |==
+    Core i3 7100 ...................................... 42.05  |==
+    Core i7 4770K ..................................... 41.86  |==
+    Ryzen 7 1800X ..................................... 41.39  |==
+    Core i5 8400 ...................................... 39.85  |==
+    Core i9 7980XE .................................... 39.12  |==
+    Core i7 7740X ..................................... 36.35  |==
+    Core i7 8700K ..................................... 34.62  |==
+[1m    Result Perspective:[0m https://openbenchmarking.org/result/1802205-KH-1802159FO02
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m
