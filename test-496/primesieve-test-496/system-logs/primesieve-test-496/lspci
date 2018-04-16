@@ -1,0 +1,254 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Mobile 4 Series Chipset Memory Controller Hub [2a40]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	Mobile 4 Series Chipset Memory Controller Hub [0140]
+Rev:	07
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	Mobile 4 Series Chipset Integrated Graphics Controller [2a42]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	Mobile 4 Series Chipset Integrated Graphics Controller [0140]
+Rev:	07
+Driver:	i915
+Module:	i915
+
+Slot:	00:02.1
+Class:	Display controller [0380]
+Vendor:	Intel Corporation [8086]
+Device:	Mobile 4 Series Chipset Integrated Graphics Controller [2a43]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	Mobile 4 Series Chipset Integrated Graphics Controller [0140]
+Rev:	07
+
+Slot:	00:1a.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB UHCI Controller #4 [2937]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB UHCI Controller [0140]
+Rev:	03
+Driver:	uhci_hcd
+Module:	uhci_hcd
+
+Slot:	00:1a.1
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB UHCI Controller #5 [2938]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB UHCI Controller [0140]
+Rev:	03
+Driver:	uhci_hcd
+Module:	uhci_hcd
+
+Slot:	00:1a.7
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB2 EHCI Controller #2 [293c]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB2 EHCI Controller [0140]
+Rev:	03
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1b.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) HD Audio Controller [293e]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) HD Audio Controller [0140]
+Rev:	03
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) PCI Express Port 1 [2940]
+Rev:	03
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.1
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) PCI Express Port 2 [2942]
+Rev:	03
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.2
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) PCI Express Port 3 [2944]
+Rev:	03
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.4
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) PCI Express Port 5 [2948]
+Rev:	03
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1d.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB UHCI Controller #1 [2934]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB UHCI Controller [0140]
+Rev:	03
+Driver:	uhci_hcd
+Module:	uhci_hcd
+
+Slot:	00:1d.1
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB UHCI Controller #2 [2935]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB UHCI Controller [0140]
+Rev:	03
+Driver:	uhci_hcd
+Module:	uhci_hcd
+
+Slot:	00:1d.2
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB UHCI Controller #3 [2936]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB UHCI Controller [0140]
+Rev:	03
+Driver:	uhci_hcd
+Module:	uhci_hcd
+
+Slot:	00:1d.3
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB UHCI Controller #6 [2939]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB UHCI Controller [0140]
+Rev:	03
+Driver:	uhci_hcd
+Module:	uhci_hcd
+
+Slot:	00:1d.7
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) USB2 EHCI Controller #1 [293a]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) USB2 EHCI Controller [0140]
+Rev:	03
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1e.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	82801 Mobile PCI Bridge [2448]
+Rev:	93
+ProgIf:	01
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	ICH9M LPC Interface Controller [2919]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	ICH9M LPC Interface Controller [0140]
+Rev:	03
+Driver:	lpc_ich
+Module:	lpc_ich
+
+Slot:	00:1f.2
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode] [2929]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode] [0140]
+Rev:	03
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:1f.3
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) SMBus Controller [2930]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) SMBus Controller [0140]
+Rev:	03
+Driver:	i801_smbus
+Module:	i2c_i801
+
+Slot:	00:1f.6
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	82801I (ICH9 Family) Thermal Subsystem [2932]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	82801I (ICH9 Family) Thermal Subsystem [0140]
+Rev:	03
+
+Slot:	04:00.0
+Class:	Network controller [0280]
+Vendor:	Qualcomm Atheros [168c]
+Device:	AR928X Wireless Network Adapter (PCI-Express) [002a]
+SVendor:	Foxconn International, Inc. [105b]
+SDevice:	T77H053.00 802.11bgn Wireless Mini PCIe Card [AR9281] [e006]
+Rev:	01
+Driver:	ath9k
+Module:	ath9k
+
+Slot:	05:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [0140]
+Rev:	02
+Driver:	r8169
+Module:	r8169
+
+Slot:	07:00.0
+Class:	System peripheral [0880]
+Vendor:	JMicron Technology Corp. [197b]
+Device:	SD/MMC Host Controller [2382]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	SD/MMC Host Controller [0140]
+PhySlot:	1-1
+Driver:	sdhci-pci
+Module:	sdhci_pci
+
+Slot:	07:00.2
+Class:	SD Host controller [0805]
+Vendor:	JMicron Technology Corp. [197b]
+Device:	Standard SD Host Controller [2381]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	Standard SD Host Controller [0140]
+PhySlot:	1-1
+ProgIf:	01
+Module:	sdhci_pci
+
+Slot:	07:00.3
+Class:	System peripheral [0880]
+Vendor:	JMicron Technology Corp. [197b]
+Device:	MS Host Controller [2383]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	MS Host Controller [0140]
+PhySlot:	1-1
+Driver:	jmb38x_ms
+Module:	jmb38x_ms
+
+Slot:	07:00.4
+Class:	System peripheral [0880]
+Vendor:	JMicron Technology Corp. [197b]
+Device:	xD Host Controller [2384]
+SVendor:	Acer Incorporated [ALI] [1025]
+SDevice:	xD Host Controller [0140]
+PhySlot:	1-1
+

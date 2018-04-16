@@ -1,0 +1,108 @@
+
+
+No Internet Connectivity After Wait
+
+No Internet Connectivity After Wait
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mTo Install:[0m    pts/cyclictest-1.0.0
+
+    Determining File Requirements ..........................................
+    Searching Download Caches ..............................................
+
+    1 Test To Install
+        1MB Of Disk Space Is Needed
+
+    [1;36mpts/cyclictest-1.0.0[0m:
+        Test Installation 1 of 1
+        1 File Needed [0.09 MB]
+        File Found: rt-tests-0.84.tar.bz2                           [0.09MB]
+        Installation Size: 1 MB
+        Installing Test @ 11:27:40
+
+
+
+Cyclictest 0.84:
+    pts/cyclictest-1.0.0
+    System Test Configuration
+        [1m1: [0mclock_nanosleep TIME_ABSTIME, Interval 10000 ms, 10000 Loops
+        [1m2: [0mPOSIX Timer, Interval 10000 ms, 10000 Loops
+        [1m3: [0mclock_nanosleep TIME_ABSTIME, Interval 500 ms, 100000 Loops
+        [1m4: [0mPOSIX Timer, Interval 500 ms, 100000 Loops
+        [1m5: [0mTest All Options
+        [1mTest Case: [0m
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mIntel Pentium Dual T3400 @ 2.17GHz[0m
+    [1mCore Count[0m:       2
+    [1mExtensions[0m:       SSE 2
+    [1mCache Size[0m:       1024 KB
+    [1mMicrocode[0m:        0xa3
+    [1mScaling Driver[0m:   acpi-cpufreq ondemand
+
+  [1;30mGRAPHICS[0m:           [1;32mMobile Intel GM45 1536MB[0m
+    [1mOpenGL[0m:           2.1 Mesa 13.0.6
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1280x800
+
+  [1;30mMOTHERBOARD[0m:        [1;32mAcer Aspire 4730Z[0m
+    [1mBIOS Version[0m:     V1.15
+    [1mChipset[0m:          Intel Mobile 4 MCH + ICH9M
+    [1mAudio[0m:            Realtek ALC268
+    [1mNetwork[0m:          Realtek RTL8111/8168/8411 + Qualcomm Atheros AR928X Wireless
+
+  [1;30mMEMORY[0m:             [1;32m2 x 2048 MB DDR2-667MHz Samsung[0m
+
+  [1;30mDISK[0m:               [1;32m250GB Western Digital WD2500BEVT-2 + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-6-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+    [1mSecurity[0m:         KPTI + __user pointer sanitization + Full generic retpoline Protection
+
+    [1mWould you like to save these test results (Y/n): [0m
+[1mRecently Saved Test Results:[0m
+- ramspeed-test-496     [Today]
+- primesieve-test-496   [Today]
+- aobench-test-496      [Today]
+
+    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mIntel Pentium Dual T3400 testing with a Acer Aspire 4730Z (V1.15 BIOS) and Mobile Intel GM45 1536MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mCyclictest 0.84:
+    pts/cyclictest-1.0.0 [Test Case: POSIX Timer, Interval 10000 ms, 10000 Loops][0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 7 Minutes [11:38 EDT]
+        Started Run 1 @ 11:32:04
+        Started Run 2 @ 11:33:54
+        Started Run 3 @ 11:35:36
+        Started Run 4 @ 11:37:17 *
+        Started Run 5 @ 11:38:58 *
+        Started Run 6 @ 11:40:39 *
+
+    Test Case: POSIX Timer, Interval 10000 ms, 10000 Loops:
+        21
+        [1;32m18[0m
+        [1;31m27[0m
+        21
+        22
+        22
+
+    Average: [1;34m22 ms Average[0m
+    Deviation: 13.41%
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m

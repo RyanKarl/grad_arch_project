@@ -1,0 +1,89 @@
+
+
+No Internet Connectivity After Wait
+
+No Internet Connectivity After Wait
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mTo Install:[0m    pts/primesieve-1.4.1
+
+    Determining File Requirements ..........................................
+    Searching Download Caches ..............................................
+
+    1 Test To Install
+        3MB Of Disk Space Is Needed
+
+    [1;36mpts/primesieve-1.4.1[0m:
+        Test Installation 1 of 1
+        1 File Needed [0.15 MB]
+        File Found: primesieve-6.2.tar.gz                           [0.15MB]
+        Installation Size: 2.9 MB
+        Installing Test @ 10:42:06
+
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mIntel Pentium Dual T3400 @ 2.17GHz[0m
+    [1mCore Count[0m:       2
+    [1mExtensions[0m:       SSE 2
+    [1mCache Size[0m:       1024 KB
+    [1mMicrocode[0m:        0xa3
+    [1mScaling Driver[0m:   acpi-cpufreq ondemand
+
+  [1;30mGRAPHICS[0m:           [1;32mMobile Intel GM45 1536MB[0m
+    [1mOpenGL[0m:           2.1 Mesa 13.0.6
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1280x800
+
+  [1;30mMOTHERBOARD[0m:        [1;32mAcer Aspire 4730Z[0m
+    [1mBIOS Version[0m:     V1.15
+    [1mChipset[0m:          Intel Mobile 4 MCH + ICH9M
+    [1mAudio[0m:            Realtek ALC268
+    [1mNetwork[0m:          Realtek RTL8111/8168/8411 + Qualcomm Atheros AR928X Wireless
+
+  [1;30mMEMORY[0m:             [1;32m2 x 2048 MB DDR2-667MHz Samsung[0m
+
+  [1;30mDISK[0m:               [1;32m250GB Western Digital WD2500BEVT-2 + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-6-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+    [1mSecurity[0m:         KPTI + __user pointer sanitization + Full generic retpoline Protection
+
+    [1mWould you like to save these test results (Y/n): [0m
+[1mRecently Saved Test Results:[0m
+- aobench-test-496   [Today]
+
+    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mIntel Pentium Dual T3400 testing with a Acer Aspire 4730Z (V1.15 BIOS) and Mobile Intel GM45 1536MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mPrimesieve 6.2:
+    pts/primesieve-1.4.1[0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 1 Hour, 9 Minutes [11:57 EDT]
+        Started Run 1 @ 10:48:34
+        Started Run 2 @ 10:56:30
+        Started Run 3 @ 11:04:05
+
+    1e12 Prime Number Generation:
+        [1;31m475.04[0m
+        [1;32m454.771[0m
+        474.966
+
+    Average: [1;34m468.26 Seconds[0m
+    Deviation: 2.49%
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m
