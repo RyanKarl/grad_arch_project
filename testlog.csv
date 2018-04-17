@@ -1,0 +1,9 @@
+kernel, processor,	test#,	time
+4.9.0.6,	AMD C-50,	31336,	123m11.210s
+4.9.0.4,	AMD C-50,	10015,	121m37.137s
+4.9.0.6,	Intel Pentium T3400,	496,	86m7.479s
+4.9.0.4,	Intel Pentium T3400,	2483,	87m59.428
+4.9.0.6,	8th gen Intel i5,	25666,	46m2.338s
+4.9.0.4,	8th gen Intel i5,	21364,	29m11.234s
+4.9.0.6,	5th gen Intel i5,	27330,	46m58.286s
+4.9.0.4,	5th gen Intel i5,	25621,	33m8.379s
