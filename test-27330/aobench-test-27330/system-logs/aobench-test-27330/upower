@@ -1,0 +1,72 @@
+Device: /org/freedesktop/UPower/devices/line_power_AC
+  native-path:          AC
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 05:56:22 PM EDT (9912 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/battery_BAT0
+  native-path:          BAT0
+  vendor:               Samsung SDI
+  model:                DELL 07G0747F47F
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 08:41:12 PM EDT (22 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              20.2168 Wh
+    energy-empty:        0 Wh
+    energy-full:         20.2168 Wh
+    energy-full-design:  41.44 Wh
+    energy-rate:         0.0148 W
+    voltage:             16.886 V
+    percentage:          100%
+    capacity:            48.7857%
+    technology:          lithium-ion
+    icon-name:          'battery-full-charged-symbolic'
+
+Device: /org/freedesktop/UPower/devices/mouse_0003o046DoC52Fx0003
+  native-path:          /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.1/0003:046D:C52F.0003
+  vendor:               Logitech, Inc.
+  model:                M215
+  power supply:         no
+  updated:              Mon 16 Apr 2018 08:41:27 PM EDT (7 seconds ago)
+  has history:          yes
+  has statistics:       no
+  mouse
+    present:             yes
+    rechargeable:        yes
+    state:               discharging
+    warning-level:       none
+    percentage:          55%
+    icon-name:          'battery-good-symbolic'
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 05:56:24 PM EDT (9910 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              20.2168 Wh
+    energy-full:         20.2168 Wh
+    energy-rate:         0.0148 W
+    percentage:          100%
+    icon-name:          'battery-full-charged-symbolic'
+
+Daemon:
+  daemon-version:  0.99.4
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  yes
+  critical-action: PowerOff

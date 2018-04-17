@@ -1,0 +1,128 @@
+Module                  Size  Used by
+nls_ascii              16384  1
+nls_cp437              20480  1
+vfat                   20480  1
+fat                    69632  1 vfat
+snd_hda_codec_hdmi     49152  1
+btusb                  45056  0
+intel_rapl             20480  0
+btrtl                  16384  1 btusb
+x86_pkg_temp_thermal    16384  0
+intel_powerclamp       16384  0
+coretemp               16384  0
+btbcm                  16384  1 btusb
+kvm_intel             192512  0
+kvm                   593920  1 kvm_intel
+btintel                16384  1 btusb
+irqbypass              16384  1 kvm
+i915                 1257472  4
+crct10dif_pclmul       16384  0
+bluetooth             552960  5 btrtl,btintel,btbcm,btusb
+dell_wmi               16384  0
+sparse_keymap          16384  1 dell_wmi
+iTCO_wdt               16384  0
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+dell_led               16384  1
+iTCO_vendor_support    16384  1 iTCO_wdt
+efi_pstore             16384  0
+intel_cstate           16384  0
+snd_hda_codec_realtek    90112  1
+snd_hda_codec_generic    69632  1 snd_hda_codec_realtek
+dell_laptop            20480  0
+dell_smbios            16384  3 dell_wmi,dell_led,dell_laptop
+iwlwifi               151552  0
+joydev                 20480  0
+dcdbas                 16384  1 dell_smbios
+dell_smm_hwmon         16384  0
+cfg80211              589824  1 iwlwifi
+intel_uncore          118784  0
+intel_rapl_perf        16384  0
+snd_hda_intel          36864  0
+snd_hda_codec         135168  4 snd_hda_intel,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek
+snd_hda_core           86016  5 snd_hda_intel,snd_hda_codec,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek
+snd_hwdep              16384  1 snd_hda_codec
+pcspkr                 16384  0
+uvcvideo               90112  0
+videobuf2_vmalloc      16384  1 uvcvideo
+evdev                  24576  19
+serio_raw              16384  0
+rtsx_usb_ms            20480  0
+videobuf2_memops       16384  1 videobuf2_vmalloc
+memstick               20480  1 rtsx_usb_ms
+videobuf2_v4l2         24576  1 uvcvideo
+videobuf2_core         40960  2 uvcvideo,videobuf2_v4l2
+snd_pcm               110592  4 snd_hda_intel,snd_hda_codec,snd_hda_core,snd_hda_codec_hdmi
+videodev              176128  3 uvcvideo,videobuf2_core,videobuf2_v4l2
+snd_timer              32768  1 snd_pcm
+media                  40960  2 uvcvideo,videodev
+efivars                20480  1 efi_pstore
+hid_multitouch         20480  0
+wmi                    16384  2 dell_wmi,dell_led
+shpchp                 36864  0
+battery                20480  0
+snd                    86016  8 snd_hda_intel,snd_hwdep,snd_hda_codec,snd_timer,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek,snd_pcm
+video                  40960  3 dell_wmi,dell_laptop,i915
+sg                     32768  0
+mei_me                 36864  0
+drm_kms_helper        155648  1 i915
+drm                   360448  5 i915,drm_kms_helper
+ac                     16384  0
+button                 16384  1 i915
+soundcore              16384  1 snd
+dell_rbtn              16384  0
+lpc_ich                24576  0
+mei                   102400  1 mei_me
+acpi_pad               24576  0
+rfkill                 24576  5 bluetooth,dell_laptop,dell_rbtn,cfg80211
+i2c_algo_bit           16384  1 i915
+efivarfs               16384  1
+ip_tables              24576  0
+x_tables               36864  1 ip_tables
+autofs4                40960  2
+ext4                  585728  1
+crc16                  16384  2 bluetooth,ext4
+jbd2                  106496  1 ext4
+crc32c_generic         16384  0
+fscrypto               28672  1 ext4
+ecb                    16384  0
+mbcache                16384  2 ext4
+rtsx_usb_sdmmc         28672  0
+mmc_core              147456  1 rtsx_usb_sdmmc
+rtsx_usb               24576  2 rtsx_usb_sdmmc,rtsx_usb_ms
+mfd_core               16384  2 lpc_ich,rtsx_usb
+hid_generic            16384  0
+usbhid                 53248  0
+sr_mod                 24576  0
+cdrom                  61440  1 sr_mod
+sd_mod                 49152  3
+uas                    24576  0
+usb_storage            73728  3 uas
+i2c_hid                20480  0
+hid                   122880  5 i2c_hid,hid_generic,usbhid,hid_multitouch
+crc32c_intel           24576  0
+ahci                   36864  0
+libahci                32768  1 ahci
+ehci_pci               16384  0
+libata                249856  2 ahci,libahci
+ehci_hcd               81920  1 ehci_pci
+xhci_pci               16384  0
+scsi_mod              225280  6 sd_mod,usb_storage,libata,uas,sr_mod,sg
+aesni_intel           167936  0
+xhci_hcd              188416  1 xhci_pci
+i2c_i801               24576  0
+aes_x86_64             20480  1 aesni_intel
+glue_helper            16384  1 aesni_intel
+lrw                    16384  1 aesni_intel
+gf128mul               16384  1 lrw
+ablk_helper            16384  1 aesni_intel
+cryptd                 24576  3 ablk_helper,ghash_clmulni_intel,aesni_intel
+psmouse               135168  0
+i2c_smbus              16384  1 i2c_i801
+r8169                  86016  0
+mii                    16384  1 r8169
+usbcore               253952  10 uvcvideo,usbhid,usb_storage,ehci_hcd,xhci_pci,rtsx_usb,btusb,uas,xhci_hcd,ehci_pci
+usb_common             16384  1 usbcore
+thermal                20480  0
+i2c_designware_platform    16384  0
+i2c_designware_core    20480  1 i2c_designware_platform

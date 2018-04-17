@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>pybench-test-27330</Title>
+    <LastModified>2018-04-16 21:17:56</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>Intel Core i5-5200U testing with a Dell 0KG6JV (A15 BIOS) and Intel HD 5500 3072MB on Debian 9.4 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>pybench-test-27330</Identifier>
+    <Hardware>Processor: Intel Core i5-5200U @ 2.70GHz (2 Cores / 4 Threads), Motherboard: Dell 0KG6JV (A15 BIOS), Chipset: Intel Broadwell-U-OPI, Memory: 2 x 4096 MB DDR3-1600MHz HMT451S6BFR8A-PB, Disk: 1000GB Western Digital WD10JPVX-75J + 31GB USB 2.0 FD, Graphics: Intel HD 5500 3072MB (900MHz), Audio: Intel Broadwell-U Audio, Network: Realtek RTL8101/2/6E + Intel Wireless 3160</Hardware>
+    <Software>OS: Debian 9.4, Kernel: 4.9.0-6-amd64 (x86_64), Desktop: Xfce 4.12, Display Server: X Server 1.19.2, Display Driver: modesetting 1.19.2, OpenGL: 4.5 Mesa 13.0.6, Compiler: GCC 6.3.0 20170516, File-System: ext4, Screen Resolution: 1366x768</Software>
+    <User>root</User>
+    <TimeStamp>2018-04-16 21:14:19</TimeStamp>
+    <TestClientVersion>7.8.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_pstate powersave","python":"Python 2.7.13 + Python 3.5.3","security":"KPTI + __user pointer sanitization + Full generic retpoline IBPB Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/pybench-1.1.2</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>pybench-test-27330</Identifier>
+        <Value>2202</Value>
+        <RawString>2201:2198:2206</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

@@ -1,0 +1,153 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Broadwell-U Host Bridge -OPI [1604]
+SVendor:	Dell [1028]
+SDevice:	Broadwell-U Host Bridge -OPI [06ae]
+Rev:	09
+Driver:	bdw_uncore
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	HD Graphics 5500 [1616]
+SVendor:	Dell [1028]
+SDevice:	HD Graphics 5500 [06ae]
+Rev:	09
+Driver:	i915
+Module:	i915
+
+Slot:	00:03.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	Broadwell-U Audio Controller [160c]
+SVendor:	Dell [1028]
+SDevice:	Broadwell-U Audio Controller [06ae]
+Rev:	09
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:14.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP USB xHCI Controller [9cb1]
+SVendor:	Dell [1028]
+SDevice:	Wildcat Point-LP USB xHCI Controller [06ae]
+Rev:	03
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP MEI Controller #1 [9cba]
+SVendor:	Dell [1028]
+SDevice:	Wildcat Point-LP MEI Controller [06ae]
+Rev:	03
+Driver:	mei_me
+Module:	mei_me
+
+Slot:	00:1b.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP High Definition Audio Controller [9ca0]
+SVendor:	Dell [1028]
+SDevice:	Wildcat Point-LP High Definition Audio Controller [06ae]
+Rev:	03
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP PCI Express Root Port #1 [9c90]
+Rev:	e3
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.2
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP PCI Express Root Port #3 [9c94]
+Rev:	e3
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.3
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP PCI Express Root Port #4 [9c96]
+Rev:	e3
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.4
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP PCI Express Root Port #5 [9c98]
+Rev:	e3
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1d.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP USB EHCI Controller [9ca6]
+SVendor:	Dell [1028]
+SDevice:	Wildcat Point-LP USB EHCI Controller [06ae]
+Rev:	03
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP LPC Controller [9cc3]
+SVendor:	Dell [1028]
+SDevice:	Wildcat Point-LP LPC Controller [06ae]
+Rev:	03
+Driver:	lpc_ich
+Module:	lpc_ich
+
+Slot:	00:1f.2
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP SATA Controller [AHCI Mode] [9c83]
+SVendor:	Dell [1028]
+SDevice:	Wildcat Point-LP SATA Controller [AHCI Mode] [06ae]
+Rev:	03
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:1f.3
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	Wildcat Point-LP SMBus Controller [9ca2]
+SVendor:	Dell [1028]
+SDevice:	Wildcat Point-LP SMBus Controller [06ae]
+Rev:	03
+Driver:	i801_smbus
+Module:	i2c_i801
+
+Slot:	06:00.0
+Class:	Network controller [0280]
+Vendor:	Intel Corporation [8086]
+Device:	Wireless 3160 [08b3]
+SVendor:	Intel Corporation [8086]
+SDevice:	Dual Band Wireless AC 3160 [8470]
+Rev:	83
+Module:	iwlwifi
+
+Slot:	07:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller [8136]
+SVendor:	Dell [1028]
+SDevice:	RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller [06ae]
+Rev:	07
+Driver:	r8169
+Module:	r8169
+
