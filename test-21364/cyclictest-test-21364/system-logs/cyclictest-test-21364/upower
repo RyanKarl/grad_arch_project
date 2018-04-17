@@ -1,0 +1,66 @@
+Device: /org/freedesktop/UPower/devices/line_power_ADP1
+  native-path:          ADP1
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 06:18:05 PM EDT (1272 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/battery_BAT1
+  native-path:          BAT1
+  vendor:               Simplo
+  model:                BASE-BAT
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 06:38:21 PM EDT (56 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              69.97 Wh
+    energy-empty:        0 Wh
+    energy-full:         70.4 Wh
+    energy-full-design:  70 Wh
+    energy-rate:         4.968 W
+    voltage:             8.712 V
+    percentage:          100%
+    capacity:            99.8429%
+    technology:          lithium-polymer
+    icon-name:          'battery-full-charged-symbolic'
+  History (charge):
+    1523918609	95.000	charging
+    1523918489	94.000	charging
+    1523918248	93.000	charging
+  History (rate):
+    1523918729	11.888	charging
+    1523918609	12.792	charging
+    1523918489	13.688	charging
+    1523918369	14.720	charging
+    1523918248	15.992	charging
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Mon 16 Apr 2018 06:18:05 PM EDT (1272 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               fully-charged
+    warning-level:       none
+    energy:              69.97 Wh
+    energy-full:         70.4 Wh
+    energy-rate:         4.968 W
+    percentage:          100%
+    icon-name:          'battery-full-charged-symbolic'
+
+Daemon:
+  daemon-version:  0.99.4
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  yes
+  critical-action: PowerOff

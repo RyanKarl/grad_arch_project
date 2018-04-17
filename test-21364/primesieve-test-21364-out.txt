@@ -1,0 +1,99 @@
+
+
+No Internet Connectivity After Wait
+
+No Internet Connectivity After Wait
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mInstalled:[0m     pts/primesieve-1.4.1
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mIntel Core i5-8250U @ 3.40GHz[0m
+    [1mCore Count[0m:       4
+    [1mThread Count[0m:     8
+    [1mExtensions[0m:       SSE 4.2 + AVX2 + AVX + RDRAND + FSGSBASE
+    [1mCache Size[0m:       6144 KB
+    [1mMicrocode[0m:        0x7c
+    [1mScaling Driver[0m:   intel_pstate powersave
+
+  [1;30mGRAPHICS[0m:           [1;32mIntel Kabylake GT1.5 3072MB[0m
+    [1mFrequency[0m:        1100MHz
+    [1mOpenGL[0m:           4.5 Mesa 13.0.6
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1920x1080
+
+  [1;30mMOTHERBOARD[0m:        [1;32mLENOVO LNVNB161216[0m
+    [1mBIOS Version[0m:     5NCN36WW
+    [1mChipset[0m:          Intel Device 5914
+    [1mAudio[0m:            Realtek ALC298
+    [1mNetwork[0m:          Qualcomm Atheros QCA6174 802.11ac Wireless
+
+  [1;30mMEMORY[0m:             [1;32m2 x 8192 MB DDR4-2400MHz Samsung M471A1K43CB1-CRC[0m
+
+  [1;30mDISK[0m:               [1;32m31GB USB 2.0 FD + 256GB SAMSUNG MZVLW256HEHP-000L2[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-6-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+
+    [1mWould you like to save these test results (Y/n): [0m
+[1mRecently Saved Test Results:[0m
+- aobench-test-21364   [Today]
+
+    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mIntel Core i5-8250U testing with a LENOVO LNVNB161216 (5NCN36WW BIOS) and Intel Kabylake GT1.5 3072MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+        [1;32m[Performance Tip] The powersave CPU scaling governor is currently in
+        use. It's possible to obtain greater performance if using the
+        performance governor.[0m
+
+        [1;30mTo change behavior, run: [0m
+
+        [1;30mecho performance | tee
+        /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor[0m
+
+        [1;31mReference: http://openbenchmarking.org/result/1706268-TR-CPUGOVERN32[0m
+
+
+        [1;30mTo stop showing performance tips, run: phoronix-test-suite
+        unload-module perf_tips[0m
+
+        [1;32mContinuing in 5 seconds or press CTRL-C to stop the testing process.[0m
+
+
+[1;36mPrimesieve 6.2:
+    pts/primesieve-1.4.1[0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 55 Minutes [19:14 EDT]
+        Started Run 1 @ 18:19:48
+        Started Run 2 @ 18:21:20
+        Started Run 3 @ 18:22:54
+        Started Run 4 @ 18:24:30 *
+        Started Run 5 @ 18:26:05 *
+        Started Run 6 @ 18:27:41 *
+
+    1e12 Prime Number Generation:
+        [1;32m85.938[0m
+        92.803
+        [1;31m95.258[0m
+        93.889
+        94.402
+        95.254
+
+    Average: [1;34m92.92 Seconds[0m
+    Deviation: 3.81%
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m
