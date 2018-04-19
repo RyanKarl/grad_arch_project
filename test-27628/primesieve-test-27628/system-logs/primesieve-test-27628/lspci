@@ -1,0 +1,121 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Device [591f]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+Rev:	05
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	Device [5912]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+Rev:	04
+Driver:	i915
+Module:	i915
+
+Slot:	00:14.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2af]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Slot:	00:14.2
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2b1]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2ba]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+Driver:	mei_me
+Module:	mei_me
+
+Slot:	00:16.3
+Class:	Serial controller [0700]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2bd]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+ProgIf:	02
+Driver:	serial
+
+Slot:	00:17.0
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a282]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a295]
+Rev:	f0
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2c6]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+
+Slot:	00:1f.2
+Class:	Memory controller [0580]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2a1]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+
+Slot:	00:1f.3
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2f0]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:1f.4
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	Device [a2a3]
+SVendor:	Lenovo [17aa]
+SDevice:	Device [310b]
+Driver:	i801_smbus
+Module:	i2c_i801
+
+Slot:	00:1f.6
+Class:	Ethernet controller [0200]
+Vendor:	Intel Corporation [8086]
+Device:	Ethernet Connection (2) I219-LM [15b7]
+SVendor:	Lenovo [17aa]
+SDevice:	Ethernet Connection (2) I219-LM [310b]
+Driver:	e1000e
+Module:	e1000e
+
+Slot:	01:00.0
+Class:	Network controller [0280]
+Vendor:	Intel Corporation [8086]
+Device:	Device [24fd]
+SVendor:	Intel Corporation [8086]
+SDevice:	Device [0010]
+Rev:	78
+Module:	iwlwifi
+
