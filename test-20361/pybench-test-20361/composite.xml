@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>pybench-test-20361</Title>
+    <LastModified>2018-04-19 13:43:09</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>Intel Core i5-7500T testing with a LENOVO 310B (M1AKT28A BIOS) and Intel Kabylake GT2 3072MB on Debian 9.4 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>pybench-test-20361</Identifier>
+    <Hardware>Processor: Intel Core i5-7500T @ 3.30GHz (4 Cores), Motherboard: LENOVO 310B (M1AKT28A BIOS), Chipset: Intel Device 591f, Memory: 1 x 8192 MB DDR4-2400MHz Samsung M471A1K43BB1-CRC, Disk: 128GB SanDisk SD8SB8U1 + 4001GB easystore 25FA + 31GB USB 2.0 FD, Graphics: Intel Kabylake GT2 3072MB (1100MHz), Audio: Realtek ALC294, Monitor: G276HL, Network: Intel Connection + Intel Device 24fd</Hardware>
+    <Software>OS: Debian 9.4, Kernel: 4.9.0-4-amd64 (x86_64), Desktop: Xfce 4.12, Display Server: X Server 1.19.2, Display Driver: modesetting 1.19.2, OpenGL: 4.5 Mesa 13.0.6, Compiler: GCC 6.3.0 20170516, File-System: ext4, Screen Resolution: 1920x1080</Software>
+    <User>root</User>
+    <TimeStamp>2018-04-19 13:41:05</TimeStamp>
+    <TestClientVersion>7.8.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_pstate powersave","python":"Python 2.7.13 + Python 3.5.3"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/pybench-1.1.2</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>pybench-test-20361</Identifier>
+        <Value>1639</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
