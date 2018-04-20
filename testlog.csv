@@ -8,3 +8,4 @@ kernel, processor,	test#,	time
 4.9.0.6,	5th gen Intel i5,	27330,	46m58.286s
 4.9.0.4,	5th gen Intel i5,	25621,	33m8.379s
 4.9.0.6,	AMD Turion II P520,	26448,	53m36.438s
+4.9.0.4,	AMD Turion II P520,	5649,	53m36.438s

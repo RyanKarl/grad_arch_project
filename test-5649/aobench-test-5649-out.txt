@@ -1,0 +1,92 @@
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mInstalled:[0m     pts/aobench-1.0.1
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mAMD Turion II P520 @ 2.30GHz[0m
+    [1mCore Count[0m:       2
+    [1mExtensions[0m:       SSE 4a
+    [1mCache Size[0m:       1024 KB
+    [1mMicrocode[0m:        0x10000c8
+    [1mScaling Driver[0m:   acpi-cpufreq ondemand
+
+  [1;30mGRAPHICS[0m:           [1;32mLLVMpipe[0m
+    [1mOpenGL[0m:           3.3 Mesa 13.0.6 Gallium 0.4 (LLVM 3.9 128 bits)
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1368x768
+
+  [1;30mMOTHERBOARD[0m:        [1;32mHP 144E[0m
+    [1mBIOS Version[0m:     F.26
+    [1mChipset[0m:          AMD RS880
+    [1mAudio[0m:            IDT 92HD81B1X5
+    [1mNetwork[0m:          Realtek RTL8111/8168/8411 + Qualcomm Atheros AR9285 Wireless
+
+  [1;30mMEMORY[0m:             [1;32m2 x 2048 MB DDR3-1066MHz Hynix HMT125S6BFR8C-H9[0m
+
+  [1;30mDISK[0m:               [1;32m320GB TOSHIBA MK3256GS + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-4-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+
+    [1mWould you like to save these test results (Y/n): [0m    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mAMD Turion II P520 testing with a HP 144E (F.26 BIOS) and AMD Mobility Radeon HD 4225/4250 3712MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mAOBench:
+    pts/aobench-1.0.1[0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 15 Minutes [09:43 EDT]
+        Started Run 1 @ 09:28:42
+        Started Run 2 @ 09:31:04
+        Started Run 3 @ 09:33:26
+
+    Size: 2048 x 2048 - Total Time:
+        140.97066307068
+        [1;32m140.96546506882[0m
+        [1;31m142.01574206352[0m
+
+    Average: [1;34m141.32 Seconds[0m
+    Deviation: 0.43%
+
+[1m    OpenBenchmarking.org Dynamic Comparison: [0m
+    Seconds < Lower Is Better
+    Cavium ThunderX 96-Core .. 235.31 |=========================================
+[1m    aobench-test-5649 ........ 141.32 |=========================[0m
+    Google n1-highcpu-8 ...... 74.77  |=============
+    Google n1-highcpu-16 ..... 74.22  |=============
+    Google n1-standard-8 ..... 73.65  |=============
+    Google n1-standard-16 .... 72.86  |=============
+    Microsoft Azure D16s v3 .. 69.50  |============
+    Microsoft Azure D4s v3 ... 68.85  |============
+    Microsoft Azure D8s v3 ... 67.42  |============
+    Microsoft Azure D32s v3 .. 67.28  |============
+    EC2 m4.10xlarge .......... 67.24  |============
+    EC2 m5.12xlarge .......... 66.21  |============
+    EC2 m5.large ............. 65.51  |===========
+    EC2 m5.4xlarge ........... 65.48  |===========
+    Microsoft Azure E4s v3 ... 65.32  |===========
+    EC2 m4.16xlarge .......... 64.56  |===========
+    Microsoft Azure E32s v3 .. 63.81  |===========
+    EC2 t2.2xlarge ........... 62.18  |===========
+    Microsoft Azure F8s v2 ... 60.80  |===========
+    EC2 c5.9xlarge ........... 58.70  |==========
+    EC2 c5.18xlarge .......... 58.42  |==========
+    Microsoft Azure D64s v3 .. 56.84  |==========
+    EC2 c4.8xlarge ........... 55.39  |==========
+[1m    Result Perspective:[0m https://openbenchmarking.org/result/1802268-FO-1802222FO39
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m
