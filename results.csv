@@ -1,4 +1,4 @@
-machine, kernel, aobench, cyclictest, primesieve, pybench ramspeed,
+machine, kernel, aobench, cyclictest, primesieve, pybench, ramspeed
 AMD C-50 Processor, 4.9.0-4-amd64, 362.62, 16, 1350.03, 12632, 2566.35
 Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz, 4.9.0-4-amd64, 56.77, 1, 77.26, 1639, 11108.87
 Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 4.9.0-4-amd64, 55.18, 1, 92.92, 1592, 18691.53
