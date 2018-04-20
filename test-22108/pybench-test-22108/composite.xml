@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>pybench-test-22108</Title>
+    <LastModified>2018-04-20 09:59:39</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>Intel Core i5 450M testing with a HP 146A v58.28 (F.26 BIOS) and Intel Ironlake Mobile 1536MB on Debian 9.4 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>pybench-test-22108</Identifier>
+    <Hardware>Processor: Intel Core i5 450M @ 2.40GHz (2 Cores / 4 Threads), Motherboard: HP 146A v58.28 (F.26 BIOS), Chipset: Intel Core DRAM, Memory: 2 x 4096 MB DDR3-1067MHz Hynix HMT351S6CFR8C-PB, Disk: 500GB Hitachi HTS72505 + 31GB USB 2.0 FD, Graphics: Intel Ironlake Mobile 1536MB, Audio: IDT 92HD81B1X5, Network: Realtek RTL8111/8168/8411 + Broadcom Limited BCM4313 802.11bgn Wireless</Hardware>
+    <Software>OS: Debian 9.4, Kernel: 4.9.0-6-amd64 (x86_64), Desktop: Xfce 4.12, Display Server: X Server 1.19.2, Display Driver: modesetting 1.19.2, OpenGL: 2.1 Mesa 13.0.6, Compiler: GCC 6.3.0 20170516, File-System: ext4, Screen Resolution: 1366x768</Software>
+    <User>root</User>
+    <TimeStamp>2018-04-20 09:55:34</TimeStamp>
+    <TestClientVersion>7.8.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"acpi-cpufreq ondemand","python":"Python 2.7.13 + Python 3.5.3","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/pybench-1.1.2</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>pybench-test-22108</Identifier>
+        <Value>3018</Value>
+        <RawString>2985:3006:3063</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>
