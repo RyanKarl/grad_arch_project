@@ -1,0 +1,1178 @@
+Linux version 4.9.0-6-amd64 (debian-kernel@lists.debian.org) (gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ) #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02)
+Command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-6-amd64 root=UUID=07edf193-9c61-4cdd-827c-0d6d1dacce48 ro quiet
+x86/fpu: Legacy x87 FPU detected.
+x86/fpu: Using 'eager' FPU context switches.
+e820: BIOS-provided physical RAM map:
+BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+BIOS-e820: [mem 0x0000000000100000-0x00000000de4adfff] usable
+BIOS-e820: [mem 0x00000000de4ae000-0x00000000de6adfff] ACPI NVS
+BIOS-e820: [mem 0x00000000de6ae000-0x00000000dfd3efff] usable
+BIOS-e820: [mem 0x00000000dfd3f000-0x00000000dfdbefff] reserved
+BIOS-e820: [mem 0x00000000dfdbf000-0x00000000dfebefff] ACPI NVS
+BIOS-e820: [mem 0x00000000dfebf000-0x00000000dfef6fff] ACPI data
+BIOS-e820: [mem 0x00000000dfef7000-0x00000000dfefffff] usable
+BIOS-e820: [mem 0x00000000f8000000-0x00000000f8ffffff] reserved
+BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+BIOS-e820: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+BIOS-e820: [mem 0x00000000ffe00000-0x00000000ffffffff] reserved
+BIOS-e820: [mem 0x0000000100000000-0x000000010fffffff] usable
+NX (Execute Disable) protection: active
+SMBIOS 2.6 present.
+DMI: Hewlett-Packard HP Pavilion dv5 Notebook PC/144E, BIOS F.26 02/23/2011
+Kernel/User page tables isolation: disabled
+e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+e820: remove [mem 0x000a0000-0x000fffff] usable
+AGP: No AGP bridge found
+e820: last_pfn = 0x110000 max_arch_pfn = 0x400000000
+MTRR default type: uncachable
+MTRR fixed ranges enabled:
+  00000-9FFFF write-back
+  A0000-BFFFF uncachable
+  C0000-CFFFF write-protect
+  D0000-EFFFF write-through
+  F0000-FFFFF write-protect
+MTRR variable ranges enabled:
+  0 base 000000000000 mask FFFF80000000 write-back
+  1 base 000080000000 mask FFFFC0000000 write-back
+  2 base 0000C0000000 mask FFFFE0000000 write-back
+  3 base 0000DFEBC000 mask FFFFFFFFF000 uncachable
+  4 base 0000FFE00000 mask FFFFFFE00000 write-protect
+  5 base 000100000000 mask FFFFF0000000 write-back
+  6 disabled
+  7 disabled
+TOM2: 0000000120000000 aka 4608M
+x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WC  UC- WT  
+e820: last_pfn = 0xdff00 max_arch_pfn = 0x400000000
+Base memory trampoline at [ffff941440099000] 99000 size 24576
+Using GB pages for direct mapping
+BRK [0x1d339000, 0x1d339fff] PGTABLE
+BRK [0x1d33a000, 0x1d33afff] PGTABLE
+BRK [0x1d33b000, 0x1d33bfff] PGTABLE
+BRK [0x1d33c000, 0x1d33cfff] PGTABLE
+BRK [0x1d33d000, 0x1d33dfff] PGTABLE
+BRK [0x1d33e000, 0x1d33efff] PGTABLE
+BRK [0x1d33f000, 0x1d33ffff] PGTABLE
+BRK [0x1d340000, 0x1d340fff] PGTABLE
+BRK [0x1d341000, 0x1d341fff] PGTABLE
+BRK [0x1d342000, 0x1d342fff] PGTABLE
+RAMDISK: [mem 0x35bc6000-0x36ddafff]
+ACPI: Early table checksum verification disabled
+ACPI: RSDP 0x00000000000FE020 000024 (v02 HP    )
+ACPI: XSDT 0x00000000DFEF6120 00005C (v01 HPQOEM SLIC-MPC 00000001      01000013)
+ACPI: FACP 0x00000000DFEF5000 0000F4 (v04 HP     SLIC-MPC 00000003 MSFT 01000013)
+ACPI: DSDT 0x00000000DFEE3000 00EB53 (v01 HP     SLIC-MPC F0000000 MSFT 01000013)
+ACPI: FACS 0x00000000DFE9C000 000040
+ACPI: FACS 0x00000000DFE9C000 000040
+ACPI: HPET 0x00000000DFEF4000 000038 (v01 HPQOEM SLIC-MPC 00000001 MSFT 01000013)
+ACPI: APIC 0x00000000DFEF3000 000084 (v02 HPQOEM SLIC-MPC 00000001 MSFT 01000013)
+ACPI: MCFG 0x00000000DFEF2000 00003C (v01 HPQOEM SLIC-MPC 00000001 MSFT 01000013)
+ACPI: BOOT 0x00000000DFEE2000 000028 (v01 HPQOEM SLIC-MPC 00000001 MSFT 01000013)
+ACPI: SLIC 0x00000000DFEE1000 000176 (v01 HPQOEM SLIC-MPC 00000001 MSFT 01000013)
+ACPI: SSDT 0x00000000DFEE0000 00052A (v01 AMD    POWERNOW 00000001 AMD  00000001)
+ACPI: Local APIC address 0xfee00000
+Scanning NUMA topology in Northbridge 24
+No NUMA configuration found
+Faking a node at [mem 0x0000000000000000-0x000000010fffffff]
+NODE_DATA(0) allocated [mem 0x10fffb000-0x10fffffff]
+Zone ranges:
+  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+  Normal   [mem 0x0000000100000000-0x000000010fffffff]
+  Device   empty
+Movable zone start for each node
+Early memory node ranges
+  node   0: [mem 0x0000000000001000-0x000000000009efff]
+  node   0: [mem 0x0000000000100000-0x00000000de4adfff]
+  node   0: [mem 0x00000000de6ae000-0x00000000dfd3efff]
+  node   0: [mem 0x00000000dfef7000-0x00000000dfefffff]
+  node   0: [mem 0x0000000100000000-0x000000010fffffff]
+Initmem setup node 0 [mem 0x0000000000001000-0x000000010fffffff]
+On node 0 totalpages: 981734
+  DMA zone: 64 pages used for memmap
+  DMA zone: 21 pages reserved
+  DMA zone: 3998 pages, LIFO batch:0
+  DMA32 zone: 14254 pages used for memmap
+  DMA32 zone: 912200 pages, LIFO batch:31
+  Normal zone: 1024 pages used for memmap
+  Normal zone: 65536 pages, LIFO batch:15
+ACPI: PM-Timer IO Port: 0x408
+ACPI: Local APIC address 0xfee00000
+ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+IOAPIC[0]: apic_id 4, version 33, address 0xfec00000, GSI 0-23
+ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+ACPI: IRQ0 used by override.
+ACPI: IRQ9 used by override.
+Using ACPI (MADT) for SMP configuration information
+ACPI: HPET id: 0x1002a201 base: 0xfed00000
+smpboot: Allowing 4 CPUs, 2 hotplug CPUs
+PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+PM: Registered nosave memory: [mem 0xde4ae000-0xde6adfff]
+PM: Registered nosave memory: [mem 0xdfd3f000-0xdfdbefff]
+PM: Registered nosave memory: [mem 0xdfdbf000-0xdfebefff]
+PM: Registered nosave memory: [mem 0xdfebf000-0xdfef6fff]
+PM: Registered nosave memory: [mem 0xdff00000-0xf7ffffff]
+PM: Registered nosave memory: [mem 0xf8000000-0xf8ffffff]
+PM: Registered nosave memory: [mem 0xf9000000-0xfebfffff]
+PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+PM: Registered nosave memory: [mem 0xfec01000-0xfec0ffff]
+PM: Registered nosave memory: [mem 0xfec10000-0xfec10fff]
+PM: Registered nosave memory: [mem 0xfec11000-0xfedfffff]
+PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+PM: Registered nosave memory: [mem 0xfee01000-0xffdfffff]
+PM: Registered nosave memory: [mem 0xffe00000-0xffffffff]
+e820: [mem 0xdff00000-0xf7ffffff] available for PCI devices
+Booting paravirtualized kernel on bare hardware
+clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:4 nr_node_ids:1
+percpu: Embedded 35 pages/cpu @ffff94154fc00000 s105240 r8192 d29928 u524288
+pcpu-alloc: s105240 r8192 d29928 u524288 alloc=1*2097152
+pcpu-alloc: [0] 0 1 2 3 
+Built 1 zonelists in Node order, mobility grouping on.  Total pages: 966371
+Policy zone: Normal
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-6-amd64 root=UUID=07edf193-9c61-4cdd-827c-0d6d1dacce48 ro quiet
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+AGP: Checking aperture...
+AGP: No AGP bridge found
+AGP: Node 0: aperture [bus addr 0x4266000000-0x4267ffffff] (32MB)
+Aperture beyond 4GB. Ignoring.
+AGP: Your BIOS doesn't leave an aperture memory hole
+AGP: Please enable the IOMMU option in the BIOS setup
+AGP: This costs you 64MB of RAM
+AGP: Mapping aperture over RAM [mem 0xd4000000-0xd7ffffff] (65536KB)
+PM: Registered nosave memory: [mem 0xd4000000-0xd7ffffff]
+Memory: 3699128K/3926936K available (6236K kernel code, 1159K rwdata, 2868K rodata, 1416K init, 688K bss, 227808K reserved, 0K cma-reserved)
+Hierarchical RCU implementation.
+	Build-time adjustment of leaf fanout to 64.
+	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=4.
+RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=4
+NR_IRQS:33024 nr_irqs:456 16
+spurious 8259A interrupt: IRQ7.
+Console: colour VGA+ 80x25
+console [tty0] enabled
+clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns
+hpet clockevent registered
+tsc: Fast TSC calibration using PIT
+tsc: Detected 2294.091 MHz processor
+Calibrating delay loop (skipped), value calculated using timer frequency.. 4588.18 BogoMIPS (lpj=9176364)
+pid_max: default: 32768 minimum: 301
+ACPI: Core revision 20160831
+ACPI: 2 ACPI AML tables successfully acquired and loaded
+Security Framework initialized
+Yama: disabled by default; enable with sysctl kernel.yama.*
+AppArmor: AppArmor disabled by boot time parameter
+Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+CPU: Physical Processor ID: 0
+CPU: Processor Core ID: 0
+mce: CPU supports 6 MCE banks
+LVT offset 0 assigned for vector 0xf9
+process: using AMD E400 aware idle routine
+Last level iTLB entries: 4KB 512, 2MB 16, 4MB 8
+Last level dTLB entries: 4KB 512, 2MB 128, 4MB 64, 1GB 0
+Spectre V2 : Mitigation: Full AMD retpoline
+Spectre V2 : Filling RSB on context switch
+Freeing SMP alternatives memory: 24K
+ftrace: allocating 25236 entries in 99 pages
+smpboot: Max logical packages: 2
+..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+smpboot: CPU0: AMD Turion(tm) II P520 Dual-Core Processor (family: 0x10, model: 0x6, stepping: 0x3)
+Performance Events: AMD PMU driver.
+... version:                0
+... bit width:              48
+... generic registers:      4
+... value mask:             0000ffffffffffff
+... max period:             00007fffffffffff
+... fixed-purpose events:   0
+... event mask:             000000000000000f
+NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+x86: Booting SMP configuration:
+.... node  #0, CPUs:      #1
+process: System has AMD C1E enabled
+process: Switch to broadcast mode on CPU0
+process: Switch to broadcast mode on CPU1
+x86: Booted up 1 node, 2 CPUs
+smpboot: Total of 2 processors activated (9176.36 BogoMIPS)
+devtmpfs: initialized
+x86/mm: Memory block size: 128MB
+PM: Registering ACPI NVS region [mem 0xde4ae000-0xde6adfff] (2097152 bytes)
+PM: Registering ACPI NVS region [mem 0xdfdbf000-0xdfebefff] (1048576 bytes)
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+futex hash table entries: 1024 (order: 4, 65536 bytes)
+pinctrl core: initialized pinctrl subsystem
+NET: Registered protocol family 16
+cpuidle: using governor ladder
+cpuidle: using governor menu
+node 0 link 0: io port [0, ffffff]
+TOM: 00000000e0000000 aka 3584M
+Fam 10h mmconf [mem 0xf8000000-0xfbffffff]
+node 0 link 0: mmio [a0000, bffff]
+node 0 link 0: mmio [e0000000, efffffff]
+node 0 link 0: mmio [f0000000, f20fffff]
+node 0 link 0: mmio [f2100000, f22fffff]
+node 0 link 0: mmio [f2300000, f7ffffff]
+node 0 link 0: mmio [f8000000, fbffffff] ==> none
+node 0 link 0: mmio [fc000000, ffdfffff]
+TOM2: 0000000120000000 aka 4608M
+bus: [bus 00-1f] on node 0 link 0
+bus: 00 [io  0x0000-0xffff]
+bus: 00 [mem 0x000a0000-0x000bffff]
+bus: 00 [mem 0xe0000000-0xf7ffffff]
+bus: 00 [mem 0xfc000000-0xffffffff]
+bus: 00 [mem 0x120000000-0xfcffffffff]
+Simple Boot Flag at 0x44 set to 0x1
+ACPI: bus type PCI registered
+acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+PCI: MMCONFIG for 0000 [bus00-0f] at [mem 0xf8000000-0xf8ffffff] (base 0xf8000000) (size reduced!)
+PCI: Using configuration type 1 for base access
+mtrr: your CPUs had inconsistent variable MTRR settings
+mtrr: probably your BIOS does not setup all CPUs.
+mtrr: corrected configuration.
+HugeTLB registered 1 GB page size, pre-allocated 0 pages
+HugeTLB registered 2 MB page size, pre-allocated 0 pages
+ACPI: Added _OSI(Module Device)
+ACPI: Added _OSI(Processor Device)
+ACPI: Added _OSI(3.0 _SCP Extensions)
+ACPI: Added _OSI(Processor Aggregator Device)
+ACPI: Executed 1 blocks of module-level executable AML code
+ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+ACPI : EC: EC started
+ACPI : EC: interrupt blocked
+ACPI: \_SB_.PCI0.LPC0.EC__: Used as first EC
+ACPI: \_SB_.PCI0.LPC0.EC__: GPE=0x3, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+ACPI: \_SB_.PCI0.LPC0.EC__: Used as boot DSDT EC to handle transactions
+ACPI: Interpreter enabled
+ACPI: (supports S0 S3 S4 S5)
+ACPI: Using IOAPIC for interrupt routing
+PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[Firmware Bug]: ACPI: No _BQC method, cannot determine initial brightness
+[Firmware Bug]: ACPI: No _BQC method, cannot determine initial brightness
+ACPI: Power Resource [FN00] (on)
+ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+acpi PNP0A08:00: _OSC: platform does not support [PME]
+acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug AER PCIeCapability]
+acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-0f] only partially covers this bridge
+acpi PNP0A08:00: ignoring host bridge window [mem 0x000cc000-0x000cffff window] (conflicts with Video ROM [mem 0x000c0000-0x000cedff])
+PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000c3fff window]
+pci_bus 0000:00: root bus resource [mem 0x000c4000-0x000c7fff window]
+pci_bus 0000:00: root bus resource [mem 0x000c8000-0x000cbfff window]
+pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000d3fff window]
+pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff window]
+pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff window]
+pci_bus 0000:00: root bus resource [mem 0x000dc000-0x000dffff window]
+pci_bus 0000:00: root bus resource [mem 0x000e0000-0x000e3fff window]
+pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000e7fff window]
+pci_bus 0000:00: root bus resource [mem 0x000e8000-0x000ebfff window]
+pci_bus 0000:00: root bus resource [mem 0x000ec000-0x000effff window]
+pci_bus 0000:00: root bus resource [mem 0xe0000000-0xf7ffffff window]
+pci_bus 0000:00: root bus resource [mem 0xfc000000-0xfed3ffff window]
+pci_bus 0000:00: root bus resource [mem 0xfed45000-0xffffffff window]
+pci_bus 0000:00: root bus resource [bus 00-ff]
+pci 0000:00:00.0: [1022:9601] type 00 class 0x060000
+pci 0000:00:01.0: [1022:9602] type 01 class 0x060400
+pci 0000:00:04.0: [1022:9604] type 01 class 0x060400
+pci 0000:00:04.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:04.0: System wakeup disabled by ACPI
+pci 0000:00:05.0: [1022:9605] type 01 class 0x060400
+pci 0000:00:05.0: PME# supported from D0 D3hot D3cold
+pci 0000:00:05.0: System wakeup disabled by ACPI
+pci 0000:00:11.0: [1002:4391] type 00 class 0x010601
+pci 0000:00:11.0: reg 0x10: [io  0x7038-0x703f]
+pci 0000:00:11.0: reg 0x14: [io  0x704c-0x704f]
+pci 0000:00:11.0: reg 0x18: [io  0x7030-0x7037]
+pci 0000:00:11.0: reg 0x1c: [io  0x7048-0x704b]
+pci 0000:00:11.0: reg 0x20: [io  0x7010-0x701f]
+pci 0000:00:11.0: reg 0x24: [mem 0xf2308000-0xf23083ff]
+pci 0000:00:12.0: [1002:4397] type 00 class 0x0c0310
+pci 0000:00:12.0: reg 0x10: [mem 0xf2307000-0xf2307fff]
+pci 0000:00:12.0: System wakeup disabled by ACPI
+pci 0000:00:12.2: [1002:4396] type 00 class 0x0c0320
+pci 0000:00:12.2: reg 0x10: [mem 0xf2308600-0xf23086ff]
+pci 0000:00:12.2: supports D1 D2
+pci 0000:00:12.2: PME# supported from D0 D1 D2 D3hot
+pci 0000:00:12.2: System wakeup disabled by ACPI
+pci 0000:00:13.0: [1002:4397] type 00 class 0x0c0310
+pci 0000:00:13.0: reg 0x10: [mem 0xf2306000-0xf2306fff]
+pci 0000:00:13.2: [1002:4396] type 00 class 0x0c0320
+pci 0000:00:13.2: reg 0x10: [mem 0xf2308500-0xf23085ff]
+pci 0000:00:13.2: supports D1 D2
+pci 0000:00:13.2: PME# supported from D0 D1 D2 D3hot
+pci 0000:00:14.0: [1002:4385] type 00 class 0x0c0500
+pci 0000:00:14.1: [1002:439c] type 00 class 0x01018a
+pci 0000:00:14.1: reg 0x10: [io  0x0000-0x0007]
+pci 0000:00:14.1: reg 0x14: [io  0x0000-0x0003]
+pci 0000:00:14.1: reg 0x18: [io  0x0000-0x0007]
+pci 0000:00:14.1: reg 0x1c: [io  0x0000-0x0003]
+pci 0000:00:14.1: reg 0x20: [io  0x7000-0x700f]
+pci 0000:00:14.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+pci 0000:00:14.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+pci 0000:00:14.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+pci 0000:00:14.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+pci 0000:00:14.2: [1002:4383] type 00 class 0x040300
+pci 0000:00:14.2: reg 0x10: [mem 0xf2300000-0xf2303fff 64bit]
+pci 0000:00:14.2: PME# supported from D0 D3hot D3cold
+pci 0000:00:14.3: [1002:439d] type 00 class 0x060100
+pci 0000:00:14.4: [1002:4384] type 01 class 0x060401
+pci 0000:00:14.4: System wakeup disabled by ACPI
+pci 0000:00:14.5: [1002:4399] type 00 class 0x0c0310
+pci 0000:00:14.5: reg 0x10: [mem 0xf2305000-0xf2305fff]
+pci 0000:00:16.0: [1002:4397] type 00 class 0x0c0310
+pci 0000:00:16.0: reg 0x10: [mem 0xf2304000-0xf2304fff]
+pci 0000:00:16.2: [1002:4396] type 00 class 0x0c0320
+pci 0000:00:16.2: reg 0x10: [mem 0xf2308400-0xf23084ff]
+pci 0000:00:16.2: supports D1 D2
+pci 0000:00:16.2: PME# supported from D0 D1 D2 D3hot
+pci 0000:00:18.0: [1022:1200] type 00 class 0x060000
+pci 0000:00:18.1: [1022:1201] type 00 class 0x060000
+pci 0000:00:18.2: [1022:1202] type 00 class 0x060000
+pci 0000:00:18.3: [1022:1203] type 00 class 0x060000
+pci 0000:00:18.4: [1022:1204] type 00 class 0x060000
+pci 0000:01:05.0: [1002:9712] type 00 class 0x030000
+pci 0000:01:05.0: reg 0x10: [mem 0xe0000000-0xefffffff pref]
+pci 0000:01:05.0: reg 0x14: [io  0x6000-0x60ff]
+pci 0000:01:05.0: reg 0x18: [mem 0xf2200000-0xf220ffff]
+pci 0000:01:05.0: reg 0x24: [mem 0xf2100000-0xf21fffff]
+pci 0000:01:05.0: supports D1 D2
+pci 0000:01:05.1: [1002:970f] type 00 class 0x040300
+pci 0000:01:05.1: reg 0x10: [mem 0xf2210000-0xf2213fff]
+pci 0000:01:05.1: supports D1 D2
+pci 0000:00:01.0: PCI bridge to [bus 01]
+pci 0000:00:01.0:   bridge window [io  0x6000-0x6fff]
+pci 0000:00:01.0:   bridge window [mem 0xf2100000-0xf22fffff]
+pci 0000:00:01.0:   bridge window [mem 0xe0000000-0xefffffff 64bit pref]
+pci 0000:02:00.0: [10ec:8168] type 00 class 0x020000
+pci 0000:02:00.0: reg 0x10: [io  0x2000-0x20ff]
+pci 0000:02:00.0: reg 0x18: [mem 0xf0004000-0xf0004fff 64bit pref]
+pci 0000:02:00.0: reg 0x20: [mem 0xf0000000-0xf0003fff 64bit pref]
+pci 0000:02:00.0: reg 0x30: [mem 0xfffe0000-0xffffffff pref]
+pci 0000:02:00.0: supports D1 D2
+pci 0000:02:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+pci 0000:02:00.0: System wakeup disabled by ACPI
+pci 0000:00:04.0: PCI bridge to [bus 02-07]
+pci 0000:00:04.0:   bridge window [io  0x2000-0x5fff]
+pci 0000:00:04.0:   bridge window [mem 0xf1100000-0xf20fffff]
+pci 0000:00:04.0:   bridge window [mem 0xf0000000-0xf0ffffff 64bit pref]
+pci 0000:08:00.0: [168c:002b] type 00 class 0x028000
+pci 0000:08:00.0: reg 0x10: [mem 0xf1000000-0xf100ffff 64bit]
+pci 0000:08:00.0: supports D1
+pci 0000:08:00.0: PME# supported from D0 D1 D3hot
+pci 0000:00:05.0: PCI bridge to [bus 08]
+pci 0000:00:05.0:   bridge window [mem 0xf1000000-0xf10fffff]
+pci 0000:00:14.4: PCI bridge to [bus 09] (subtractive decode)
+pci 0000:00:14.4:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000c0000-0x000c3fff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000c4000-0x000c7fff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000c8000-0x000cbfff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000d0000-0x000d3fff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000d4000-0x000d7fff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000d8000-0x000dbfff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000dc000-0x000dffff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000e0000-0x000e3fff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000e4000-0x000e7fff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000e8000-0x000ebfff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0x000ec000-0x000effff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0xe0000000-0xf7ffffff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0xfc000000-0xfed3ffff window] (subtractive decode)
+pci 0000:00:14.4:   bridge window [mem 0xfed45000-0xffffffff window] (subtractive decode)
+ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 7 10 11 12 14 15) *0
+ACPI: Enabled 2 GPEs in block 00 to 1F
+ACPI : EC: interrupt unblocked
+ACPI : EC: event unblocked
+ACPI: \_SB_.PCI0.LPC0.EC__: GPE=0x3, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+ACPI: \_SB_.PCI0.LPC0.EC__: Used as boot DSDT EC to handle transactions and events
+vgaarb: setting as boot device: PCI:0000:01:05.0
+vgaarb: device added: PCI:0000:01:05.0,decodes=io+mem,owns=io+mem,locks=none
+vgaarb: loaded
+vgaarb: bridge control possible 0000:01:05.0
+PCI: Using ACPI for IRQ routing
+PCI: pci_cache_line_size set to 64 bytes
+e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+e820: reserve RAM buffer [mem 0xde4ae000-0xdfffffff]
+e820: reserve RAM buffer [mem 0xdfd3f000-0xdfffffff]
+e820: reserve RAM buffer [mem 0xdff00000-0xdfffffff]
+hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+clocksource: Switched to clocksource hpet
+VFS: Disk quotas dquot_6.6.0
+VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+pnp: PnP ACPI init
+system 00:00: [mem 0xfec00000-0xfec00fff] could not be reserved
+system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+system 00:00: [mem 0xf8000000-0xfbffffff] could not be reserved
+system 00:00: [mem 0xfed80000-0xfed80fff] has been reserved
+system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+system 00:02: [io  0x0400-0x04cf] has been reserved
+system 00:02: [io  0x04d0-0x04d1] has been reserved
+system 00:02: [io  0x04d6] has been reserved
+system 00:02: [io  0x0680-0x06ff] has been reserved
+system 00:02: [io  0x077a] has been reserved
+system 00:02: [io  0x0c00-0x0c01] has been reserved
+system 00:02: [io  0x0c14] has been reserved
+system 00:02: [io  0x0c50-0x0c52] has been reserved
+system 00:02: [io  0x0c6c] has been reserved
+system 00:02: [io  0x0c6f] has been reserved
+system 00:02: [io  0x0cd0-0x0cdb] has been reserved
+system 00:02: [io  0x0500-0x0501] has been reserved
+system 00:02: [io  0x0550] has been reserved
+system 00:02: Plug and Play ACPI device, IDs PNP0c02 (active)
+system 00:03: [mem 0x000e0000-0x000fffff] could not be reserved
+system 00:03: [mem 0xffe00000-0xffffffff] has been reserved
+system 00:03: [mem 0xfed80000-0xfed80fff] has been reserved
+system 00:03: Plug and Play ACPI device, IDs PNP0c01 (active)
+pnp 00:04: Plug and Play ACPI device, IDs PNP0303 (active)
+pnp 00:05: Plug and Play ACPI device, IDs SYN1e22 SYN1e00 SYN0002 PNP0f13 (active)
+pnp: PnP ACPI: found 6 devices
+clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+pci 0000:02:00.0: can't claim BAR 6 [mem 0xfffe0000-0xffffffff pref]: no compatible bridge window
+pci 0000:00:05.0: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+pci 0000:00:05.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 08] add_size 200000 add_align 100000
+pci 0000:00:05.0: res[15]=[mem 0x00100000-0x000fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+pci 0000:00:05.0: res[15]=[mem 0x00100000-0x002fffff 64bit pref] res_to_dev_res add_size 200000 min_align 100000
+pci 0000:00:05.0: res[13]=[io  0x1000-0x0fff] res_to_dev_res add_size 1000 min_align 1000
+pci 0000:00:05.0: res[13]=[io  0x1000-0x1fff] res_to_dev_res add_size 1000 min_align 1000
+pci 0000:00:05.0: BAR 15: assigned [mem 0xf2400000-0xf25fffff 64bit pref]
+pci 0000:00:05.0: BAR 13: assigned [io  0x1000-0x1fff]
+pci 0000:00:01.0: PCI bridge to [bus 01]
+pci 0000:00:01.0:   bridge window [io  0x6000-0x6fff]
+pci 0000:00:01.0:   bridge window [mem 0xf2100000-0xf22fffff]
+pci 0000:00:01.0:   bridge window [mem 0xe0000000-0xefffffff 64bit pref]
+pci 0000:02:00.0: BAR 6: assigned [mem 0xf1100000-0xf111ffff pref]
+pci 0000:00:04.0: PCI bridge to [bus 02-07]
+pci 0000:00:04.0:   bridge window [io  0x2000-0x5fff]
+pci 0000:00:04.0:   bridge window [mem 0xf1100000-0xf20fffff]
+pci 0000:00:04.0:   bridge window [mem 0xf0000000-0xf0ffffff 64bit pref]
+pci 0000:00:05.0: PCI bridge to [bus 08]
+pci 0000:00:05.0:   bridge window [io  0x1000-0x1fff]
+pci 0000:00:05.0:   bridge window [mem 0xf1000000-0xf10fffff]
+pci 0000:00:05.0:   bridge window [mem 0xf2400000-0xf25fffff 64bit pref]
+pci 0000:00:14.4: PCI bridge to [bus 09]
+pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000c3fff window]
+pci_bus 0000:00: resource 8 [mem 0x000c4000-0x000c7fff window]
+pci_bus 0000:00: resource 9 [mem 0x000c8000-0x000cbfff window]
+pci_bus 0000:00: resource 10 [mem 0x000d0000-0x000d3fff window]
+pci_bus 0000:00: resource 11 [mem 0x000d4000-0x000d7fff window]
+pci_bus 0000:00: resource 12 [mem 0x000d8000-0x000dbfff window]
+pci_bus 0000:00: resource 13 [mem 0x000dc000-0x000dffff window]
+pci_bus 0000:00: resource 14 [mem 0x000e0000-0x000e3fff window]
+pci_bus 0000:00: resource 15 [mem 0x000e4000-0x000e7fff window]
+pci_bus 0000:00: resource 16 [mem 0x000e8000-0x000ebfff window]
+pci_bus 0000:00: resource 17 [mem 0x000ec000-0x000effff window]
+pci_bus 0000:00: resource 18 [mem 0xe0000000-0xf7ffffff window]
+pci_bus 0000:00: resource 19 [mem 0xfc000000-0xfed3ffff window]
+pci_bus 0000:00: resource 20 [mem 0xfed45000-0xffffffff window]
+pci_bus 0000:01: resource 0 [io  0x6000-0x6fff]
+pci_bus 0000:01: resource 1 [mem 0xf2100000-0xf22fffff]
+pci_bus 0000:01: resource 2 [mem 0xe0000000-0xefffffff 64bit pref]
+pci_bus 0000:02: resource 0 [io  0x2000-0x5fff]
+pci_bus 0000:02: resource 1 [mem 0xf1100000-0xf20fffff]
+pci_bus 0000:02: resource 2 [mem 0xf0000000-0xf0ffffff 64bit pref]
+pci_bus 0000:08: resource 0 [io  0x1000-0x1fff]
+pci_bus 0000:08: resource 1 [mem 0xf1000000-0xf10fffff]
+pci_bus 0000:08: resource 2 [mem 0xf2400000-0xf25fffff 64bit pref]
+pci_bus 0000:09: resource 4 [io  0x0000-0x0cf7 window]
+pci_bus 0000:09: resource 5 [io  0x0d00-0xffff window]
+pci_bus 0000:09: resource 6 [mem 0x000a0000-0x000bffff window]
+pci_bus 0000:09: resource 7 [mem 0x000c0000-0x000c3fff window]
+pci_bus 0000:09: resource 8 [mem 0x000c4000-0x000c7fff window]
+pci_bus 0000:09: resource 9 [mem 0x000c8000-0x000cbfff window]
+pci_bus 0000:09: resource 10 [mem 0x000d0000-0x000d3fff window]
+pci_bus 0000:09: resource 11 [mem 0x000d4000-0x000d7fff window]
+pci_bus 0000:09: resource 12 [mem 0x000d8000-0x000dbfff window]
+pci_bus 0000:09: resource 13 [mem 0x000dc000-0x000dffff window]
+pci_bus 0000:09: resource 14 [mem 0x000e0000-0x000e3fff window]
+pci_bus 0000:09: resource 15 [mem 0x000e4000-0x000e7fff window]
+pci_bus 0000:09: resource 16 [mem 0x000e8000-0x000ebfff window]
+pci_bus 0000:09: resource 17 [mem 0x000ec000-0x000effff window]
+pci_bus 0000:09: resource 18 [mem 0xe0000000-0xf7ffffff window]
+pci_bus 0000:09: resource 19 [mem 0xfc000000-0xfed3ffff window]
+pci_bus 0000:09: resource 20 [mem 0xfed45000-0xffffffff window]
+NET: Registered protocol family 2
+TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+TCP: Hash tables configured (established 32768 bind 32768)
+UDP hash table entries: 2048 (order: 4, 65536 bytes)
+UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+NET: Registered protocol family 1
+pci 0000:00:01.0: MSI quirk detected; subordinate MSI disabled
+pci 0000:01:05.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+PCI: CLS 64 bytes, default 64
+Unpacking initramfs...
+Freeing initrd memory: 18516K
+PCI-DMA: Disabling AGP.
+PCI-DMA: aperture base @ d4000000 size 65536 KB
+PCI-DMA: using GART IOMMU.
+PCI-DMA: Reserving 64MB of IOMMU area in the AGP aperture
+LVT offset 1 assigned for vector 0x400
+IBS: LVT offset 1 assigned
+perf: AMD IBS detected (0x0000001f)
+audit: initializing netlink subsys (disabled)
+audit: type=2000 audit(1524186735.328:1): initialized
+workingset: timestamp_bits=40 max_order=20 bucket_order=0
+zbud: loaded
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+pciehp 0000:00:04.0:pcie004: Slot #4 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ LLActRep+
+pciehp 0000:00:04.0:pcie004: service driver pciehp loaded
+pciehp 0000:00:05.0:pcie004: Slot #5 AttnBtn- PwrCtrl- MRL- AttnInd- PwrInd- HotPlug+ Surprise+ Interlock- NoCompl+ LLActRep+
+pciehp 0000:00:05.0:pcie004: service driver pciehp loaded
+pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+ACPI: ACPI: processor limited to max C-state 1
+GHES: HEST is not enabled!
+Linux agpgart interface v0.103
+AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+AMD IOMMUv2 functionality not available on this system
+i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUE] at 0x60,0x64 irq 1,12
+i8042: Detected active multiplexing controller, rev 1.1
+serio: i8042 KBD port at 0x60,0x64 irq 1
+serio: i8042 AUX0 port at 0x60,0x64 irq 12
+serio: i8042 AUX1 port at 0x60,0x64 irq 12
+serio: i8042 AUX2 port at 0x60,0x64 irq 12
+serio: i8042 AUX3 port at 0x60,0x64 irq 12
+mousedev: PS/2 mouse device common for all mice
+rtc_cmos 00:01: RTC can wake from S4
+rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+rtc_cmos 00:01: alarms up to one day, 114 bytes nvram, hpet irqs
+ledtrig-cpu: registered to indicate activity on CPUs
+NET: Registered protocol family 10
+mip6: Mobile IPv6
+NET: Registered protocol family 17
+mpls_gso: MPLS GSO support
+microcode: CPU0: patch_level=0x010000c8
+microcode: CPU1: patch_level=0x010000c8
+microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+registered taskstats version 1
+zswap: loaded using pool lzo/zbud
+ima: No TPM chip found, activating TPM-bypass!
+rtc_cmos 00:01: setting system clock to 2018-04-20 01:12:15 UTC (1524186735)
+PM: Hibernation image not present or could not be loaded.
+Freeing unused kernel memory: 1416K
+Write protecting the kernel read-only data: 12288k
+Freeing unused kernel memory: 1940K
+Freeing unused kernel memory: 1228K
+x86/mm: Checked W+X mappings: passed, no W+X pages found.
+input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: systemd-udevd: uninitialized urandom read (16 bytes read)
+random: udevadm: uninitialized urandom read (16 bytes read)
+r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+r8169 0000:02:00.0 eth0: RTL8168d/8111d at 0xffffb3fb40691000, d8:d3:85:3c:6c:de, XID 083000c0 IRQ 26
+r8169 0000:02:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+SCSI subsystem initialized
+libata version 3.00 loaded.
+ahci 0000:00:11.0: version 3.0
+ahci 0000:00:11.0: AHCI 0001.0200 32 slots 6 ports 6 Gbps 0x3f impl SATA mode
+ahci 0000:00:11.0: flags: 64bit ncq sntf ilck pm led clo pmp pio slum part sxs 
+scsi host0: ahci
+scsi host1: ahci
+scsi host2: ahci
+scsi host3: ahci
+scsi host4: ahci
+scsi host5: ahci
+ata1: SATA max UDMA/133 abar m1024@0xf2308000 port 0xf2308100 irq 19
+ata2: SATA max UDMA/133 abar m1024@0xf2308000 port 0xf2308180 irq 19
+ata3: SATA max UDMA/133 abar m1024@0xf2308000 port 0xf2308200 irq 19
+ata4: SATA max UDMA/133 abar m1024@0xf2308000 port 0xf2308280 irq 19
+ata5: SATA max UDMA/133 abar m1024@0xf2308000 port 0xf2308300 irq 19
+ata6: SATA max UDMA/133 abar m1024@0xf2308000 port 0xf2308380 irq 19
+ACPI: bus type USB registered
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+ehci-pci: EHCI PCI platform driver
+QUIRK: Enable AMD PLL fix
+ehci-pci 0000:00:12.2: EHCI Host Controller
+ehci-pci 0000:00:12.2: new USB bus registered, assigned bus number 1
+ehci-pci 0000:00:12.2: applying AMD SB700/SB800/Hudson-2/3 EHCI dummy qh workaround
+ehci-pci 0000:00:12.2: debug port 1
+ehci-pci 0000:00:12.2: irq 17, io mem 0xf2308600
+ehci-pci 0000:00:12.2: USB 2.0 started, EHCI 1.00
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: EHCI Host Controller
+usb usb1: Manufacturer: Linux 4.9.0-6-amd64 ehci_hcd
+usb usb1: SerialNumber: 0000:00:12.2
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 5 ports detected
+ehci-pci 0000:00:13.2: EHCI Host Controller
+ehci-pci 0000:00:13.2: new USB bus registered, assigned bus number 2
+ehci-pci 0000:00:13.2: applying AMD SB700/SB800/Hudson-2/3 EHCI dummy qh workaround
+ehci-pci 0000:00:13.2: debug port 1
+ehci-pci 0000:00:13.2: irq 17, io mem 0xf2308500
+ehci-pci 0000:00:13.2: USB 2.0 started, EHCI 1.00
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb2: Product: EHCI Host Controller
+usb usb2: Manufacturer: Linux 4.9.0-6-amd64 ehci_hcd
+usb usb2: SerialNumber: 0000:00:13.2
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 5 ports detected
+ehci-pci 0000:00:16.2: EHCI Host Controller
+ehci-pci 0000:00:16.2: new USB bus registered, assigned bus number 3
+ehci-pci 0000:00:16.2: applying AMD SB700/SB800/Hudson-2/3 EHCI dummy qh workaround
+ehci-pci 0000:00:16.2: debug port 1
+ehci-pci 0000:00:16.2: irq 17, io mem 0xf2308400
+ehci-pci 0000:00:16.2: USB 2.0 started, EHCI 1.00
+usb usb3: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb3: Product: EHCI Host Controller
+usb usb3: Manufacturer: Linux 4.9.0-6-amd64 ehci_hcd
+usb usb3: SerialNumber: 0000:00:16.2
+hub 3-0:1.0: USB hub found
+hub 3-0:1.0: 4 ports detected
+ohci-pci: OHCI PCI platform driver
+ohci-pci 0000:00:12.0: OHCI PCI host controller
+ohci-pci 0000:00:12.0: new USB bus registered, assigned bus number 4
+ohci-pci 0000:00:12.0: irq 18, io mem 0xf2307000
+thermal LNXTHERM:00: registered as thermal_zone0
+ACPI: Thermal Zone [TZ0] (36 C)
+r8169 0000:02:00.0 ens4: renamed from eth0
+thermal LNXTHERM:01: registered as thermal_zone1
+ACPI: Thermal Zone [TZ1] (26 C)
+usb usb4: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb4: Product: OHCI PCI host controller
+usb usb4: Manufacturer: Linux 4.9.0-6-amd64 ohci_hcd
+usb usb4: SerialNumber: 0000:00:12.0
+hub 4-0:1.0: USB hub found
+hub 4-0:1.0: 5 ports detected
+ohci-pci 0000:00:13.0: OHCI PCI host controller
+ohci-pci 0000:00:13.0: new USB bus registered, assigned bus number 5
+ohci-pci 0000:00:13.0: irq 18, io mem 0xf2306000
+usb usb5: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb5: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb5: Product: OHCI PCI host controller
+usb usb5: Manufacturer: Linux 4.9.0-6-amd64 ohci_hcd
+usb usb5: SerialNumber: 0000:00:13.0
+hub 5-0:1.0: USB hub found
+hub 5-0:1.0: 5 ports detected
+ohci-pci 0000:00:14.5: OHCI PCI host controller
+ohci-pci 0000:00:14.5: new USB bus registered, assigned bus number 6
+ohci-pci 0000:00:14.5: irq 18, io mem 0xf2305000
+usb usb6: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb6: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb6: Product: OHCI PCI host controller
+usb usb6: Manufacturer: Linux 4.9.0-6-amd64 ohci_hcd
+usb usb6: SerialNumber: 0000:00:14.5
+hub 6-0:1.0: USB hub found
+hub 6-0:1.0: 2 ports detected
+ohci-pci 0000:00:16.0: OHCI PCI host controller
+ohci-pci 0000:00:16.0: new USB bus registered, assigned bus number 7
+ohci-pci 0000:00:16.0: irq 18, io mem 0xf2304000
+usb usb7: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb7: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb7: Product: OHCI PCI host controller
+usb usb7: Manufacturer: Linux 4.9.0-6-amd64 ohci_hcd
+usb usb7: SerialNumber: 0000:00:16.0
+hub 7-0:1.0: USB hub found
+hub 7-0:1.0: 4 ports detected
+scsi host6: pata_atiixp
+scsi host7: pata_atiixp
+ata7: PATA max UDMA/100 cmd 0x1f0 ctl 0x3f6 bmdma 0x7000 irq 14
+ata8: PATA max UDMA/100 cmd 0x170 ctl 0x376 bmdma 0x7008 irq 15
+ACPI Warning: SystemIO range 0x0000000000000B00-0x0000000000000B08 conflicts with OpRegion 0x0000000000000B00-0x0000000000000B0F (\_SB.PCI0.SMBS.SMBI) (20160831/utaddress-247)
+ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+ata5: SATA link down (SStatus 0 SControl 300)
+ata4: SATA link down (SStatus 0 SControl 300)
+ata3: SATA link down (SStatus 0 SControl 300)
+ata6: SATA link down (SStatus 0 SControl 300)
+usb 1-3: new high-speed USB device number 2 using ehci-pci
+usb 2-2: new high-speed USB device number 2 using ehci-pci
+ata2: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+ata1.00: ATA-8: TOSHIBA MK3256GSY, LH013C, max UDMA/100
+ata1.00: 625142448 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+ata1.00: configured for UDMA/100
+scsi 0:0:0:0: Direct-Access     ATA      TOSHIBA MK3256GS 3C   PQ: 0 ANSI: 5
+ata2.00: ATAPI: hp       CDDVDW TS-L633N, 0300, max UDMA/100
+usb 1-3: New USB device found, idVendor=154b, idProduct=00ee
+usb 1-3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+usb 1-3: Product: USB 2.0 FD
+usb 1-3: Manufacturer: PNY
+usb 1-3: SerialNumber: 90008304B0FB5C78
+usb-storage 1-3:1.0: USB Mass Storage device detected
+scsi host8: usb-storage 1-3:1.0
+usbcore: registered new interface driver usb-storage
+usbcore: registered new interface driver uas
+ata2.00: configured for UDMA/100
+random: fast init done
+scsi 1:0:0:0: CD-ROM            hp       CDDVDW TS-L633N  0300 PQ: 0 ANSI: 5
+usb 2-2: New USB device found, idVendor=10f1, idProduct=1a16
+usb 2-2: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+usb 2-2: Product: HP Webcam
+usb 2-2: Manufacturer: Importek
+sd 0:0:0:0: [sda] 625142448 512-byte logical blocks: (320 GB/298 GiB)
+sd 0:0:0:0: [sda] Write Protect is off
+sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+sr 1:0:0:0: [sr0] scsi3-mmc drive: 62x/62x writer dvd-ram cd/rw xa/form2 cdda tray
+cdrom: Uniform CD-ROM driver Revision: 3.20
+sr 1:0:0:0: Attached scsi CD-ROM sr0
+psmouse serio4: synaptics: queried max coordinates: x [..5516], y [..4544]
+ sda: sda1 sda2
+sd 0:0:0:0: [sda] Attached SCSI disk
+psmouse serio4: synaptics: Touchpad model: 1, fw: 7.4, id: 0x1e0b1, caps: 0xd04773/0xe40000/0x5a0400/0x0, board id: 0, fw id: 644624
+tsc: Refined TSC clocksource calibration: 2294.254 MHz
+clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x21120101e4c, max_idle_ns: 440795227753 ns
+input: SynPS/2 Synaptics TouchPad as /devices/platform/i8042/serio4/input/input8
+sr 1:0:0:0: [sr0] tag#12 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sr 1:0:0:0: [sr0] tag#12 Sense Key : Illegal Request [current] 
+sr 1:0:0:0: [sr0] tag#12 Add. Sense: Logical block address out of range
+sr 1:0:0:0: [sr0] tag#12 CDB: Read(10) 28 00 00 00 00 00 00 00 01 00
+blk_update_request: I/O error, dev sr0, sector 0
+sr 1:0:0:0: [sr0] tag#13 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE
+sr 1:0:0:0: [sr0] tag#13 Sense Key : Illegal Request [current] 
+sr 1:0:0:0: [sr0] tag#13 Add. Sense: Logical block address out of range
+sr 1:0:0:0: [sr0] tag#13 CDB: Read(10) 28 00 00 00 00 00 00 00 01 00
+blk_update_request: I/O error, dev sr0, sector 0
+Buffer I/O error on dev sr0, logical block 0, async page read
+scsi 8:0:0:0: Direct-Access     PNY      USB 2.0 FD       PMAP PQ: 0 ANSI: 7
+sd 8:0:0:0: [sdb] 60628992 512-byte logical blocks: (31.0 GB/28.9 GiB)
+sd 8:0:0:0: [sdb] Write Protect is off
+sd 8:0:0:0: [sdb] Mode Sense: 23 00 00 00
+sd 8:0:0:0: [sdb] No Caching mode page found
+sd 8:0:0:0: [sdb] Assuming drive cache: write through
+ sdb: sdb1 sdb2 sdb3
+sd 8:0:0:0: [sdb] Attached SCSI removable disk
+clocksource: Switched to clocksource tsc
+random: crng init done
+EXT4-fs (sdb3): mounted filesystem without journal. Opts: (null)
+ip_tables: (C) 2000-2006 Netfilter Core Team
+systemd[1]: systemd 232 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+systemd[1]: Detected architecture x86-64.
+systemd[1]: Set hostname to <Spectre>.
+systemd[1]: Reached target Swap.
+systemd[1]: Listening on Syslog Socket.
+systemd[1]: Listening on Journal Socket.
+systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+systemd[1]: Listening on udev Control Socket.
+systemd[1]: Reached target Remote File Systems.
+systemd[1]: Created slice User and Session Slice.
+EXT4-fs (sdb3): re-mounted. Opts: errors=remount-ro
+systemd-journald[311]: Received request to flush runtime journal from PID 1
+acpi_cpufreq: overriding BIOS provided _PSD data
+input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input9
+ACPI: Power Button [PWRB]
+input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input10
+ACPI: Lid Switch [LID]
+input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input11
+ACPI: Power Button [PWRF]
+sp5100_tco: SP5100/SB800 TCO WatchDog Timer Driver v0.05
+sp5100_tco: PCI Vendor ID: 0x1002, Device ID: 0x4385, Revision ID: 0x41
+sp5100_tco: Using 0xfed80b00 for watchdog MMIO address
+sp5100_tco: Last reboot was not triggered by watchdog.
+sp5100_tco: initialized (0xffffb3fb40875b00). heartbeat=60 sec (nowayout=0)
+ACPI: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+[Firmware Bug]: ACPI: No _BQC method, cannot determine initial brightness
+acpi device:01: registered as cooling_device3
+ACPI BIOS Error (bug): \_SB.PCI0.AGP.VGA._DOS: Excess arguments - ASL declared 3, ACPI requires 1 (20160831/nsarguments-189)
+input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:00/LNXVIDEO:00/input/input12
+shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[drm] Initialized
+sd 0:0:0:0: Attached scsi generic sg0 type 0
+sr 1:0:0:0: Attached scsi generic sg1 type 5
+sd 8:0:0:0: Attached scsi generic sg2 type 0
+hp_accel: laptop model unknown, using default axes configuration
+lis3lv02d: 8 bits sensor found
+ACPI: Battery Slot [BAT0] (battery present)
+ACPI: AC Adapter [AC] (off-line)
+wmi: Mapper loaded
+input: ST LIS3LV02DL Accelerometer as /devices/platform/lis3lv02d/input/input13
+input: PC Speaker as /devices/platform/pcspkr/input/input14
+media: Linux media interface: v0.10
+Linux video capture interface: v2.00
+input: HDA ATI HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:01.0/0000:01:05.1/sound/card1/input15
+snd_hda_codec_idt hdaudioC0D0: autoconfig for 92HD81B1X5: line_outs=1 (0xd/0x0/0x0/0x0/0x0) type:speaker
+snd_hda_codec_idt hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+snd_hda_codec_idt hdaudioC0D0:    hp_outs=1 (0xb/0x0/0x0/0x0/0x0)
+snd_hda_codec_idt hdaudioC0D0:    mono: mono_out=0x0
+snd_hda_codec_idt hdaudioC0D0:    inputs:
+snd_hda_codec_idt hdaudioC0D0:      Internal Mic=0x11
+snd_hda_codec_idt hdaudioC0D0:      Mic=0xc
+input: HDA Digital PCBeep as /devices/pci0000:00/0000:00:14.2/sound/card0/input16
+input: HDA ATI SB Mic as /devices/pci0000:00/0000:00:14.2/sound/card0/input17
+input: HDA ATI SB Headphone as /devices/pci0000:00/0000:00:14.2/sound/card0/input18
+[drm] radeon kernel modesetting enabled.
+CRAT table not found
+Finished initializing topology ret=0
+kfd kfd: Initialized module
+[drm:radeon_pci_probe [radeon]] *ERROR* radeon kernel modesetting for R600 or later requires firmware-amd-graphics.
+uvcvideo: Found UVC 1.00 device HP Webcam (10f1:1a16)
+uvcvideo 2-2:1.0: Entity type for entity Extension 5 was not initialized!
+uvcvideo 2-2:1.0: Entity type for entity Extension 4 was not initialized!
+uvcvideo 2-2:1.0: Entity type for entity Processing 3 was not initialized!
+uvcvideo 2-2:1.0: Entity type for entity Camera 1 was not initialized!
+input: HP Webcam as /devices/pci0000:00/0000:00:13.2/usb2/2-2/2-2:1.0/input/input19
+usbcore: registered new interface driver uvcvideo
+USB Video Class driver (1.1.1)
+kvm: Nested Virtualization enabled
+kvm: Nested Paging enabled
+EDAC MC: Ver: 3.0.0
+MCE: In-kernel MCE decoding enabled.
+EDAC amd64: DRAM ECC disabled.
+EDAC amd64: ECC disabled in the BIOS or no ECC capability, module will not load.
+                Either enable ECC checking or force module loading by setting 'ecc_enable_override'.
+                (Note that use of the override may cause unknown side effects.)
+EDAC amd64: DRAM ECC disabled.
+EDAC amd64: ECC disabled in the BIOS or no ECC capability, module will not load.
+                Either enable ECC checking or force module loading by setting 'ecc_enable_override'.
+                (Note that use of the override may cause unknown side effects.)
+ath: phy0: Enable LNA combining
+ath: phy0: ASPM enabled: 0x43
+ath: EEPROM regdomain: 0x60
+ath: EEPROM indicates we should expect a direct regpair map
+ath: Country alpha2 being used: 00
+ath: Regpair used: 0x60
+ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+ieee80211 phy0: Atheros AR9285 Rev:2 mem=0xffffb3fb40b20000, irq=17
+input: HP WMI hotkeys as /devices/virtual/input/input20
+ath9k 0000:08:00.0 wls5: renamed from wlan0
+IPv6: ADDRCONF(NETDEV_UP): ens4: link is not ready
+r8169 0000:02:00.0: firmware: failed to load rtl_nic/rtl8168d-2.fw (-2)
+r8169 0000:02:00.0: Direct firmware load for rtl_nic/rtl8168d-2.fw failed with error -2
+r8169 0000:02:00.0 ens4: unable to load firmware patch rtl_nic/rtl8168d-2.fw (-2)
+r8169 0000:02:00.0 ens4: link down
+IPv6: ADDRCONF(NETDEV_UP): ens4: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:6f:be:f3
+wls5: send auth to ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:be:f3 (capab=0x431 status=0 aid=11)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:be:f3
+IPv6: ADDRCONF(NETDEV_CHANGE): wls5: link becomes ready
+wls5: deauthenticating from ec:e1:a9:6f:be:f3 by local choice (Reason: 3=DEAUTH_LEAVING)
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:6f:ac:c3
+wls5: send auth to ec:e1:a9:6f:ac:c3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:ac:c3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:ac:c3 (capab=0x431 status=0 aid=63)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:ac:c3
+wls5: deauthenticating from ec:e1:a9:6f:ac:c3 by local choice (Reason: 3=DEAUTH_LEAVING)
+wls5: authenticate with ec:e1:a9:79:e4:43
+wls5: send auth to ec:e1:a9:79:e4:43 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:79:e4:43 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:79:e4:43 (capab=0x431 status=0 aid=10)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:79:e4:43
+IPv6: ADDRCONF(NETDEV_CHANGE): wls5: link becomes ready
+wls5: authenticate with ec:e1:a9:8b:4d:d3
+wls5: send auth to ec:e1:a9:8b:4d:d3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:8b:4d:d3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:8b:4d:d3 (capab=0x431 status=0 aid=21)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:8b:4d:d3
+wls5: disconnect from AP ec:e1:a9:8b:4d:d3 for new auth to ec:e1:a9:6f:be:f3
+wls5: authenticate with ec:e1:a9:6f:be:f3
+wls5: send auth to ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:be:f3 (capab=0x431 status=0 aid=11)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:be:f3
+wls5: deauthenticating from ec:e1:a9:6f:be:f3 by local choice (Reason: 3=DEAUTH_LEAVING)
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:8b:4d:d3
+wls5: send auth to ec:e1:a9:8b:4d:d3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:8b:4d:d3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:8b:4d:d3 (capab=0x431 status=0 aid=21)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:8b:4d:d3
+IPv6: ADDRCONF(NETDEV_CHANGE): wls5: link becomes ready
+wls5: disconnect from AP ec:e1:a9:8b:4d:d3 for new auth to ec:e1:a9:6f:be:f3
+wls5: authenticate with ec:e1:a9:6f:be:f3
+wls5: send auth to ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:be:f3 (capab=0x431 status=0 aid=11)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:be:f3
+wls5: deauthenticating from ec:e1:a9:6f:be:f3 by local choice (Reason: 3=DEAUTH_LEAVING)
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:6f:be:f2
+wls5: send auth to ec:e1:a9:6f:be:f2 (try 1/3)
+wls5: authenticated
+wls5: aborting authentication with ec:e1:a9:6f:be:f2 by local choice (Reason: 3=DEAUTH_LEAVING)
+wls5: authenticate with ec:e1:a9:8b:4d:d2
+wls5: send auth to ec:e1:a9:8b:4d:d2 (try 1/3)
+wls5: authenticated
+wls5: aborting authentication with ec:e1:a9:8b:4d:d2 by local choice (Reason: 3=DEAUTH_LEAVING)
+wls5: authenticate with ec:e1:a9:79:e4:42
+wls5: send auth to ec:e1:a9:79:e4:42 (try 1/3)
+wls5: authenticated
+wls5: aborting authentication with ec:e1:a9:79:e4:42 by local choice (Reason: 3=DEAUTH_LEAVING)
+wls5: authenticate with f8:4f:57:06:42:b2
+wls5: send auth to f8:4f:57:06:42:b2 (try 1/3)
+wls5: send auth to f8:4f:57:06:42:b2 (try 2/3)
+wls5: send auth to f8:4f:57:06:42:b2 (try 3/3)
+wls5: authenticated
+wls5: aborting authentication with f8:4f:57:06:42:b2 by local choice (Reason: 3=DEAUTH_LEAVING)
+wls5: authenticate with ec:e1:a9:6f:ac:c2
+wls5: send auth to ec:e1:a9:6f:ac:c2 (try 1/3)
+wls5: authenticated
+wls5: aborting authentication with ec:e1:a9:6f:ac:c2 by local choice (Reason: 3=DEAUTH_LEAVING)
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:6f:ae:b3
+wls5: send auth to ec:e1:a9:6f:ae:b3 (try 1/3)
+wls5: send auth to ec:e1:a9:6f:ae:b3 (try 2/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:ae:b3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:ae:b3 (capab=0x431 status=0 aid=31)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:ae:b3
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: deauthenticating from ec:e1:a9:6f:ae:b3 by local choice (Reason: 3=DEAUTH_LEAVING)
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:6f:be:f2
+wls5: send auth to ec:e1:a9:6f:be:f2 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:be:f2 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:be:f2 (capab=0x421 status=0 aid=11)
+wls5: associated
+IPv6: ADDRCONF(NETDEV_CHANGE): wls5: link becomes ready
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:be:f2
+wls5: deauthenticating from ec:e1:a9:6f:be:f2 by local choice (Reason: 3=DEAUTH_LEAVING)
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:6f:be:f2
+wls5: send auth to ec:e1:a9:6f:be:f2 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:be:f2 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:be:f2 (capab=0x421 status=0 aid=11)
+wls5: associated
+IPv6: ADDRCONF(NETDEV_CHANGE): wls5: link becomes ready
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:be:f2
+wls5: deauthenticating from ec:e1:a9:6f:be:f2 by local choice (Reason: 3=DEAUTH_LEAVING)
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+IPv6: ADDRCONF(NETDEV_UP): wls5: link is not ready
+wls5: authenticate with ec:e1:a9:6f:ac:c3
+wls5: send auth to ec:e1:a9:6f:ac:c3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:ac:c3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:ac:c3 (capab=0x431 status=0 aid=67)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:ac:c3
+wls5: deauthenticating from ec:e1:a9:6f:ac:c3 by local choice (Reason: 3=DEAUTH_LEAVING)
+wls5: authenticate with ec:e1:a9:6f:ac:c3
+wls5: send auth to ec:e1:a9:6f:ac:c3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:ac:c3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:ac:c3 (capab=0x431 status=0 aid=67)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:ac:c3
+wls5: deauthenticating from ec:e1:a9:6f:ac:c3 by local choice (Reason: 3=DEAUTH_LEAVING)
+wls5: authenticate with ec:e1:a9:79:e4:43
+wls5: send auth to ec:e1:a9:79:e4:43 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:79:e4:43 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:79:e4:43 (capab=0x431 status=0 aid=7)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:79:e4:43
+IPv6: ADDRCONF(NETDEV_CHANGE): wls5: link becomes ready
+wls5: disconnect from AP ec:e1:a9:79:e4:43 for new auth to ec:e1:a9:6f:be:f3
+wls5: authenticate with ec:e1:a9:6f:be:f3
+wls5: send auth to ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:be:f3 (capab=0x431 status=0 aid=11)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:be:f3
+wls5: authenticate with ec:e1:a9:79:e4:43
+wls5: send auth to ec:e1:a9:79:e4:43 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:79:e4:43 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:79:e4:43 (capab=0x431 status=0 aid=7)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:79:e4:43
+wls5: authenticate with ec:e1:a9:8b:4d:d3
+wls5: send auth to ec:e1:a9:8b:4d:d3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:8b:4d:d3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:8b:4d:d3 (capab=0x431 status=0 aid=23)
+wls5: associated
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:8b:4d:d3
+wls5: authenticate with ec:e1:a9:6f:be:f3
+wls5: send auth to ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: authenticated
+wls5: associate with ec:e1:a9:6f:be:f3 (try 1/3)
+wls5: RX AssocResp from ec:e1:a9:6f:be:f3 (capab=0x431 status=0 aid=12)
+wls5: associated
+wls5: Limiting TX power to 22 dBm as advertised by ec:e1:a9:6f:be:f3
+ath: EEPROM regdomain: 0x8348
+ath: EEPROM indicates we should expect a country code
+ath: doing EEPROM country->regdmn map search
+ath: country maps to regdmn code: 0x3a
+ath: Country alpha2 being used: US
+ath: Regpair used: 0x3a
+ath: regdomain 0x8348 dynamically updated by country IE
