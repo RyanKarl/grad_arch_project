@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-4.9.0-6-amd64 root=UUID=07edf193-9c61-4cdd-827c-0d6d1dacce48 ro quiet
