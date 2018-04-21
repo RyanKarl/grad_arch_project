@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "`whoami`" != "root" ]; then
+	echo "Error, must run as root!"
+	exit 1
+fi
+
 #move all the output files to a better spot
 name="test-$RANDOM"
 while [ -f $name ]; do
@@ -36,5 +41,7 @@ echo -e "y\npybench-$name\npybench-$name\n\nn\nn\nn\nn\n" | phoronix-test-suite 
 
 echo "Tests complete, moving results files"
 mv /var/lib/phoronix-test-suite/test-results/*"$name" .
-echo "Finished"
 
+sync
+
+echo "Finished"

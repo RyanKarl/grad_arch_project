@@ -1,0 +1,529 @@
+
+X.Org X Server 1.19.2
+Release Date: 2017-03-02
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 4.9.0-4-amd64 x86_64 Debian
+Current Operating System: Linux Spectre 4.9.0-6-amd64 #1 SMP Debian 4.9.82-1+deb9u3 (2018-03-02) x86_64
+Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.9.0-6-amd64 root=UUID=07edf193-9c61-4cdd-827c-0d6d1dacce48 ro quiet
+Build Date: 16 October 2017  08:19:45AM
+xorg-server 2:1.19.2-1+deb9u2 (https://www.debian.org/support) 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Sat Apr 21 01:07:08 2018
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+(==) No Layout section.  Using the first Screen section.
+(==) No screen section available. Using defaults.
+(**) |-->Screen "Default Screen Section" (0)
+(**) |   |-->Monitor "<default monitor>"
+(==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+(==) Automatically adding devices
+(==) Automatically enabling devices
+(==) Automatically adding GPU devices
+(==) Max clients allowed: 256, resource mask: 0x1fffff
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+	Entry deleted from font path.
+(==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/100dpi/:unscaled,
+	/usr/share/fonts/X11/75dpi/:unscaled,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	/usr/share/fonts/X11/75dpi,
+	built-ins
+(==) ModulePath set to "/usr/lib/xorg/modules"
+(II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+(II) Loader magic: 0x5639ef22be00
+(II) Module ABI versions:
+	X.Org ANSI C Emulation: 0.4
+	X.Org Video Driver: 23.0
+	X.Org XInput driver : 24.1
+	X.Org Server Extension : 10.0
+(++) using VT number 7
+
+(II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+(II) xfree86: Adding drm device (/dev/dri/card0)
+(--) PCI:*(0:0:2:0) 8086:0126:103c:162a rev 9, Mem @ 0xd4000000/4194304, 0xc0000000/268435456, I/O @ 0x00004000/64, BIOS @ 0x????????/131072
+(II) LoadModule: "glx"
+(II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+(II) Module glx: vendor="X.Org Foundation"
+	compiled for 1.19.2, module version = 1.0.0
+	ABI class: X.Org Server Extension, version 10.0
+(==) Matched modesetting as autoconfigured driver 0
+(==) Matched fbdev as autoconfigured driver 1
+(==) Matched vesa as autoconfigured driver 2
+(==) Assigned the driver to the xf86ConfigLayout
+(II) LoadModule: "modesetting"
+(II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+(II) Module modesetting: vendor="X.Org Foundation"
+	compiled for 1.19.2, module version = 1.19.2
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 23.0
+(II) LoadModule: "fbdev"
+(II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+(II) Module fbdev: vendor="X.Org Foundation"
+	compiled for 1.19.0, module version = 0.4.4
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 23.0
+(II) LoadModule: "vesa"
+(II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+(II) Module vesa: vendor="X.Org Foundation"
+	compiled for 1.19.0, module version = 2.3.4
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 23.0
+(II) modesetting: Driver for Modesetting Kernel Drivers: kms
+(II) FBDEV: driver for framebuffer: fbdev
+(II) VESA: driver for VESA chipsets: vesa
+(II) modeset(0): using drv /dev/dri/card0
+(WW) Falling back to old probe method for fbdev
+(II) Loading sub module "fbdevhw"
+(II) LoadModule: "fbdevhw"
+(II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+(II) Module fbdevhw: vendor="X.Org Foundation"
+	compiled for 1.19.2, module version = 0.0.2
+	ABI class: X.Org Video Driver, version 23.0
+(WW) Falling back to old probe method for vesa
+(II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+(==) modeset(0): Depth 24, (==) framebuffer bpp 32
+(==) modeset(0): RGB weight 888
+(==) modeset(0): Default visual is TrueColor
+(II) Loading sub module "glamoregl"
+(II) LoadModule: "glamoregl"
+(II) Loading /usr/lib/xorg/modules/libglamoregl.so
+(II) Module glamoregl: vendor="X.Org Foundation"
+	compiled for 1.19.2, module version = 1.0.0
+	ABI class: X.Org ANSI C Emulation, version 0.4
+(II) glamor: OpenGL accelerated X.org driver based.
+(II) glamor: EGL version 1.4 (DRI2):
+(II) modeset(0): glamor initialized
+(II) modeset(0): Output LVDS-1 has no monitor section
+(II) modeset(0): Output VGA-1 has no monitor section
+(II) modeset(0): Output HDMI-1 has no monitor section
+(II) modeset(0): Output DP-1 has no monitor section
+(II) modeset(0): EDID for output LVDS-1
+(II) modeset(0): Manufacturer: SEC  Model: 5741  Serial#: 0
+(II) modeset(0): Year: 2011  Week: 0
+(II) modeset(0): EDID Version: 1.4
+(II) modeset(0): Digital Display Input
+(II) modeset(0): 6 bits per channel
+(II) modeset(0): Digital interface is undefined
+(II) modeset(0): Max Image Size [cm]: horiz.: 26  vert.: 16
+(II) modeset(0): Gamma: 2.20
+(II) modeset(0): No DPMS capabilities specified
+(II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+(II) modeset(0): First detailed timing is preferred mode
+(II) modeset(0): Preferred mode is native pixel format and refresh rate
+(II) modeset(0): redX: 0.580 redY: 0.340   greenX: 0.310 greenY: 0.550
+(II) modeset(0): blueX: 0.155 blueY: 0.155   whiteX: 0.313 whiteY: 0.329
+(II) modeset(0): Manufacturer's mask: 0
+(II) modeset(0): Supported detailed timing:
+(II) modeset(0): clock: 69.3 MHz   Image Size:  261 x 163 mm
+(II) modeset(0): h_active: 1280  h_sync: 1296  h_sync_end 1344 h_blank_end 1353 h_border: 0
+(II) modeset(0): v_active: 800  v_sync: 801  v_sync_end 804 v_blanking: 854 v_border: 0
+(II) modeset(0): Supported detailed timing:
+(II) modeset(0): clock: 46.2 MHz   Image Size:  261 x 163 mm
+(II) modeset(0): h_active: 1280  h_sync: 1296  h_sync_end 1344 h_blank_end 1353 h_border: 0
+(II) modeset(0): v_active: 800  v_sync: 801  v_sync_end 804 v_blanking: 854 v_border: 0
+(II) modeset(0): Unknown vendor-specific block 2
+(II) modeset(0): EDID (in hex):
+(II) modeset(0): 	00ffffffffffff004ca3415700000000
+(II) modeset(0): 	00150104901a10780a87f594574f8c27
+(II) modeset(0): 	27505400000001010101010101010101
+(II) modeset(0): 	010101010101121b0049502036301030
+(II) modeset(0): 	130005a3100000190c12004950203630
+(II) modeset(0): 	1030130005a310000019000000000000
+(II) modeset(0): 	00000000000000000000000000000002
+(II) modeset(0): 	000c3ff40a3c6e1815276e000000005d
+(II) modeset(0): Printing probed modes for output LVDS-1
+(II) modeset(0): Modeline "1280x800"x60.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x40.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)
+(II) modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+(II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+(II) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+(II) modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+(II) modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+(II) modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+(II) modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+(II) modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+(II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+(II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+(II) modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+(II) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+(II) modeset(0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
+(II) modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+(II) modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+(II) modeset(0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
+(II) modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+(II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+(II) modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+(II) modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+(II) modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+(II) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+(II) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+(II) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+(II) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+(II) modeset(0): EDID for output VGA-1
+(II) modeset(0): EDID for output HDMI-1
+(II) modeset(0): EDID for output DP-1
+(II) modeset(0): Output LVDS-1 connected
+(II) modeset(0): Output VGA-1 disconnected
+(II) modeset(0): Output HDMI-1 disconnected
+(II) modeset(0): Output DP-1 disconnected
+(II) modeset(0): Using exact sizes for initial modes
+(II) modeset(0): Output LVDS-1 using initial mode 1280x800 +0+0
+(==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+(==) modeset(0): DPI set to (96, 96)
+(II) Loading sub module "fb"
+(II) LoadModule: "fb"
+(II) Loading /usr/lib/xorg/modules/libfb.so
+(II) Module fb: vendor="X.Org Foundation"
+	compiled for 1.19.2, module version = 1.0.0
+	ABI class: X.Org ANSI C Emulation, version 0.4
+(II) UnloadModule: "fbdev"
+(II) Unloading fbdev
+(II) UnloadSubModule: "fbdevhw"
+(II) Unloading fbdevhw
+(II) UnloadModule: "vesa"
+(II) Unloading vesa
+(==) Depth 24 pixmap format is 32 bpp
+(==) modeset(0): Backing store enabled
+(==) modeset(0): Silken mouse enabled
+(II) modeset(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+(==) modeset(0): DPMS enabled
+(II) modeset(0): [DRI2] Setup complete
+(II) modeset(0): [DRI2]   DRI driver: i965
+(II) modeset(0): [DRI2]   VDPAU driver: i965
+(--) RandR disabled
+(II) SELinux: Disabled on system
+(II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+(II) AIGLX: enabled GLX_ARB_create_context
+(II) AIGLX: enabled GLX_ARB_create_context_profile
+(II) AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+(II) AIGLX: enabled GLX_INTEL_swap_event
+(II) AIGLX: enabled GLX_SGI_swap_control
+(II) AIGLX: enabled GLX_EXT_framebuffer_sRGB
+(II) AIGLX: enabled GLX_ARB_fbconfig_float
+(II) AIGLX: enabled GLX_EXT_fbconfig_packed_float
+(II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+(II) AIGLX: enabled GLX_ARB_create_context_robustness
+(II) AIGLX: Loaded and initialized i965
+(II) GLX: Initialized DRI2 GL provider for screen 0
+(II) modeset(0): Damage tracking initialized
+(II) modeset(0): Setting screen physical size to 338 x 211
+(II) config/udev: Adding input device Power Button (/dev/input/event5)
+(**) Power Button: Applying InputClass "libinput keyboard catchall"
+(II) LoadModule: "libinput"
+(II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+(II) Module libinput: vendor="X.Org Foundation"
+	compiled for 1.19.0, module version = 0.23.0
+	Module class: X.Org XInput Driver
+	ABI class: X.Org XInput driver, version 24.1
+(II) Using input driver 'libinput' for 'Power Button'
+(**) Power Button: always reports core events
+(**) Option "Device" "/dev/input/event5"
+(**) Option "_source" "server/udev"
+(II) input device 'Power Button', /dev/input/event5 is tagged by udev as: Keyboard
+(II) input device 'Power Button', /dev/input/event5 is a keyboard
+(**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input13/event5"
+(II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) input device 'Power Button', /dev/input/event5 is tagged by udev as: Keyboard
+(II) input device 'Power Button', /dev/input/event5 is a keyboard
+(II) config/udev: Adding input device Video Bus (/dev/input/event10)
+(**) Video Bus: Applying InputClass "libinput keyboard catchall"
+(II) Using input driver 'libinput' for 'Video Bus'
+(**) Video Bus: always reports core events
+(**) Option "Device" "/dev/input/event10"
+(**) Option "_source" "server/udev"
+(II) input device 'Video Bus', /dev/input/event10 is tagged by udev as: Keyboard
+(II) input device 'Video Bus', /dev/input/event10 is a keyboard
+(**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:01/input/input18/event10"
+(II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) input device 'Video Bus', /dev/input/event10 is tagged by udev as: Keyboard
+(II) input device 'Video Bus', /dev/input/event10 is a keyboard
+(II) config/udev: Adding input device Lid Switch (/dev/input/event4)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device Sleep Button (/dev/input/event3)
+(**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+(II) Using input driver 'libinput' for 'Sleep Button'
+(**) Sleep Button: always reports core events
+(**) Option "Device" "/dev/input/event3"
+(**) Option "_source" "server/udev"
+(II) input device 'Sleep Button', /dev/input/event3 is tagged by udev as: Keyboard
+(II) input device 'Sleep Button', /dev/input/event3 is a keyboard
+(**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input11/event3"
+(II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 8)
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) input device 'Sleep Button', /dev/input/event3 is tagged by udev as: Keyboard
+(II) input device 'Sleep Button', /dev/input/event3 is a keyboard
+(II) config/udev: Adding input device HDA Digital PCBeep (/dev/input/event11)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device HDA Intel PCH Mic (/dev/input/event12)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device HDA Intel PCH Line (/dev/input/event13)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device HDA Intel PCH Dock Line Out (/dev/input/event14)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event15)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event16)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device HP HD Webcam [Fixed] (/dev/input/event7)
+(**) HP HD Webcam [Fixed]: Applying InputClass "libinput keyboard catchall"
+(II) Using input driver 'libinput' for 'HP HD Webcam [Fixed]'
+(**) HP HD Webcam [Fixed]: always reports core events
+(**) Option "Device" "/dev/input/event7"
+(**) Option "_source" "server/udev"
+(II) input device 'HP HD Webcam [Fixed]', /dev/input/event7 is tagged by udev as: Keyboard
+(II) input device 'HP HD Webcam [Fixed]', /dev/input/event7 is a keyboard
+(**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1.4/2-1.4:1.0/input/input15/event7"
+(II) XINPUT: Adding extended input device "HP HD Webcam [Fixed]" (type: KEYBOARD, id 9)
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) input device 'HP HD Webcam [Fixed]', /dev/input/event7 is tagged by udev as: Keyboard
+(II) input device 'HP HD Webcam [Fixed]', /dev/input/event7 is a keyboard
+(II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+(**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+(II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+(**) AT Translated Set 2 keyboard: always reports core events
+(**) Option "Device" "/dev/input/event0"
+(**) Option "_source" "server/udev"
+(II) input device 'AT Translated Set 2 keyboard', /dev/input/event0 is tagged by udev as: Keyboard
+(II) input device 'AT Translated Set 2 keyboard', /dev/input/event0 is a keyboard
+(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event0"
+(II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) input device 'AT Translated Set 2 keyboard', /dev/input/event0 is tagged by udev as: Keyboard
+(II) input device 'AT Translated Set 2 keyboard', /dev/input/event0 is a keyboard
+(II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/event1)
+(**) PS/2 Generic Mouse: Applying InputClass "libinput pointer catchall"
+(II) Using input driver 'libinput' for 'PS/2 Generic Mouse'
+(**) PS/2 Generic Mouse: always reports core events
+(**) Option "Device" "/dev/input/event1"
+(**) Option "_source" "server/udev"
+(II) input device 'PS/2 Generic Mouse', /dev/input/event1 is tagged by udev as: Mouse
+(II) input device 'PS/2 Generic Mouse', /dev/input/event1 is a pointer caps
+(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input7/event1"
+(II) XINPUT: Adding extended input device "PS/2 Generic Mouse" (type: MOUSE, id 11)
+(**) Option "AccelerationScheme" "none"
+(**) PS/2 Generic Mouse: (accel) selected scheme none/0
+(**) PS/2 Generic Mouse: (accel) acceleration factor: 2.000
+(**) PS/2 Generic Mouse: (accel) acceleration threshold: 4
+(II) input device 'PS/2 Generic Mouse', /dev/input/event1 is tagged by udev as: Mouse
+(II) input device 'PS/2 Generic Mouse', /dev/input/event1 is a pointer caps
+(II) config/udev: Adding input device PS/2 Generic Mouse (/dev/input/mouse0)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/event2)
+(**) SynPS/2 Synaptics TouchPad: Applying InputClass "libinput touchpad catchall"
+(II) Using input driver 'libinput' for 'SynPS/2 Synaptics TouchPad'
+(**) SynPS/2 Synaptics TouchPad: always reports core events
+(**) Option "Device" "/dev/input/event2"
+(**) Option "_source" "server/udev"
+(II) input device 'SynPS/2 Synaptics TouchPad', /dev/input/event2 is tagged by udev as: Touchpad
+(II) input device 'SynPS/2 Synaptics TouchPad', /dev/input/event2 is a touchpad
+(**) Option "config_info" "udev:/sys/devices/platform/i8042/serio4/input/input10/event2"
+(II) XINPUT: Adding extended input device "SynPS/2 Synaptics TouchPad" (type: TOUCHPAD, id 12)
+(**) Option "AccelerationScheme" "none"
+(**) SynPS/2 Synaptics TouchPad: (accel) selected scheme none/0
+(**) SynPS/2 Synaptics TouchPad: (accel) acceleration factor: 2.000
+(**) SynPS/2 Synaptics TouchPad: (accel) acceleration threshold: 4
+(II) input device 'SynPS/2 Synaptics TouchPad', /dev/input/event2 is tagged by udev as: Touchpad
+(II) input device 'SynPS/2 Synaptics TouchPad', /dev/input/event2 is a touchpad
+(II) config/udev: Adding input device SynPS/2 Synaptics TouchPad (/dev/input/mouse1)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/event9)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device ST LIS3LV02DL Accelerometer (/dev/input/js0)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device Serial Wacom Tablet WACf00e (/dev/ttyS0)
+(**) Serial Wacom Tablet WACf00e: Applying InputClass "Wacom serial class"
+(**) Serial Wacom Tablet WACf00e: Applying InputClass "Wacom serial class identifiers"
+(II) LoadModule: "wacom"
+(II) Loading /usr/lib/xorg/modules/input/wacom_drv.so
+(II) Module wacom: vendor="X.Org Foundation"
+	compiled for 1.19.1, module version = 0.34.0
+	Module class: X.Org XInput Driver
+	ABI class: X.Org XInput driver, version 24.1
+(II) wacom: Driver for Wacom graphics tablets: PenPartner, Graphire,
+	Graphire2 4x5, Graphire2 5x7, Graphire3 4x5, Graphire3 6x8,
+	Graphire4 4x5, Graphire4 6x8, BambooFun 4x5, BambooFun 6x8,
+	Bamboo1 Medium, Graphire4 6x8 BlueTooth, CTL-460, CTH-461, CTL-660,
+	CTL-461/S, Bamboo Touch, CTH-460/K, CTH-461/S, CTH-661/S1, CTH-461/L,
+	CTH-661/L, Intuos 4x5, Intuos 6x8, Intuos 9x12, Intuos 12x12,
+	Intuos 12x18, PTU600, PL400, PL500, PL600, PL600SX, PL550, PL800,
+	PL700, PL510, PL710, DTI520, DTF720, DTF720a, DTF521, DTU1931,
+	DTU2231, DTU1631, Intuos2 4x5, Intuos2 6x8, Intuos2 9x12,
+	Intuos2 12x12, Intuos2 12x18, Intuos2 6x8 , Volito, PenStation,
+	Volito2 4x5, Volito2 2x3, PenPartner2, Bamboo, Bamboo1, Bamboo1 4x6,
+	Bamboo1 5x8, Intuos3 4x5, Intuos3 6x8, Intuos3 9x12, Intuos3 12x12,
+	Intuos3 12x19, Intuos3 6x11, Intuos3 4x6, Intuos4 4x6, Intuos4 6x9,
+	Intuos4 8x13, Intuos4 12x19, Intuos4 WL USB Endpoint,
+	Intuos4 WL Bluetooth Endpoint, Intuos5 touch S, Intuos5 touch M,
+	Intuos5 touch L, Intuos5 S, Intuos5 M, Intuos Pro S, Intuos Pro M,
+	Intuos Pro L, Cintiq 21UX, Cintiq 20WSX, Cintiq 12WX, Cintiq 21UX2,
+	Cintiq 24HD, Cintiq 22HD, Cintiq 24HD touch (EMR digitizer),
+	Cintiq 13HD, DTK2241, DTH2242, Cintiq 22HDT, TabletPC 0x90,
+	TabletPC 0x93, TabletPC 0x97, TabletPC 0x9A, CapPlus  0x9F,
+	TabletPC 0xE2, TabletPC 0xE3, TabletPC 0xE5, TabletPC 0xE6,
+	TabletPC 0xEC, TabletPC 0xED, TabletPC 0xEF, TabletPC 0x100,
+	TabletPC 0x101, TabletPC 0x10D, TabletPC 0x116, TabletPC 0x12C,
+	TabletPC 0x4001, TabletPC 0x4004, TabletPC 0x5000, TabletPC 0x5002,
+	usb:172f:0024, usb:172f:0025, usb:172f:0026, usb:172f:0027,
+	usb:172f:0028, usb:172f:0030, usb:172f:0031, usb:172f:0032,
+	usb:172f:0033, usb:172f:0034, usb:172f:0035, usb:172f:0036,
+	usb:172f:0037, usb:172f:0038, usb:172f:0039, usb:172f:0051,
+	usb:172f:0052, usb:172f:0053, usb:172f:0054, usb:172f:0055,
+	usb:172f:0056, usb:172f:0057, usb:172f:0058, usb:172f:0500,
+	usb:172f:0501, usb:172f:0502, usb:172f:0503, usb:1b96:0001,
+	usb:17ef:6004
+(II) Using input driver 'wacom' for 'Serial Wacom Tablet WACf00e'
+(**) Serial Wacom Tablet WACf00e: always reports core events
+(**) Option "Device" "/dev/ttyS0"
+(II) Serial Wacom Tablet WACf00e: type not specified, assuming 'stylus'.
+(II) Serial Wacom Tablet WACf00e: other types will be automatically added.
+(EE) Serial Wacom Tablet WACf00e stylus: wcmWriteWait error : Input/output error
+(WW) Serial Wacom Tablet WACf00e stylus: Query failed with 38400 baud. Trying 19200.
+(EE) Serial Wacom Tablet WACf00e stylus: wcmWriteWait error : Input/output error
+(EE) Serial Wacom Tablet WACf00e stylus: wcmWriteWait error : Input/output error
+(II) Serial Wacom Tablet WACf00e stylus: serial tablet id 0xE3.
+(EE) PreInit returned 8 for "Serial Wacom Tablet WACf00e stylus"
+(II) UnloadModule: "wacom"
+(II) config/udev: Adding input device Wacom Serial Penabled 2FG Touchscreen Pen (/dev/input/event17)
+(**) Wacom Serial Penabled 2FG Touchscreen Pen: Applying InputClass "libinput tablet catchall"
+(**) Wacom Serial Penabled 2FG Touchscreen Pen: Applying InputClass "Wacom USB tablet class"
+(**) Wacom Serial Penabled 2FG Touchscreen Pen: Applying InputClass "Wacom tablet class"
+(**) Wacom Serial Penabled 2FG Touchscreen Pen: Applying InputClass "Wacom PnP device class"
+(II) Using input driver 'wacom' for 'Wacom Serial Penabled 2FG Touchscreen Pen'
+(**) Wacom Serial Penabled 2FG Touchscreen Pen: always reports core events
+(**) Option "Device" "/dev/input/event17"
+(II) Wacom Serial Penabled 2FG Touchscreen Pen: type not specified, assuming 'stylus'.
+(II) Wacom Serial Penabled 2FG Touchscreen Pen: other types will be automatically added.
+(--) Wacom Serial Penabled 2FG Touchscreen Pen stylus: using pressure threshold of 873 for button 1
+(--) Wacom Serial Penabled 2FG Touchscreen Pen stylus: maxX=26312 maxY=16520 maxZ=255 resX=100000 resY=100000  tilt=disabled
+(II) Wacom Serial Penabled 2FG Touchscreen Pen stylus: hotplugging dependent devices.
+(EE) Wacom Serial Penabled 2FG Touchscreen Pen stylus: Invalid type 'cursor' for this device.
+(EE) Wacom Serial Penabled 2FG Touchscreen Pen stylus: Invalid type 'touch' for this device.
+(EE) Wacom Serial Penabled 2FG Touchscreen Pen stylus: Invalid type 'pad' for this device.
+(II) Wacom Serial Penabled 2FG Touchscreen Pen stylus: hotplugging completed.
+(**) Option "config_info" "udev:/sys/devices/pnp0/00:04/tty/ttyS0/serio5/input/input25/event17"
+(II) XINPUT: Adding extended input device "Wacom Serial Penabled 2FG Touchscreen Pen stylus" (type: STYLUS, id 13)
+(**) Wacom Serial Penabled 2FG Touchscreen Pen stylus: (accel) keeping acceleration scheme 1
+(**) Wacom Serial Penabled 2FG Touchscreen Pen stylus: (accel) acceleration profile 0
+(**) Wacom Serial Penabled 2FG Touchscreen Pen stylus: (accel) acceleration factor: 2.000
+(**) Wacom Serial Penabled 2FG Touchscreen Pen stylus: (accel) acceleration threshold: 4
+(II) config/udev: Adding input device Wacom Serial Penabled 2FG Touchscreen Pen (/dev/input/mouse2)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device Wacom Serial Penabled 2FG Touchscreen Finger (/dev/input/event18)
+(**) Wacom Serial Penabled 2FG Touchscreen Finger: Applying InputClass "libinput touchscreen catchall"
+(**) Wacom Serial Penabled 2FG Touchscreen Finger: Applying InputClass "Wacom USB touchscreen class"
+(**) Wacom Serial Penabled 2FG Touchscreen Finger: Applying InputClass "Wacom touchscreen class"
+(**) Wacom Serial Penabled 2FG Touchscreen Finger: Applying InputClass "Wacom PnP device class"
+(II) Using input driver 'wacom' for 'Wacom Serial Penabled 2FG Touchscreen Finger'
+(**) Wacom Serial Penabled 2FG Touchscreen Finger: always reports core events
+(**) Option "Device" "/dev/input/event18"
+(EE) Wacom Serial Penabled 2FG Touchscreen Finger: Invalid type 'stylus' for this device.
+(EE) Wacom Serial Penabled 2FG Touchscreen Finger: Invalid type 'eraser' for this device.
+(EE) Wacom Serial Penabled 2FG Touchscreen Finger: Invalid type 'cursor' for this device.
+(II) Wacom Serial Penabled 2FG Touchscreen Finger: type not specified, assuming 'touch'.
+(II) Wacom Serial Penabled 2FG Touchscreen Finger: other types will be automatically added.
+(--) Wacom Serial Penabled 2FG Touchscreen Finger touch: maxX=26312 maxY=16520 maxZ=0 resX=100000 resY=100000 
+(II) Wacom Serial Penabled 2FG Touchscreen Finger touch: hotplugging dependent devices.
+(EE) Wacom Serial Penabled 2FG Touchscreen Finger touch: Invalid type 'stylus' for this device.
+(EE) Wacom Serial Penabled 2FG Touchscreen Finger touch: Invalid type 'eraser' for this device.
+(EE) Wacom Serial Penabled 2FG Touchscreen Finger touch: Invalid type 'cursor' for this device.
+(EE) Wacom Serial Penabled 2FG Touchscreen Finger touch: Invalid type 'pad' for this device.
+(II) Wacom Serial Penabled 2FG Touchscreen Finger touch: hotplugging completed.
+(**) Option "config_info" "udev:/sys/devices/pnp0/00:04/tty/ttyS0/serio5/input/input26/event18"
+(II) XINPUT: Adding extended input device "Wacom Serial Penabled 2FG Touchscreen Finger touch" (type: TOUCH, id 14)
+(**) Wacom Serial Penabled 2FG Touchscreen Finger touch: (accel) keeping acceleration scheme 1
+(**) Wacom Serial Penabled 2FG Touchscreen Finger touch: (accel) acceleration profile 0
+(**) Wacom Serial Penabled 2FG Touchscreen Finger touch: (accel) acceleration factor: 2.000
+(**) Wacom Serial Penabled 2FG Touchscreen Finger touch: (accel) acceleration threshold: 4
+(II) config/udev: Adding input device Wacom Serial Penabled 2FG Touchscreen Finger (/dev/input/mouse3)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.
+(II) config/udev: Adding input device HP WMI hotkeys (/dev/input/event8)
+(**) HP WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+(II) Using input driver 'libinput' for 'HP WMI hotkeys'
+(**) HP WMI hotkeys: always reports core events
+(**) Option "Device" "/dev/input/event8"
+(**) Option "_source" "server/udev"
+(II) input device 'HP WMI hotkeys', /dev/input/event8 is tagged by udev as: Keyboard
+(II) input device 'HP WMI hotkeys', /dev/input/event8 is a keyboard
+(**) Option "config_info" "udev:/sys/devices/virtual/input/input16/event8"
+(II) XINPUT: Adding extended input device "HP WMI hotkeys" (type: KEYBOARD, id 15)
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "us"
+(II) input device 'HP WMI hotkeys', /dev/input/event8 is tagged by udev as: Keyboard
+(II) input device 'HP WMI hotkeys', /dev/input/event8 is a keyboard
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: Applying InputClass "libinput tablet catchall"
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: Applying InputClass "Wacom USB tablet class"
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: Applying InputClass "Wacom tablet class"
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: Applying InputClass "Wacom PnP device class"
+(II) Using input driver 'wacom' for 'Wacom Serial Penabled 2FG Touchscreen Pen eraser'
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: always reports core events
+(**) Option "Device" "/dev/input/event17"
+(**) Option "Type" "eraser"
+(--) Wacom Serial Penabled 2FG Touchscreen Pen eraser: maxX=26312 maxY=16520 maxZ=255 resX=100000 resY=100000  tilt=disabled
+(**) Option "config_info" "udev:/sys/devices/pnp0/00:04/tty/ttyS0/serio5/input/input25/event17"
+(II) XINPUT: Adding extended input device "Wacom Serial Penabled 2FG Touchscreen Pen eraser" (type: ERASER, id 16)
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: (accel) keeping acceleration scheme 1
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: (accel) acceleration profile 0
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: (accel) acceleration factor: 2.000
+(**) Wacom Serial Penabled 2FG Touchscreen Pen eraser: (accel) acceleration threshold: 4
+(II) Axis 0x1 value 1118 is outside expected range [1220, 5351]
+See https://wayland.freedesktop.org/libinput/doc/1.6.3//absolute_coordinate_ranges.html for details
+(II) modeset(0): EDID vendor "SEC", prod id 22337
+(II) modeset(0): Printing DDC gathered Modelines:
+(II) modeset(0): Modeline "1280x800"x0.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x0.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)
+(II) modeset(0): EDID vendor "SEC", prod id 22337
+(II) modeset(0): Printing DDC gathered Modelines:
+(II) modeset(0): Modeline "1280x800"x0.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x0.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)
+(II) modeset(0): EDID vendor "SEC", prod id 22337
+(II) modeset(0): Printing DDC gathered Modelines:
+(II) modeset(0): Modeline "1280x800"x0.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x0.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)
+(II) modeset(0): EDID vendor "SEC", prod id 22337
+(II) modeset(0): Printing DDC gathered Modelines:
+(II) modeset(0): Modeline "1280x800"x0.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x0.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)
+(II) modeset(0): EDID vendor "SEC", prod id 22337
+(II) modeset(0): Printing DDC gathered Modelines:
+(II) modeset(0): Modeline "1280x800"x0.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x0.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)
+(II) modeset(0): EDID vendor "SEC", prod id 22337
+(II) modeset(0): Printing DDC gathered Modelines:
+(II) modeset(0): Modeline "1280x800"x0.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x0.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)
+(II) modeset(0): EDID vendor "SEC", prod id 22337
+(II) modeset(0): Printing DDC gathered Modelines:
+(II) modeset(0): Modeline "1280x800"x0.0   69.30  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (51.2 kHz eP)
+(II) modeset(0): Modeline "1280x800"x0.0   46.20  1280 1296 1344 1353  800 801 804 854 -hsync -vsync (34.1 kHz e)

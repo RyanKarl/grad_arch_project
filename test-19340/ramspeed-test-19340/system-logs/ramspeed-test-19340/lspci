@@ -1,0 +1,173 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	2nd Generation Core Processor Family DRAM Controller [0104]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	2nd Generation Core Processor Family DRAM Controller [162a]
+Rev:	09
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	2nd Generation Core Processor Family Integrated Graphics Controller [0126]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	2nd Generation Core Processor Family Integrated Graphics Controller [162a]
+Rev:	09
+Driver:	i915
+Module:	i915
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family MEI Controller #1 [1c3a]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family MEI Controller [162a]
+Rev:	04
+Driver:	mei_me
+Module:	mei_me
+
+Slot:	00:16.3
+Class:	Serial controller [0700]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family KT Controller [1c3d]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family KT Controller [162a]
+Rev:	04
+ProgIf:	02
+Driver:	serial
+
+Slot:	00:19.0
+Class:	Ethernet controller [0200]
+Vendor:	Intel Corporation [8086]
+Device:	82579LM Gigabit Network Connection [1502]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	82579LM Gigabit Network Connection [162a]
+Rev:	04
+Driver:	e1000e
+Module:	e1000e
+
+Slot:	00:1a.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2 [1c2d]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller [162a]
+Rev:	04
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1b.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family High Definition Audio Controller [1c20]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family High Definition Audio Controller [162a]
+Rev:	04
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family PCI Express Root Port 1 [1c10]
+Rev:	b4
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.1
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family PCI Express Root Port 2 [1c12]
+Rev:	b4
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.2
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family PCI Express Root Port 3 [1c14]
+Rev:	b4
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.3
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family PCI Express Root Port 4 [1c16]
+Rev:	b4
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1d.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1 [1c26]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller [162a]
+Rev:	04
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	QM67 Express Chipset Family LPC Controller [1c4f]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	QM67 Express Chipset Family LPC Controller [162a]
+Rev:	04
+Driver:	lpc_ich
+Module:	lpc_ich
+
+Slot:	00:1f.2
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family 6 port SATA AHCI Controller [1c03]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family 6 port SATA AHCI Controller [162a]
+Rev:	04
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	23:00.0
+Class:	FireWire (IEEE 1394) [0c00]
+Vendor:	JMicron Technology Corp. [197b]
+Device:	IEEE 1394 Host Controller [2380]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	IEEE 1394 Host Controller [162a]
+Rev:	30
+ProgIf:	10
+Driver:	firewire_ohci
+Module:	firewire_ohci
+
+Slot:	23:00.1
+Class:	System peripheral [0880]
+Vendor:	JMicron Technology Corp. [197b]
+Device:	SD/MMC Host Controller [2392]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SD/MMC Host Controller [162a]
+Rev:	30
+Driver:	sdhci-pci
+Module:	sdhci_pci
+
+Slot:	23:00.2
+Class:	SD Host controller [0805]
+Vendor:	JMicron Technology Corp. [197b]
+Device:	Standard SD Host Controller [2391]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	Standard SD Host Controller [162a]
+Rev:	30
+ProgIf:	01
+Module:	sdhci_pci
+
+Slot:	24:00.0
+Class:	Network controller [0280]
+Vendor:	Intel Corporation [8086]
+Device:	Centrino Advanced-N 6205 [Taylor Peak] [0085]
+SVendor:	Intel Corporation [8086]
+SDevice:	Centrino Advanced-N 6205 AGN [1311]
+Rev:	34
+Module:	iwlwifi
+

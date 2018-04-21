@@ -1,12 +1,17 @@
-machine, kernel, aobench, cyclictest, primesieve, pybench, ramspeed
+machine, kernel, aobench, cyclictest, primesieve, pybench ramspeed,
 AMD C-50 Processor, 4.9.0-4-amd64, 362.62, 16, 1350.03, 12632, 2566.35
+Intel(R) Core(TM) i5 CPU M 450 @ 2.40GHz, 4.9.0-4-amd64, 90.14, 6, 268.60, 3017, 7316.17
+AMD Athlon(tm) X4 750K Quad Core Processor, 4.9.0-6-amd64, 83.88, 9, 741.71, 2439, 5279.28
 Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz, 4.9.0-4-amd64, 56.77, 1, 77.26, 1639, 11108.87
 Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 4.9.0-4-amd64, 55.18, 1, 92.92, 1592, 18691.53
+Intel(R) Core(TM) i5 CPU M 450 @ 2.40GHz, 4.9.0-6-amd64, 88.72, 7, 268.71, 3018, 7382.30
 Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz, 4.9.0-4-amd64, 141.55, 18, 489.15, 3995, 2722.46
 Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz, 4.9.0-4-amd64, 66.09, 2, 234.29, 2205, 13080.53
 Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 4.9.0-6-amd64, 55.53, 1, 92.53, 1586, 18550.64
+AMD Athlon(tm) X4 750K Quad Core Processor, 4.9.0-4-amd64, 85.40, 9, 749.98, 2431, 5228.95
 AMD Turion(tm) II P520 Dual-Core Processor, 4.9.0-6-amd64, 145.79, 144, 361.70, 4264, 7096.44
 Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz, 4.9.0-6-amd64, 66.55, 3, 233.73, 2202, 13056.25
 Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz, 4.9.0-6-amd64, 57.72, 1, 76.90, 1645, 11134.03
 AMD C-50 Processor, 4.9.0-6-amd64, 361.92, 16, 1412.06, 12617, 2562.37
 Intel(R) Pentium(R) Dual CPU T3400 @ 2.16GHz, 4.9.0-6-amd64, 144.35, 22, 468.26, 4010, 2705.25
+AMD Turion(tm) II P520 Dual-Core Processor, 4.9.0-4-amd64, 141.32, 139, 368.28, 4270, 7103.61

@@ -1,0 +1,60 @@
+Device: /org/freedesktop/UPower/devices/line_power_ACAD
+  native-path:          ACAD
+  power supply:         yes
+  updated:              Sat 21 Apr 2018 12:29:25 PM EDT (5290 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/battery_BAT0
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  power supply:         yes
+  updated:              Sat 21 Apr 2018 01:56:47 PM EDT (48 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               charging
+    warning-level:       none
+    energy:              43.6896 Wh
+    energy-empty:        0 Wh
+    energy-full:         45.1104 Wh
+    energy-full-design:  45.1104 Wh
+    energy-rate:         11.8881 W
+    voltage:             12.855 V
+    time to full:        7.2 minutes
+    percentage:          96%
+    capacity:            100%
+    technology:          lithium-ion
+    icon-name:          'battery-full-charging-symbolic'
+  History (rate):
+    1524333407	11.888	charging
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Sat 21 Apr 2018 01:56:47 PM EDT (48 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               charging
+    warning-level:       none
+    energy:              43.6896 Wh
+    energy-full:         45.1104 Wh
+    energy-rate:         11.8881 W
+    time to full:        7.2 minutes
+    percentage:          96%
+    icon-name:          'battery-full-charging-symbolic'
+
+Daemon:
+  daemon-version:  0.99.4
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  yes
+  critical-action: PowerOff
