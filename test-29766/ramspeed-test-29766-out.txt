@@ -1,0 +1,91 @@
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mInstalled:[0m     pts/ramspeed-1.4.1
+
+
+RAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.1
+    Memory Test Configuration
+        [1m1: [0mCopy
+        [1m2: [0mScale
+        [1m3: [0mAdd
+        [1m4: [0mTriad
+        [1m5: [0mAverage
+        [1m6: [0mTest All Options
+        [1mType: [0m
+
+        [1m1: [0mInteger
+        [1m2: [0mFloating Point
+        [1m3: [0mTest All Options
+        [1mBenchmark: [0m
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mIntel Core i3-2330M @ 2.20GHz[0m
+    [1mCore Count[0m:       2
+    [1mThread Count[0m:     4
+    [1mExtensions[0m:       SSE 4.2 + AVX
+    [1mCache Size[0m:       3072 KB
+    [1mMicrocode[0m:        0x25
+    [1mScaling Driver[0m:   intel_pstate powersave
+
+  [1;30mGRAPHICS[0m:           [1;32mIntel Sandybridge Mobile 1536MB[0m
+    [1mFrequency[0m:        1100MHz
+    [1mOpenGL[0m:           3.3 Mesa 13.0.6
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1600x900
+
+  [1;30mMOTHERBOARD[0m:        [1;32mHP 1671[0m
+    [1mBIOS Version[0m:     F.63
+    [1mChipset[0m:          Intel 2nd Generation Core Family DRAM
+    [1mAudio[0m:            IDT 92HD81B1X5
+    [1mNetwork[0m:          Realtek RTL8101/2/6E + Ralink RT5390 Wireless 802.11n 1T/1R
+
+  [1;30mMEMORY[0m:             [1;32m1 x 4096 MB DDR3-666MHz AD73I1C1674EV[0m
+
+  [1;30mDISK[0m:               [1;32m640GB Western Digital WD6400BPVT-6 + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-4-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+
+    [1mWould you like to save these test results (Y/n): [0m
+[1mRecently Saved Test Results:[0m
+- primesieve-test-29766   [Today]
+- aobench-test-29766      [Today]
+
+    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mIntel Core i3-2330M testing with a HP 1671 (F.63 BIOS) and Intel Sandybridge Mobile 1536MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.1 [Type: Average - Benchmark: Floating Point][0m
+    Test 1 of 1
+    Estimated Trial Run Count:    1
+    Estimated Time To Completion: 5 Minutes [16:07 EDT]
+        Started Run 1 @ 16:03:03
+
+    Type: Average - Benchmark: Floating Point:
+        6774.38
+
+    Average: [1;34m6774.38 MB/s[0m
+
+[1m    OpenBenchmarking.org Dynamic Comparison: [0m
+    MB/s > Higher Is Better
+[1m    ramspeed-test-29766 ....................... 6774.38  |=============[0m
+    Lenovo ThinkPad T530 2429-64G Ub1404InLo .. 11842.84 |======================
+    Lenovo ThinkPad T530 2429-64G Ub1404InSt .. 11877.52 |======================
+[1m    Result Perspective:[0m https://openbenchmarking.org/result/1801180-TR-MERGE726092
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m

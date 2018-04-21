@@ -1,0 +1,144 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	2nd Generation Core Processor Family DRAM Controller [0104]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	2nd Generation Core Processor Family DRAM Controller [1671]
+Rev:	09
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	2nd Generation Core Processor Family Integrated Graphics Controller [0116]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	2nd Generation Core Processor Family Integrated Graphics Controller [1671]
+Rev:	09
+Driver:	i915
+Module:	i915
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family MEI Controller #1 [1c3a]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family MEI Controller [1671]
+Rev:	04
+Driver:	mei_me
+Module:	mei_me
+
+Slot:	00:1a.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2 [1c2d]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller [1671]
+Rev:	05
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1b.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family High Definition Audio Controller [1c20]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family High Definition Audio Controller [1671]
+Rev:	05
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family PCI Express Root Port 1 [1c10]
+Rev:	b5
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.1
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family PCI Express Root Port 2 [1c12]
+Rev:	b5
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.2
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family PCI Express Root Port 3 [1c14]
+Rev:	b5
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1d.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1 [1c26]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family USB Enhanced Host Controller [1671]
+Rev:	05
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	HM65 Express Chipset Family LPC Controller [1c49]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	HM65 Express Chipset Family LPC Controller [1671]
+Rev:	05
+Driver:	lpc_ich
+Module:	lpc_ich
+
+Slot:	00:1f.2
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family 6 port SATA AHCI Controller [1c03]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family 6 port SATA AHCI Controller [1671]
+Rev:	05
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:1f.3
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	6 Series/C200 Series Chipset Family SMBus Controller [1c22]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	6 Series/C200 Series Chipset Family SMBus Controller [1671]
+Rev:	05
+Driver:	i801_smbus
+Module:	i2c_i801
+
+Slot:	01:00.0
+Class:	Network controller [0280]
+Vendor:	Ralink corp. [1814]
+Device:	RT5390 Wireless 802.11n 1T/1R PCIe [5390]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	U98Z077.00 Half-size Mini PCIe Card [1636]
+Driver:	rt2800pci
+Module:	rt2800pci
+
+Slot:	02:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller [8136]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	RTL8101/2/6E PCI Express Fast/Gigabit Ethernet controller [1671]
+Rev:	05
+Driver:	r8169
+Module:	r8169
+
+Slot:	03:00.0
+Class:	Unassigned class [ff00]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTS5209 PCI Express Card Reader [5209]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	RTS5209 PCI Express Card Reader [1671]
+Rev:	01
+Driver:	rtsx_pci
+Module:	rtsx_pci
+

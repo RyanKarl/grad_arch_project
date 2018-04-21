@@ -1,0 +1,12 @@
+Running aobench, ~5 minutes
+Running primesieve, ~20 minutes
+Running ramspeed, ~3 minutes
+Running cyclictest, ~7 minutes
+Running pybench, ~4 minutes
+Tests complete, moving results files
+Finished
+
+real	53m36.438s
+user	59m5.844s
+sys	0m8.828s
+
