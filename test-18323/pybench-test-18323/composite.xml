@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>pybench-test-18323</Title>
+    <LastModified>2018-04-20 23:02:41</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>AMD Athlon X4 750K Quad Core testing with a Gigabyte F2A88XM-D3H (F5 BIOS) and NVIDIA GeForce GT 610 1024MB on Debian 9.4 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>pybench-test-18323</Identifier>
+    <Hardware>Processor: AMD Athlon X4 750K Quad Core @ 3.40GHz (2 Cores / 4 Threads), Motherboard: Gigabyte F2A88XM-D3H (F5 BIOS), Chipset: AMD Family 15h, Memory: 4 x 2048 MB DDR3-1333MHz GU512303EP020, Disk: 400GB Hitachi HDT72504 + 31GB USB 2.0 FD, Graphics: NVIDIA GeForce GT 610 1024MB, Audio: Realtek ALC887-VD, Monitor: Acer X223W, Network: Realtek RTL8111/8168/8411</Hardware>
+    <Software>OS: Debian 9.4, Kernel: 4.9.0-6-amd64 (x86_64), Desktop: Xfce 4.12, Display Server: X Server 1.19.2, Display Driver: nouveau 1.0.13, OpenGL: 4.3 Mesa 13.0.6 Gallium 0.4, Compiler: GCC 6.3.0 20170516, File-System: ext4, Screen Resolution: 1680x1050</Software>
+    <User>root</User>
+    <TimeStamp>2018-04-20 22:58:48</TimeStamp>
+    <TestClientVersion>7.8.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"acpi-cpufreq ondemand","python":"Python 2.7.13 + Python 3.5.3","security":"__user pointer sanitization + Full AMD retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/pybench-1.1.2</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>pybench-test-18323</Identifier>
+        <Value>2439</Value>
+        <RawString>2419:2445:2453</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

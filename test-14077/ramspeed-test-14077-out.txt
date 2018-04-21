@@ -1,0 +1,88 @@
+
+
+No Internet Connectivity After Wait
+
+No Internet Connectivity After Wait
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mInstalled:[0m     pts/ramspeed-1.4.1
+
+
+RAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.1
+    Memory Test Configuration
+        [1m1: [0mCopy
+        [1m2: [0mScale
+        [1m3: [0mAdd
+        [1m4: [0mTriad
+        [1m5: [0mAverage
+        [1m6: [0mTest All Options
+        [1mType: [0m
+
+        [1m1: [0mInteger
+        [1m2: [0mFloating Point
+        [1m3: [0mTest All Options
+        [1mBenchmark: [0m
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mIntel Core i5 450M @ 2.40GHz[0m
+    [1mCore Count[0m:       2
+    [1mThread Count[0m:     4
+    [1mExtensions[0m:       SSE 4.2
+    [1mCache Size[0m:       3072 KB
+    [1mMicrocode[0m:        0x2
+    [1mScaling Driver[0m:   acpi-cpufreq ondemand
+
+  [1;30mGRAPHICS[0m:           [1;32mIntel Ironlake Mobile 1536MB[0m
+    [1mOpenGL[0m:           2.1 Mesa 13.0.6
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1366x768
+
+  [1;30mMOTHERBOARD[0m:        [1;32mHP 146A v58.28[0m
+    [1mBIOS Version[0m:     F.26
+    [1mChipset[0m:          Intel Core DRAM
+    [1mAudio[0m:            IDT 92HD81B1X5
+    [1mNetwork[0m:          Realtek RTL8111/8168/8411 + Broadcom Limited BCM4313 802.11bgn Wireless
+
+  [1;30mMEMORY[0m:             [1;32m2 x 4096 MB DDR3-1067MHz Hynix HMT351S6CFR8C-PB[0m
+
+  [1;30mDISK[0m:               [1;32m500GB Hitachi HTS72505 + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-4-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+
+    [1mWould you like to save these test results (Y/n): [0m
+[1mRecently Saved Test Results:[0m
+- primesieve-test-14077   [Today]
+- aobench-test-14077      [Today]
+
+    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mIntel Core i5 450M testing with a HP 146A v58.28 (F.26 BIOS) and Intel Ironlake Mobile 1536MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mRAMspeed SMP 3.5.0:
+    pts/ramspeed-1.4.1 [Type: Average - Benchmark: Floating Point][0m
+    Test 1 of 1
+    Estimated Trial Run Count:    1
+    Estimated Time To Completion: 7 Minutes [19:11 EDT]
+        Started Run 1 @ 19:05:02
+
+    Type: Average - Benchmark: Floating Point:
+        7316.17
+
+    Average: [1;34m7316.17 MB/s[0m
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m

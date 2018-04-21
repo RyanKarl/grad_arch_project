@@ -1,0 +1,192 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Core Processor DRAM Controller [0044]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	Core Processor DRAM Controller [146a]
+Rev:	02
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	Core Processor Integrated Graphics Controller [0046]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	Core Processor Integrated Graphics Controller [146a]
+Rev:	02
+Driver:	i915
+Module:	i915
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset HECI Controller [3b64]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	5 Series/3400 Series Chipset HECI Controller [146a]
+Rev:	06
+Driver:	mei_me
+Module:	mei_me
+
+Slot:	00:1a.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset USB2 Enhanced Host Controller [3b3c]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	5 Series/3400 Series Chipset USB2 Enhanced Host Controller [146a]
+Rev:	05
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1b.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset High Definition Audio [3b56]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	5 Series/3400 Series Chipset High Definition Audio [146a]
+Rev:	05
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset PCI Express Root Port 1 [3b42]
+Rev:	05
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.1
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset PCI Express Root Port 2 [3b44]
+Rev:	05
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1d.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset USB2 Enhanced Host Controller [3b34]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	5 Series/3400 Series Chipset USB2 Enhanced Host Controller [146a]
+Rev:	05
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1e.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	82801 Mobile PCI Bridge [2448]
+Rev:	a5
+ProgIf:	01
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	HM55 Chipset LPC Interface Controller [3b09]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	HM55 Chipset LPC Interface Controller [146a]
+Rev:	05
+Driver:	lpc_ich
+Module:	lpc_ich
+
+Slot:	00:1f.2
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset 4 port SATA AHCI Controller [3b29]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	5 Series/3400 Series Chipset 4 port SATA AHCI Controller [146a]
+Rev:	05
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:1f.3
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset SMBus Controller [3b30]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	5 Series/3400 Series Chipset SMBus Controller [146a]
+Rev:	05
+Driver:	i801_smbus
+Module:	i2c_i801
+
+Slot:	00:1f.6
+Class:	Signal processing controller [1180]
+Vendor:	Intel Corporation [8086]
+Device:	5 Series/3400 Series Chipset Thermal Subsystem [3b32]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	5 Series/3400 Series Chipset Thermal Subsystem [146a]
+Rev:	05
+Driver:	intel ips
+Module:	intel_ips
+
+Slot:	01:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [146a]
+Rev:	03
+Driver:	r8169
+Module:	r8169
+
+Slot:	02:00.0
+Class:	Network controller [0280]
+Vendor:	Broadcom Limited [14e4]
+Device:	BCM4313 802.11bgn Wireless Network Adapter [4727]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	BCM4313 802.11bgn Wireless Network Adapter [145c]
+Rev:	01
+Driver:	bcma-pci-bridge
+Module:	bcma
+
+Slot:	ff:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Core Processor QuickPath Architecture Generic Non-core Registers [2c62]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	Core Processor QuickPath Architecture Generic Non-core Registers [146a]
+Rev:	05
+
+Slot:	ff:00.1
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Core Processor QuickPath Architecture System Address Decoder [2d01]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	Core Processor QuickPath Architecture System Address Decoder [146a]
+Rev:	05
+
+Slot:	ff:02.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Core Processor QPI Link 0 [2d10]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	Core Processor QPI Link 0 [146a]
+Rev:	05
+
+Slot:	ff:02.1
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	1st Generation Core i3/5/7 Processor QPI Physical 0 [2d11]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	1st Generation Core i3/5/7 Processor QPI Physical 0 [146a]
+Rev:	05
+
+Slot:	ff:02.2
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	1st Generation Core i3/5/7 Processor Reserved [2d12]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	1st Generation Core i3/5/7 Processor Reserved [146a]
+Rev:	05
+
+Slot:	ff:02.3
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	1st Generation Core i3/5/7 Processor Reserved [2d13]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	1st Generation Core i3/5/7 Processor Reserved [146a]
+Rev:	05
+

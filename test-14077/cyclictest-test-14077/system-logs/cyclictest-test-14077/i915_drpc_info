@@ -1,0 +1,12 @@
+HD boost: no
+Boost freq: 9
+HW control enabled: no
+SW control enabled: yes
+Gated voltage change: no
+Starting frequency: P8
+Max P-state: P0
+Min P-state: P10
+RS1 VID: 0
+RS2 VID: 8
+Render standby enabled: yes
+Current RS state: RC1

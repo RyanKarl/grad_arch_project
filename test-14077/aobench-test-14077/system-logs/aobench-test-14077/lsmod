@@ -1,0 +1,108 @@
+Module                  Size  Used by
+nls_ascii              16384  1
+nls_cp437              20480  1
+vfat                   20480  1
+fat                    69632  1 vfat
+arc4                   16384  2
+brcmsmac              532480  0
+cordic                 16384  1 brcmsmac
+brcmutil               16384  1 brcmsmac
+b43                   409600  0
+mac80211              671744  2 brcmsmac,b43
+intel_powerclamp       16384  0
+i915                 1232896  9
+snd_hda_codec_hdmi     49152  1
+coretemp               16384  0
+cfg80211              589824  3 brcmsmac,b43,mac80211
+ssb                    69632  1 b43
+drm_kms_helper        155648  1 i915
+mmc_core              147456  2 b43,ssb
+kvm                   589824  0
+snd_hda_codec_idt      57344  1
+snd_hda_codec_generic    69632  1 snd_hda_codec_idt
+rng_core               16384  1 b43
+pcmcia                 65536  1 ssb
+pcmcia_core            24576  1 pcmcia
+uvcvideo               90112  0
+videobuf2_vmalloc      16384  1 uvcvideo
+iTCO_wdt               16384  0
+iTCO_vendor_support    16384  1 iTCO_wdt
+drm                   360448  5 i915,drm_kms_helper
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         24576  1 uvcvideo
+videobuf2_core         36864  2 uvcvideo,videobuf2_v4l2
+videodev              176128  3 uvcvideo,videobuf2_core,videobuf2_v4l2
+media                  40960  2 uvcvideo,videodev
+hp_wmi                 16384  0
+sparse_keymap          16384  1 hp_wmi
+rfkill                 24576  3 hp_wmi,cfg80211
+hp_accel               28672  0
+irqbypass              16384  1 kvm
+snd_hda_intel          36864  0
+snd_hda_codec         135168  4 snd_hda_intel,snd_hda_codec_idt,snd_hda_codec_hdmi,snd_hda_codec_generic
+snd_hda_core           81920  5 snd_hda_intel,snd_hda_codec,snd_hda_codec_idt,snd_hda_codec_hdmi,snd_hda_codec_generic
+intel_cstate           16384  0
+intel_uncore          118784  0
+evdev                  24576  13
+lis3lv02d              20480  1 hp_accel
+pcspkr                 16384  0
+joydev                 20480  0
+serio_raw              16384  0
+bcma                   53248  2 brcmsmac,b43
+shpchp                 36864  0
+i2c_algo_bit           16384  1 i915
+lpc_ich                24576  0
+video                  40960  1 i915
+sg                     32768  0
+mei_me                 36864  0
+mei                   102400  1 mei_me
+mfd_core               16384  1 lpc_ich
+wmi                    16384  1 hp_wmi
+intel_ips              20480  0
+snd_hwdep              16384  1 snd_hda_codec
+snd_pcm               110592  4 snd_hda_intel,snd_hda_codec,snd_hda_core,snd_hda_codec_hdmi
+snd_timer              32768  1 snd_pcm
+snd                    86016  8 snd_hda_intel,snd_hwdep,snd_hda_codec,snd_hda_codec_idt,snd_timer,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_pcm
+soundcore              16384  1 snd
+input_polldev          16384  1 lis3lv02d
+battery                20480  0
+ac                     16384  0
+button                 16384  1 i915
+acpi_cpufreq           20480  1
+ip_tables              24576  0
+x_tables               36864  1 ip_tables
+autofs4                40960  2
+ext4                  585728  1
+crc16                  16384  1 ext4
+jbd2                  106496  1 ext4
+crc32c_generic         16384  0
+fscrypto               28672  1 ext4
+ecb                    16384  0
+glue_helper            16384  0
+lrw                    16384  0
+gf128mul               16384  1 lrw
+ablk_helper            16384  0
+cryptd                 24576  1 ablk_helper
+aes_x86_64             20480  0
+mbcache                16384  2 ext4
+uas                    24576  0
+usb_storage            73728  3 uas
+sr_mod                 24576  0
+cdrom                  61440  1 sr_mod
+sd_mod                 45056  3
+ahci                   36864  0
+libahci                32768  1 ahci
+crc32c_intel           24576  0
+libata                249856  2 ahci,libahci
+scsi_mod              225280  6 sd_mod,usb_storage,libata,uas,sr_mod,sg
+ehci_pci               16384  0
+i2c_i801               24576  0
+ehci_hcd               81920  1 ehci_pci
+i2c_smbus              16384  1 i2c_i801
+r8169                  81920  0
+usbcore               249856  5 uvcvideo,usb_storage,ehci_hcd,uas,ehci_pci
+mii                    16384  1 r8169
+usb_common             16384  1 usbcore
+fan                    16384  0
+thermal                20480  0
+psmouse               135168  0

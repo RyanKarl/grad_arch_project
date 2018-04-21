@@ -1,0 +1,214 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Root Complex [1410]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Family 15h (Models 10h-1fh) Processor Root Complex [1410]
+
+Slot:	00:00.2
+Class:	IOMMU [0806]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) I/O Memory Management Unit [1419]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Family 15h (Models 10h-1fh) I/O Memory Management Unit [1419]
+
+Slot:	00:02.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Root Port [1412]
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:04.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Root Port [1414]
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:10.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH USB XHCI Controller [7814]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH USB XHCI Controller [5004]
+Rev:	09
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Slot:	00:10.1
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH USB XHCI Controller [7814]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH USB XHCI Controller [5004]
+Rev:	09
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Slot:	00:11.0
+Class:	SATA controller [0106]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH SATA Controller [AHCI mode] [7801]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH SATA Controller [AHCI mode] [b002]
+Rev:	40
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:12.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH USB OHCI Controller [7807]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH USB OHCI Controller [5004]
+Rev:	11
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+
+Slot:	00:12.2
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH USB EHCI Controller [7808]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH USB EHCI Controller [5004]
+Rev:	11
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:13.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH USB OHCI Controller [7807]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH USB OHCI Controller [5004]
+Rev:	11
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+
+Slot:	00:13.2
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH USB EHCI Controller [7808]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH USB EHCI Controller [5004]
+Rev:	11
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:14.0
+Class:	SMBus [0c05]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH SMBus Controller [780b]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	FCH SMBus Controller [780b]
+Rev:	16
+Driver:	piix4_smbus
+Module:	i2c_piix4
+Module:	sp5100_tco
+
+Slot:	00:14.2
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH Azalia Controller [780d]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH Azalia Controller [a002]
+Rev:	01
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:14.3
+Class:	ISA bridge [0601]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH LPC Bridge [780e]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	FCH LPC Bridge [780e]
+Rev:	11
+
+Slot:	00:14.4
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH PCI Bridge [780f]
+Rev:	40
+ProgIf:	01
+
+Slot:	00:14.5
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH USB OHCI Controller [7809]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	FCH USB OHCI Controller [5004]
+Rev:	11
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+
+Slot:	00:18.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Function 0 [1400]
+
+Slot:	00:18.1
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Function 1 [1401]
+
+Slot:	00:18.2
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Function 2 [1402]
+
+Slot:	00:18.3
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Function 3 [1403]
+Driver:	k10temp
+Module:	k10temp
+
+Slot:	00:18.4
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Function 4 [1404]
+
+Slot:	00:18.5
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 15h (Models 10h-1fh) Processor Function 5 [1405]
+
+Slot:	01:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	NVIDIA Corporation [10de]
+Device:	GF119 [GeForce GT 610] [104a]
+SVendor:	Unknown vendor [196e]
+SDevice:	GF119 [GeForce GT 610] [104a]
+Rev:	a1
+Driver:	nouveau
+Module:	nouveau
+
+Slot:	01:00.1
+Class:	Audio device [0403]
+Vendor:	NVIDIA Corporation [10de]
+Device:	GF119 HDMI Audio Controller [0e08]
+SVendor:	Unknown vendor [196e]
+SDevice:	GF119 HDMI Audio Controller [104a]
+Rev:	a1
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	02:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	Gigabyte Technology Co., Ltd [1458]
+SDevice:	Onboard Ethernet [e000]
+Rev:	06
+Driver:	r8169
+Module:	r8169
+
