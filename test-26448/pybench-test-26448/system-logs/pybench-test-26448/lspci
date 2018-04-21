@@ -1,0 +1,246 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	RS880 Host Bridge [9601]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	RS880 Host Bridge [144e]
+NUMANode:	0
+
+Slot:	00:01.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	RS780/RS880 PCI to PCI bridge (int gfx) [9602]
+Module:	shpchp
+NUMANode:	0
+
+Slot:	00:04.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	RS780/RS880 PCI to PCI bridge (PCIE port 0) [9604]
+Driver:	pcieport
+Module:	shpchp
+NUMANode:	0
+
+Slot:	00:05.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	RS780/RS880 PCI to PCI bridge (PCIE port 1) [9605]
+Driver:	pcieport
+Module:	shpchp
+NUMANode:	0
+
+Slot:	00:11.0
+Class:	SATA controller [0106]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode] [4391]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode] [144e]
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+NUMANode:	0
+
+Slot:	00:12.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [4397]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [144e]
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+NUMANode:	0
+
+Slot:	00:12.2
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [4396]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [144e]
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+NUMANode:	0
+
+Slot:	00:13.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [4397]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [144e]
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+NUMANode:	0
+
+Slot:	00:13.2
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [4396]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [144e]
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+NUMANode:	0
+
+Slot:	00:14.0
+Class:	SMBus [0c05]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SBx00 SMBus Controller [4385]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SBx00 SMBus Controller [144e]
+Rev:	41
+Module:	i2c_piix4
+Module:	sp5100_tco
+NUMANode:	0
+
+Slot:	00:14.1
+Class:	IDE interface [0101]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 IDE Controller [439c]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 IDE Controller [144e]
+Rev:	40
+ProgIf:	8a
+Driver:	pata_atiixp
+Module:	pata_atiixp
+Module:	ata_generic
+NUMANode:	0
+
+Slot:	00:14.2
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SBx00 Azalia (Intel HDA) [4383]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SBx00 Azalia (Intel HDA) [144e]
+Rev:	40
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+NUMANode:	0
+
+Slot:	00:14.3
+Class:	ISA bridge [0601]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 LPC host controller [439d]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 LPC host controller [144e]
+Rev:	40
+NUMANode:	0
+
+Slot:	00:14.4
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SBx00 PCI to PCI Bridge [4384]
+Rev:	40
+ProgIf:	01
+NUMANode:	0
+
+Slot:	00:14.5
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB OHCI2 Controller [4399]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 USB OHCI2 Controller [144e]
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+NUMANode:	0
+
+Slot:	00:16.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [4397]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 USB OHCI0 Controller [144e]
+ProgIf:	10
+Driver:	ohci-pci
+Module:	ohci_pci
+NUMANode:	0
+
+Slot:	00:16.2
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [4396]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	SB7x0/SB8x0/SB9x0 USB EHCI Controller [144e]
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+NUMANode:	0
+
+Slot:	00:18.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 10h Processor HyperTransport Configuration [1200]
+NUMANode:	0
+
+Slot:	00:18.1
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 10h Processor Address Map [1201]
+NUMANode:	0
+
+Slot:	00:18.2
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 10h Processor DRAM Controller [1202]
+NUMANode:	0
+
+Slot:	00:18.3
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 10h Processor Miscellaneous Control [1203]
+Driver:	k10temp
+Module:	k10temp
+NUMANode:	0
+
+Slot:	00:18.4
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 10h Processor Link Control [1204]
+NUMANode:	0
+
+Slot:	01:05.0
+Class:	VGA compatible controller [0300]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	RS880M [Mobility Radeon HD 4225/4250] [9712]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	RS880M [Mobility Radeon HD 4225/4250] [144e]
+Module:	radeon
+NUMANode:	0
+
+Slot:	01:05.1
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD/ATI] [1002]
+Device:	RS880 HDMI Audio [Radeon HD 4200 Series] [970f]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	RS880 HDMI Audio [Radeon HD 4200 Series] [144e]
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+NUMANode:	0
+
+Slot:	02:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [144e]
+PhySlot:	4
+Rev:	03
+Driver:	r8169
+Module:	r8169
+NUMANode:	0
+
+Slot:	08:00.0
+Class:	Network controller [0280]
+Vendor:	Qualcomm Atheros [168c]
+Device:	AR9285 Wireless Network Adapter (PCI-Express) [002b]
+SVendor:	Hewlett-Packard Company [103c]
+SDevice:	U98Z062.12 802.11bgn Wireless Half-size Mini PCIe Card [3040]
+PhySlot:	5
+Rev:	01
+Driver:	ath9k
+Module:	ath9k
+NUMANode:	0
+

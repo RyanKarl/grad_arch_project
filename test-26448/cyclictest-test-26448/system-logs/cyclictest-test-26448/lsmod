@@ -1,0 +1,102 @@
+Module                  Size  Used by
+ctr                    16384  6
+ccm                    20480  3
+nls_ascii              16384  1
+nls_cp437              20480  1
+vfat                   20480  1
+fat                    69632  1 vfat
+arc4                   16384  2
+ath9k                  94208  0
+edac_mce_amd           28672  0
+edac_core              57344  0
+hp_wmi                 16384  0
+kvm_amd              2179072  0
+sparse_keymap          16384  1 hp_wmi
+kvm                   593920  1 kvm_amd
+ath9k_common           32768  1 ath9k
+ath9k_hw              458752  2 ath9k,ath9k_common
+joydev                 20480  0
+uvcvideo               90112  0
+irqbypass              16384  1 kvm
+videobuf2_vmalloc      16384  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         24576  1 uvcvideo
+evdev                  24576  13
+videobuf2_core         40960  2 uvcvideo,videobuf2_v4l2
+serio_raw              16384  0
+amdkfd                139264  1
+ath                    32768  3 ath9k_hw,ath9k,ath9k_common
+mac80211              671744  1 ath9k
+radeon               1490944  0
+snd_hda_codec_idt      57344  1
+snd_hda_codec_generic    69632  1 snd_hda_codec_idt
+snd_hda_codec_hdmi     49152  1
+videodev              176128  3 uvcvideo,videobuf2_core,videobuf2_v4l2
+media                  40960  2 uvcvideo,videodev
+pcspkr                 16384  0
+snd_hda_intel          36864  0
+k10temp                16384  0
+snd_hda_codec         135168  4 snd_hda_intel,snd_hda_codec_idt,snd_hda_codec_hdmi,snd_hda_codec_generic
+snd_hda_core           86016  5 snd_hda_intel,snd_hda_codec,snd_hda_codec_idt,snd_hda_codec_hdmi,snd_hda_codec_generic
+cfg80211              589824  4 mac80211,ath9k,ath,ath9k_common
+ttm                    98304  1 radeon
+drm_kms_helper        155648  1 radeon
+hp_accel               28672  0
+lis3lv02d              20480  1 hp_accel
+input_polldev          16384  1 lis3lv02d
+rfkill                 24576  4 hp_wmi,cfg80211
+sg                     32768  0
+drm                   360448  3 radeon,ttm,drm_kms_helper
+i2c_algo_bit           16384  1 radeon
+snd_hwdep              16384  1 snd_hda_codec
+snd_pcm               110592  4 snd_hda_intel,snd_hda_codec,snd_hda_core,snd_hda_codec_hdmi
+snd_timer              32768  1 snd_pcm
+snd                    86016  8 snd_hda_intel,snd_hwdep,snd_hda_codec,snd_hda_codec_idt,snd_timer,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_pcm
+soundcore              16384  1 snd
+wmi                    16384  1 hp_wmi
+shpchp                 36864  0
+video                  40960  0
+sp5100_tco             16384  0
+ac                     16384  0
+battery                20480  0
+button                 16384  0
+acpi_cpufreq           20480  0
+ip_tables              24576  0
+x_tables               36864  1 ip_tables
+autofs4                40960  2
+ext4                  585728  1
+crc16                  16384  1 ext4
+jbd2                  106496  1 ext4
+crc32c_generic         16384  0
+fscrypto               28672  1 ext4
+ecb                    16384  0
+glue_helper            16384  0
+lrw                    16384  0
+gf128mul               16384  1 lrw
+ablk_helper            16384  0
+cryptd                 24576  1 ablk_helper
+aes_x86_64             20480  6
+mbcache                16384  2 ext4
+sr_mod                 24576  0
+sd_mod                 49152  3
+cdrom                  61440  1 sr_mod
+ata_generic            16384  0
+uas                    24576  0
+usb_storage            73728  3 uas
+psmouse               135168  0
+ohci_pci               16384  0
+i2c_piix4              24576  0
+pata_atiixp            16384  0
+ehci_pci               16384  0
+ohci_hcd               53248  1 ohci_pci
+ehci_hcd               81920  1 ehci_pci
+usbcore               253952  7 uvcvideo,usb_storage,ehci_hcd,ohci_pci,uas,ohci_hcd,ehci_pci
+fan                    16384  0
+usb_common             16384  1 usbcore
+thermal                20480  0
+ahci                   36864  0
+libahci                32768  1 ahci
+libata                249856  4 pata_atiixp,ahci,libahci,ata_generic
+scsi_mod              225280  6 sd_mod,usb_storage,libata,uas,sr_mod,sg
+r8169                  86016  0
+mii                    16384  1 r8169

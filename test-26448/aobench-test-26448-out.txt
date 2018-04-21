@@ -1,0 +1,89 @@
+
+[1;32mPhoronix Test Suite v7.8.0[0m
+[1;32m[0m
+    [1mInstalled:[0m     pts/aobench-1.0.1
+
+[1;32mSystem Information[0m
+
+
+  [1;30mPROCESSOR[0m:          [1;32mAMD Turion II P520 @ 2.30GHz[0m
+    [1mCore Count[0m:       2
+    [1mExtensions[0m:       SSE 4a
+    [1mCache Size[0m:       1024 KB
+    [1mMicrocode[0m:        0x10000c8
+    [1mScaling Driver[0m:   acpi-cpufreq ondemand
+
+  [1;30mGRAPHICS[0m:           [1;32mLLVMpipe[0m
+    [1mOpenGL[0m:           3.3 Mesa 13.0.6 Gallium 0.4 (LLVM 3.9 128 bits)
+    [1mDisplay Driver[0m:   modesetting 1.19.2
+    [1mScreen[0m:           1368x768
+
+  [1;30mMOTHERBOARD[0m:        [1;32mHP 144E[0m
+    [1mBIOS Version[0m:     F.26
+    [1mChipset[0m:          AMD RS880
+    [1mAudio[0m:            IDT 92HD81B1X5
+    [1mNetwork[0m:          Realtek RTL8111/8168/8411 + Qualcomm Atheros AR9285 Wireless
+
+  [1;30mMEMORY[0m:             [1;32m2 x 2048 MB DDR3-1066MHz Hynix HMT125S6BFR8C-H9[0m
+
+  [1;30mDISK[0m:               [1;32m320GB TOSHIBA MK3256GS + 31GB USB 2.0 FD[0m
+    [1mFile-System[0m:      ext4
+    [1mMount Options[0m:    acl barrier block_validity delalloc errors=remount-ro relatime rw user_xattr
+    [1mDisk Scheduler[0m:   CFQ
+
+  [1;30mOPERATING SYSTEM[0m:   [1;32mDebian 9.4[0m
+    [1mKernel[0m:           4.9.0-6-amd64 (x86_64)
+    [1mDesktop[0m:          Xfce 4.12
+    [1mDisplay Server[0m:   X Server 1.19.2
+    [1mCompiler[0m:         GCC 6.3.0 20170516
+    [1mSecurity[0m:         __user pointer sanitization + Full AMD retpoline Protection
+
+    [1mWould you like to save these test results (Y/n): [0m    Enter a name to save these results under:     [1mEnter a unique name to describe this test run / configuration: [0m
+[1;32mIf desired, enter a new description below to better describe this result set / system configuration under test.[0m
+[1;32mPress ENTER to proceed without changes.[0m
+
+[1mCurrent Description: [0mAMD Turion II P520 testing with a HP 144E (F.26 BIOS) and AMD Mobility Radeon HD 4225/4250 3712MB on Debian 9.4 via the Phoronix Test Suite.
+
+[1mNew Description: [0m
+
+[1;36mAOBench:
+    pts/aobench-1.0.1[0m
+    Test 1 of 1
+    Estimated Trial Run Count:    3
+    Estimated Time To Completion: 8 Minutes [22:20 EDT]
+        Started Run 1 @ 22:12:51
+        Started Run 2 @ 22:15:44
+        Started Run 3 @ 22:18:06
+        Started Run 4 @ 22:20:29 *
+        Started Run 5 @ 22:22:51 *
+        Started Run 6 @ 22:25:14 *
+
+    Size: 2048 x 2048 - Total Time:
+        [1;31m166.6282889843[0m
+        [1;32m141.06842303276[0m
+        142.10614299774
+        141.10275101662
+        141.32914113998
+        142.49447703362
+
+    Average: [1;34m145.79 Seconds[0m
+    Deviation: 7.01%
+
+[1m    OpenBenchmarking.org Dynamic Comparison: [0m
+    Seconds < Lower Is Better
+    Raspberry Pi 2 Model B ....... 668.60 |=====================================
+    Orange Pi PC v1.2 ............ 654.65 |====================================
+    Pine A64 ..................... 353.89 |====================
+    Raspberry Pi 3 Model B ....... 333.75 |==================
+    Raspberry Pi 3 Model B Plus .. 285.71 |================
+    ODROID-C2 .................... 271.76 |===============
+    ASUS TinkerBoard ............. 192.12 |===========
+    Celeron N2820 ................ 190.10 |===========
+    Jetson TX1 ................... 165.58 |=========
+[1m    aobench-test-26448 ........... 145.79 |========[0m
+    Jetson TX2 ................... 144.90 |========
+    Celeron J3455 ................ 109.23 |======
+    Core i3 8100 ................. 44.87  |==
+[1m    Result Perspective:[0m https://openbenchmarking.org/result/1803222-FO-MODEL3BPL99
+
+    [1mDo you want to view the results in your web browser (Y/n): [0m    [1mWould you like to upload the results to OpenBenchmarking.org (Y/n): [0m

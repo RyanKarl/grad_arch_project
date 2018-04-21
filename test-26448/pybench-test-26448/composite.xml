@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v7.8.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>pybench-test-26448</Title>
+    <LastModified>2018-04-19 23:03:23</LastModified>
+    <TestClient>Phoronix Test Suite v7.8.0 (Folldal)</TestClient>
+    <Description>AMD Turion II P520 testing with a HP 144E (F.26 BIOS) and AMD Mobility Radeon HD 4225/4250 3712MB on Debian 9.4 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>pybench-test-26448</Identifier>
+    <Hardware>Processor: AMD Turion II P520 @ 2.30GHz (2 Cores), Motherboard: HP 144E (F.26 BIOS), Chipset: AMD RS880, Memory: 2 x 2048 MB DDR3-1066MHz Hynix HMT125S6BFR8C-H9, Disk: 320GB TOSHIBA MK3256GS + 31GB USB 2.0 FD, Graphics: LLVMpipe, Audio: IDT 92HD81B1X5, Network: Realtek RTL8111/8168/8411 + Qualcomm Atheros AR9285 Wireless</Hardware>
+    <Software>OS: Debian 9.4, Kernel: 4.9.0-6-amd64 (x86_64), Desktop: Xfce 4.12, Display Server: X Server 1.19.2, Display Driver: modesetting 1.19.2, OpenGL: 3.3 Mesa 13.0.6 Gallium 0.4 (LLVM 3.9 128 bits), Compiler: GCC 6.3.0 20170516, File-System: ext4, Screen Resolution: 1368x768</Software>
+    <User>root</User>
+    <TimeStamp>2018-04-19 22:58:24</TimeStamp>
+    <TestClientVersion>7.8.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"acpi-cpufreq ondemand","python":"Python 2.7.13 + Python 3.5.3","security":"__user pointer sanitization + Full AMD retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/pybench-1.1.2</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>pybench-test-26448</Identifier>
+        <Value>4264</Value>
+        <RawString>4256:4248:4288</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

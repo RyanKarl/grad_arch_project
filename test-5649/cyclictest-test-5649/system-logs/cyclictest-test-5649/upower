@@ -1,0 +1,64 @@
+Device: /org/freedesktop/UPower/devices/line_power_AC
+  native-path:          AC
+  power supply:         yes
+  updated:              Fri 20 Apr 2018 09:03:02 AM EDT (3958 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/battery_BAT0
+  native-path:          BAT0
+  vendor:               Hewlett-Packard
+  model:                Primary
+  power supply:         yes
+  updated:              Fri 20 Apr 2018 10:08:22 AM EDT (38 seconds ago)
+  has history:          yes
+  has statistics:       yes
+  battery
+    present:             yes
+    rechargeable:        yes
+    state:               charging
+    warning-level:       none
+    energy:              27.75 Wh
+    energy-empty:        0 Wh
+    energy-full:         45.7542 Wh
+    energy-full-design:  45.7542 Wh
+    energy-rate:         25.0038 W
+    voltage:             12.464 V
+    time to full:        43.2 minutes
+    percentage:          60%
+    capacity:            100%
+    technology:          lithium-ion
+    icon-name:          'battery-full-charging-symbolic'
+  History (charge):
+    1524233302	60.000	charging
+    1524233234	59.000	charging
+  History (rate):
+    1524233302	25.004	charging
+    1524233234	25.125	charging
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         yes
+  updated:              Fri 20 Apr 2018 10:08:22 AM EDT (38 seconds ago)
+  has history:          no
+  has statistics:       no
+  battery
+    present:             yes
+    state:               charging
+    warning-level:       none
+    energy:              27.75 Wh
+    energy-full:         45.7542 Wh
+    energy-rate:         25.0038 W
+    time to full:        43.2 minutes
+    percentage:          60%
+    icon-name:          'battery-full-charging-symbolic'
+
+Daemon:
+  daemon-version:  0.99.4
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  yes
+  critical-action: PowerOff
