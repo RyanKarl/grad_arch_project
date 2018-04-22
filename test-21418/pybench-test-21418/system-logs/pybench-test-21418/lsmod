@@ -1,0 +1,110 @@
+Module                  Size  Used by
+nls_ascii              16384  1
+nls_cp437              20480  1
+vfat                   20480  1
+fat                    69632  1 vfat
+intel_rapl             20480  0
+x86_pkg_temp_thermal    16384  0
+intel_powerclamp       16384  0
+coretemp               16384  0
+kvm_intel             192512  0
+iTCO_wdt               16384  0
+iTCO_vendor_support    16384  1 iTCO_wdt
+kvm                   589824  1 kvm_intel
+irqbypass              16384  1 kvm
+crct10dif_pclmul       16384  0
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+btusb                  45056  0
+btrtl                  16384  1 btusb
+btbcm                  16384  1 btusb
+btintel                16384  1 btusb
+intel_cstate           16384  0
+snd_hda_codec_hdmi     49152  1
+snd_hda_codec_realtek    90112  1
+snd_hda_codec_generic    69632  1 snd_hda_codec_realtek
+snd_hda_intel          36864  0
+uvcvideo               90112  0
+videobuf2_vmalloc      16384  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         24576  1 uvcvideo
+videobuf2_core         36864  2 uvcvideo,videobuf2_v4l2
+videodev              176128  3 uvcvideo,videobuf2_core,videobuf2_v4l2
+media                  40960  2 uvcvideo,videodev
+bluetooth             552960  5 btrtl,btintel,btbcm,btusb
+i915                 1232896  4
+intel_uncore          118784  0
+iwlwifi               147456  0
+intel_rapl_perf        16384  0
+snd_hda_codec         135168  4 snd_hda_intel,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek
+snd_hda_core           81920  5 snd_hda_intel,snd_hda_codec,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek
+cfg80211              589824  1 iwlwifi
+snd_hwdep              16384  1 snd_hda_codec
+lpc_ich                24576  0
+mfd_core               16384  1 lpc_ich
+snd_pcm               110592  4 snd_hda_intel,snd_hda_codec,snd_hda_core,snd_hda_codec_hdmi
+asus_nb_wmi            28672  0
+asus_wmi               28672  1 asus_nb_wmi
+sparse_keymap          16384  1 asus_wmi
+mei_me                 36864  0
+mei                   102400  1 mei_me
+drm_kms_helper        155648  1 i915
+drm                   360448  5 i915,drm_kms_helper
+rfkill                 24576  4 asus_wmi,bluetooth,cfg80211
+snd_timer              32768  1 snd_pcm
+joydev                 20480  0
+evdev                  24576  15
+shpchp                 36864  0
+i2c_algo_bit           16384  1 i915
+snd                    86016  8 snd_hda_intel,snd_hwdep,snd_hda_codec,snd_timer,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec_realtek,snd_pcm
+sg                     32768  0
+soundcore              16384  1 snd
+serio_raw              16384  0
+pcspkr                 16384  0
+video                  40960  2 asus_wmi,i915
+efi_pstore             16384  0
+efivars                20480  1 efi_pstore
+battery                20480  0
+button                 16384  1 i915
+asus_wireless          16384  0
+ac                     16384  0
+wmi                    16384  1 asus_wmi
+efivarfs               16384  1
+ip_tables              24576  0
+x_tables               36864  1 ip_tables
+autofs4                40960  2
+ext4                  585728  1
+crc16                  16384  2 bluetooth,ext4
+jbd2                  106496  1 ext4
+crc32c_generic         16384  0
+fscrypto               28672  1 ext4
+ecb                    16384  0
+mbcache                16384  2 ext4
+uas                    24576  0
+usb_storage            73728  3 uas
+sr_mod                 24576  0
+sd_mod                 45056  3
+cdrom                  61440  1 sr_mod
+crc32c_intel           24576  0
+aesni_intel           167936  0
+aes_x86_64             20480  1 aesni_intel
+glue_helper            16384  1 aesni_intel
+lrw                    16384  1 aesni_intel
+gf128mul               16384  1 lrw
+ablk_helper            16384  1 aesni_intel
+cryptd                 24576  3 ablk_helper,ghash_clmulni_intel,aesni_intel
+ahci                   36864  0
+libahci                32768  1 ahci
+libata                249856  2 ahci,libahci
+psmouse               135168  0
+xhci_pci               16384  0
+i2c_i801               24576  0
+ehci_pci               16384  0
+scsi_mod              225280  6 sd_mod,usb_storage,libata,uas,sr_mod,sg
+i2c_smbus              16384  1 i2c_i801
+xhci_hcd              188416  1 xhci_pci
+ehci_hcd               81920  1 ehci_pci
+atl1c                  49152  0
+usbcore               249856  8 uvcvideo,usb_storage,ehci_hcd,xhci_pci,btusb,uas,xhci_hcd,ehci_pci
+usb_common             16384  1 usbcore
+thermal                20480  0

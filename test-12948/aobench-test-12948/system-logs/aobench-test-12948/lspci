@@ -1,0 +1,146 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	3rd Gen Core processor DRAM Controller [0154]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	3rd Gen Core processor DRAM Controller [1467]
+Rev:	09
+Driver:	ivb_uncore
+
+Slot:	00:02.0
+Class:	VGA compatible controller [0300]
+Vendor:	Intel Corporation [8086]
+Device:	3rd Gen Core processor Graphics Controller [0166]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	3rd Gen Core processor Graphics Controller [1467]
+Rev:	09
+Driver:	i915
+Module:	i915
+
+Slot:	00:14.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C210 Series Chipset Family USB xHCI Host Controller [1e31]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	7 Series/C210 Series Chipset Family USB xHCI Host Controller [1467]
+Rev:	04
+ProgIf:	30
+Driver:	xhci_hcd
+Module:	xhci_pci
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C216 Chipset Family MEI Controller #1 [1e3a]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	7 Series/C216 Chipset Family MEI Controller [1467]
+Rev:	04
+Driver:	mei_me
+Module:	mei_me
+
+Slot:	00:1a.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C216 Chipset Family USB Enhanced Host Controller #2 [1e2d]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	7 Series/C216 Chipset Family USB Enhanced Host Controller [1467]
+Rev:	04
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1b.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C216 Chipset Family High Definition Audio Controller [1e20]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	7 Series/C216 Chipset Family High Definition Audio Controller [1467]
+Rev:	04
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C216 Chipset Family PCI Express Root Port 1 [1e10]
+Rev:	c4
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.1
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C210 Series Chipset Family PCI Express Root Port 2 [1e12]
+Rev:	c4
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1c.3
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C216 Chipset Family PCI Express Root Port 4 [1e16]
+Rev:	c4
+Driver:	pcieport
+Module:	shpchp
+
+Slot:	00:1d.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C216 Chipset Family USB Enhanced Host Controller #1 [1e26]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	7 Series/C216 Chipset Family USB Enhanced Host Controller [1467]
+Rev:	04
+ProgIf:	20
+Driver:	ehci-pci
+Module:	ehci_pci
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	HM76 Express Chipset LPC Controller [1e59]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	HM76 Express Chipset LPC Controller [1467]
+Rev:	04
+Driver:	lpc_ich
+Module:	lpc_ich
+
+Slot:	00:1f.2
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series Chipset Family 6-port SATA Controller [AHCI mode] [1e03]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	7 Series Chipset Family 6-port SATA Controller [AHCI mode] [1467]
+Rev:	04
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	00:1f.3
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	7 Series/C216 Chipset Family SMBus Controller [1e22]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	7 Series/C216 Chipset Family SMBus Controller [1467]
+Rev:	04
+Driver:	i801_smbus
+Module:	i2c_i801
+
+Slot:	02:00.0
+Class:	Network controller [0280]
+Vendor:	Intel Corporation [8086]
+Device:	Centrino Wireless-N 2230 [0887]
+SVendor:	Intel Corporation [8086]
+SDevice:	Centrino Wireless-N 2230 BGN [4062]
+Rev:	c4
+Module:	iwlwifi
+
+Slot:	03:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Qualcomm Atheros [1969]
+Device:	AR8151 v2.0 Gigabit Ethernet [1083]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	AR8151 v2.0 Gigabit Ethernet [1467]
+Rev:	c0
+Driver:	atl1c
+Module:	atl1c
+
