@@ -37,7 +37,10 @@ def pull_test(testID="10015"):
     cpu_data_file = open(filename).read()
 
     #Get Test Specific Data
-    CPU_Dat.append(re.split('bugs\s*:\s*(.*)',cpu_data_file)[1])
+    if re.search('bugs\s*:\s*(.*)\nbogomip',cpu_data_file) is not None:
+        CPU_Dat.append(re.split('bugs\s*:\s*(.*)\nbogomip',cpu_data_file)[1])
+    else:
+        CPU_Dat.append("")
     
     for subTest in Test:
         filename = directory+subTest+"-test-"+testID+"/composite.xml"
