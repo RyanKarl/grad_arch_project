@@ -30,7 +30,7 @@ def pull_test(testID="10015"):
     # Get Kernel Version Information
     filename = directory+"aobench-test-"+testID+"/system-logs/aobench-test-"+testID+"/version"
     cpu_data_file = open(filename).read()
-    CPU_Dat.append(re.split('Linux version\s+(.+)\s\(debian',cpu_data_file)[1])
+    CPU_Dat.append(re.split(' Debian\s+([\d\.\-]+)',cpu_data_file)[1])
 
     # Get CPU Information
     filename = directory+"aobench-test-"+testID+"/system-logs/aobench-test-"+testID+"/cpuinfo"
@@ -51,13 +51,9 @@ def pull_test(testID="10015"):
 
         for elem in tree.iter(tag='RawString'):
             if elem.text:
-                elems = elem.text.split(":")
-                for subelem in elems:
-                    CPU_Dat.append(float(subelem))
+                CPU_Dat.append(elem.text)
             else:
-                CPU_Dat.append("0")
-                CPU_Dat.append("0")
-                CPU_Dat.append("0")
+                CPU_Dat.append("")
     #     for item in subTest:
     #         CPU_Dat.append(do_thing(testID, item))
     print(CPU_Dat)
