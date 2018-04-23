@@ -19,7 +19,9 @@ def pull_test(testID="10015"):
     wanted = ['Model name:\s+(.+)', 'L1d cache:\s+(.+)K', 'L1i cache:\s+(.+)K', 'L2 cache:\s+(.+)K']
 
     CPU_Dat = []
-
+    
+    CPU_Dat.append(testID)
+    
     directory = '../test-' + testID + '/'
     # Get wanted list 
     filename = directory + "cpuinfo-test-" + testID + ".txt"
